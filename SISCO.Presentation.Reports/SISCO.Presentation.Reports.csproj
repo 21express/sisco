@@ -1,0 +1,1049 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FE174E6-863C-4456-AB22-FE5071F48397}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Presentation.Reports</RootNamespace>
+    <AssemblyName>SISCO.Presentation.Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <NuGetPackageImportStamp>eefcc8d3</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DevExpress 13.2\Components\Bin\Framework\DevExpress.XtraBars.v13.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountReceivable\Command\InvoiceAgingReportCommand.cs" />
+    <Compile Include="AccountReceivable\Command\DueInvoicesReportCommand.cs" />
+    <Compile Include="AccountReceivable\Command\PaidInvoicesReportCommand.cs" />
+    <Compile Include="AccountReceivable\Command\OverdueInvoicesReportCommand.cs" />
+    <Compile Include="AccountReceivable\Command\OutstandingInvoicesReportCommand.cs" />
+    <Compile Include="AccountReceivable\Command\InvoicesReportCommand.cs" />
+    <Compile Include="AccountReceivable\Forms\InvoiceAgingReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\InvoiceAgingReport.Designer.cs">
+      <DependentUpon>InvoiceAgingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\DueInvoicesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\DueInvoicesReport.Designer.cs">
+      <DependentUpon>DueInvoicesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\OverdueInvoicesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\OverdueInvoicesReport.Designer.cs">
+      <DependentUpon>OverdueInvoicesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\OutstandingInvoicesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\OutstandingInvoicesReport.Designer.cs">
+      <DependentUpon>OutstandingInvoicesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\PaidInvoicesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\PaidInvoicesReport.Designer.cs">
+      <DependentUpon>PaidInvoicesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\InvoicesReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountReceivable\Forms\InvoicesReport.Designer.cs">
+      <DependentUpon>InvoicesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Command\PodAgingReportCommand.cs" />
+    <Compile Include="Administration\Command\VoidShipmentReportCommand.cs" />
+    <Compile Include="Administration\Forms\VoidShipmentReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\Forms\VoidShipmentReport.Designer.cs">
+      <DependentUpon>VoidShipmentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Forms\PodAgingReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Administration\Forms\PodAgingReport.Designer.cs">
+      <DependentUpon>PodAgingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectIn\Command\CollectInBrCommand.cs" />
+    <Compile Include="CollectIn\Command\CollectInProcessCommand.cs" />
+    <Compile Include="CollectIn\Command\CollectInUnInvoiceCommand.cs" />
+    <Compile Include="CollectIn\Command\OutstandingCollectInCommand.cs" />
+    <Compile Include="CollectIn\Command\PaidCollectInCommand.cs" />
+    <Compile Include="CollectIn\Forms\CollectInProcessReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectIn\Forms\CollectInProcessReport.Designer.cs">
+      <DependentUpon>CollectInProcessReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectIn\Forms\CollectInUnInvoiceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectIn\Forms\CollectInUnInvoiceReport.Designer.cs">
+      <DependentUpon>CollectInUnInvoiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectIn\Forms\CollectInBrReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectIn\Forms\CollectInBrReport.Designer.cs">
+      <DependentUpon>CollectInBrReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectIn\Forms\OutstandingCollectInReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectIn\Forms\OutstandingCollectInReport.Designer.cs">
+      <DependentUpon>OutstandingCollectInReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectIn\Forms\PaidCollectInReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectIn\Forms\PaidCollectInReport.Designer.cs">
+      <DependentUpon>PaidCollectInReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectOut\Command\CollectOutCommand.cs" />
+    <Compile Include="CollectOut\Command\OutstandingCollectOutCommand.cs" />
+    <Compile Include="CollectOut\Command\PaidCollectOutCommand.cs" />
+    <Compile Include="CollectOut\Forms\CollectOutBrReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectOut\Forms\CollectOutBrReport.Designer.cs">
+      <DependentUpon>CollectOutBrReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectOut\Forms\OutstandingCollectOutBrReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectOut\Forms\OutstandingCollectOutBrReport.Designer.cs">
+      <DependentUpon>OutstandingCollectOutBrReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CollectOut\Forms\PaidCollectOutBrReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CollectOut\Forms\PaidCollectOutBrReport.Designer.cs">
+      <DependentUpon>PaidCollectOutBrReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cost\Command\CostJournalCommand.cs" />
+    <Compile Include="Cost\Command\CostPivotCommand.cs" />
+    <Compile Include="Cost\Forms\CostJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cost\Forms\CostJournalReport.Designer.cs">
+      <DependentUpon>CostJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cost\Forms\CostPivotReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cost\Forms\CostPivotReport.Designer.cs">
+      <DependentUpon>CostPivotReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CounterCash\Command\DropPointCommissionCommand.cs" />
+    <Compile Include="CounterCash\Forms\DropPointCommissionReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CounterCash\Forms\DropPointCommissionReport.Designer.cs">
+      <DependentUpon>DropPointCommissionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\Command\DeliveryCommand.cs" />
+    <Compile Include="Delivery\Command\OutstandingDeliverCommand.cs" />
+    <Compile Include="Delivery\Command\PaidDeliveryCommand.cs" />
+    <Compile Include="Delivery\Forms\OutstandingDeliveryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Delivery\Forms\OutstandingDeliveryReport.Designer.cs">
+      <DependentUpon>OutstandingDeliveryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\Forms\PaidDeliveryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Delivery\Forms\PaidDeliveryReport.Designer.cs">
+      <DependentUpon>PaidDeliveryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\Forms\DeliveryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Delivery\Forms\DeliveryReport.Designer.cs">
+      <DependentUpon>DeliveryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Command\ClaimCommand.cs" />
+    <Compile Include="Finance\Command\CodPaymentCommand.cs" />
+    <Compile Include="Finance\Command\GeneralJournalUnpostedCommand.cs" />
+    <Compile Include="Finance\Command\GeneralJournalCommand.cs" />
+    <Compile Include="Finance\Command\PettyCashCommand.cs" />
+    <Compile Include="Finance\Command\ReturnPphCommand.cs" />
+    <Compile Include="Finance\Command\OutstandingPphCommand.cs" />
+    <Compile Include="Finance\Command\PaymentInOutstandingCommand.cs" />
+    <Compile Include="Finance\Command\PaymentInDetailJournalCommand.cs" />
+    <Compile Include="Finance\Command\PaymentInJournalCommand.cs" />
+    <Compile Include="Finance\Command\PaymentOutDetailJournalCommand.cs" />
+    <Compile Include="Finance\Command\PaymentOutJournalCommand.cs" />
+    <Compile Include="Finance\Forms\ClaimReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\ClaimReport.Designer.cs">
+      <DependentUpon>ClaimReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\CodReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\CodReport.Designer.cs">
+      <DependentUpon>CodReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\GeneralJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\GeneralJournalReport.Designer.cs">
+      <DependentUpon>GeneralJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\GeneralJournalUnpostedReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\GeneralJournalUnpostedReport.Designer.cs">
+      <DependentUpon>GeneralJournalUnpostedReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\PettyCashReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\PettyCashReport.Designer.cs">
+      <DependentUpon>PettyCashReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\ReturnPphReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\ReturnPphReport.Designer.cs">
+      <DependentUpon>ReturnPphReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\OutstandingPphReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\OutstandingPphReport.Designer.cs">
+      <DependentUpon>OutstandingPphReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentInOutstandingReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentInOutstandingReport.Designer.cs">
+      <DependentUpon>PaymentInOutstandingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentOutDetailJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentOutDetailJournalReport.Designer.cs">
+      <DependentUpon>PaymentOutDetailJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentOutJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentOutJournalReport.Designer.cs">
+      <DependentUpon>PaymentOutJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentInDetailJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentInDetailJournalReport.Designer.cs">
+      <DependentUpon>PaymentInDetailJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentInJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Finance\Forms\PaymentInJournalReport.Designer.cs">
+      <DependentUpon>PaymentInJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketingCommission\Command\MCCommand.cs" />
+    <Compile Include="MarketingCommission\Command\MCJournalCommand.cs" />
+    <Compile Include="MarketingCommission\Command\OutstandingMCCommand.cs" />
+    <Compile Include="MarketingCommission\Command\PaidMCCommand.cs" />
+    <Compile Include="MarketingCommission\Forms\MCJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\MCJournalReport.Designer.cs">
+      <DependentUpon>MCJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\MCReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\MCReport.Designer.cs">
+      <DependentUpon>MCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\OutstandingMCReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\OutstandingMCReport.Designer.cs">
+      <DependentUpon>OutstandingMCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\PaidMCReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarketingCommission\Forms\PaidMCReport.Designer.cs">
+      <DependentUpon>PaidMCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marketing\Command\CustomerReportCommand.cs" />
+    <Compile Include="Marketing\Command\LeadsReportCommand.cs" />
+    <Compile Include="CustomerService\Command\ComplaintReportCommand.cs" />
+    <Compile Include="CustomerService\Command\MissDeliveryOutReportCommand.cs" />
+    <Compile Include="CustomerService\Command\MissedPickupReportCommand.cs" />
+    <Compile Include="CustomerService\Command\PickupOrderReportCommand.cs" />
+    <Compile Include="CustomerService\Command\PickupVehicleReportCommand.cs" />
+    <Compile Include="CustomerService\Command\ShipmentStatusSummaryReportCommand.cs" />
+    <Compile Include="CustomerService\Command\UnmanifestReportCommand.cs" />
+    <Compile Include="CustomerService\Forms\ComplaintReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\ComplaintReport.Designer.cs">
+      <DependentUpon>ComplaintReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService\Forms\UnmanifestReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\UnmanifestReport.Designer.cs">
+      <DependentUpon>UnmanifestReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService\Forms\ShipmentStatusSummaryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\ShipmentStatusSummaryReport.Designer.cs">
+      <DependentUpon>ShipmentStatusSummaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService\Forms\PickupVehicleReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\PickupVehicleReport.Designer.cs">
+      <DependentUpon>PickupVehicleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\Command\DeliveryJournalCommand.cs" />
+    <Compile Include="Delivery\Forms\DeliveryJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Delivery\Forms\DeliveryJournalReport.Designer.cs">
+      <DependentUpon>DeliveryJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marketing\Command\MarketingSalesJournalCustomerReportCommand.cs" />
+    <Compile Include="Marketing\Forms\LeadsReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Marketing\Forms\LeadsReport.Designer.cs">
+      <DependentUpon>LeadsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marketing\Forms\CustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Marketing\Forms\CustomerReport.Designer.cs">
+      <DependentUpon>CustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marketing\Forms\MarketingSalesJournalCustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Marketing\Forms\MarketingSalesJournalCustomerReport.Designer.cs">
+      <DependentUpon>MarketingSalesJournalCustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Command\MonthlyServiceSalesChartReportCommand.cs" />
+    <Compile Include="Operation\Command\DeliveryPickupCommand.cs" />
+    <Compile Include="Operation\Command\ResponseTimeReportCommand.cs" />
+    <Compile Include="Operation\Command\MonthlyServiceTonnageChartReportCommand.cs" />
+    <Compile Include="Operation\Command\OutboundWeightDiffReportCommand.cs" />
+    <Compile Include="Operation\Command\DeliveryOrderReportCommand.cs" />
+    <Compile Include="Operation\Command\FleetUtilizationPerVehicleReportCommand.cs" />
+    <Compile Include="Operation\Command\DailyFleetUtilizationReportCommand.cs" />
+    <Compile Include="Operation\Command\HandlingFeeReportCommand.cs" />
+    <Compile Include="Operation\Command\OperationLaporanDataEntryCommand.cs" />
+    <Compile Include="Operation\Command\OperationMissDeliveryCommand.cs" />
+    <Compile Include="CustomerService\Forms\MissDeliveryOutReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\MissDeliveryOutReport.Designer.cs">
+      <DependentUpon>MissDeliveryOutReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService\Forms\MissedPickupReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\MissedPickupReport.Designer.cs">
+      <DependentUpon>MissedPickupReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerService\Forms\PickupOrderReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerService\Forms\PickupOrderReport.Designer.cs">
+      <DependentUpon>PickupOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Command\OperationAirwaybillCommand.cs" />
+    <Compile Include="Operation\Command\OperationWaybillCommand.cs" />
+    <Compile Include="Operation\Forms\DeliveryPickupReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\DeliveryPickupReport.Designer.cs">
+      <DependentUpon>DeliveryPickupReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\MonthlyServiceSalesChartReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\MonthlyServiceSalesChartReport.Designer.cs">
+      <DependentUpon>MonthlyServiceSalesChartReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\ResponseTimeReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\ResponseTimeReport.Designer.cs">
+      <DependentUpon>ResponseTimeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\MonthlyServiceTonnageChartReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\MonthlyServiceTonnageChartReport.Designer.cs">
+      <DependentUpon>MonthlyServiceTonnageChartReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\OutboundWeightDiffReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\OutboundWeightDiffReport.Designer.cs">
+      <DependentUpon>OutboundWeightDiffReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\DeliveryOrderReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\DeliveryOrderReport.Designer.cs">
+      <DependentUpon>DeliveryOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\FleetUtilizationPerVehicleReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\FleetUtilizationPerVehicleReport.Designer.cs">
+      <DependentUpon>FleetUtilizationPerVehicleReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\DailyFleetUtilizationReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\DailyFleetUtilizationReport.Designer.cs">
+      <DependentUpon>DailyFleetUtilizationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\HandlingFeeReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\HandlingFeeReport.Designer.cs">
+      <DependentUpon>HandlingFeeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\LaporanWaybillReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\LaporanWaybillReport.Designer.cs">
+      <DependentUpon>LaporanWaybillReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\LaporanAirwaybillReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\LaporanAirwaybillReport.Designer.cs">
+      <DependentUpon>LaporanAirwaybillReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\LaporanDataEntryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\LaporanDataEntryReport.Designer.cs">
+      <DependentUpon>LaporanDataEntryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Forms\MissDeliveryReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Operation\Forms\MissDeliveryReport.Designer.cs">
+      <DependentUpon>MissDeliveryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportMenu.cs" />
+    <Compile Include="ReturnCommission\Command\OutstandingRCCommand.cs" />
+    <Compile Include="ReturnCommission\Command\PaidRCCommand.cs" />
+    <Compile Include="ReturnCommission\Command\RCCommand.cs" />
+    <Compile Include="ReturnCommission\Command\RCJournalCommand.cs" />
+    <Compile Include="ReturnCommission\Forms\OutstandingRCReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\OutstandingRCReport.Designer.cs">
+      <DependentUpon>OutstandingRCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\PaidRCReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\PaidRCReport.Designer.cs">
+      <DependentUpon>PaidRCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\RCReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\RCReport.Designer.cs">
+      <DependentUpon>RCReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\RCJournalReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReturnCommission\Forms\RCJournalReport.Designer.cs">
+      <DependentUpon>RCJournalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Command\MobilePointCommand.cs" />
+    <Compile Include="Sales\Command\SalesInvoiceCommand.cs" />
+    <Compile Include="Sales\Command\UnvalidatedShipmentReportCommand.cs" />
+    <Compile Include="Sales\Command\UninvoicedSalesCreditReportCommand.cs" />
+    <Compile Include="Sales\Command\UninvoicedSalesReportCommand.cs" />
+    <Compile Include="Sales\Command\InProcessSalesCounterReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalEmployeeReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalCustomerReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalDestinationCustomerReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalDestinationReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalMarketingReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalServiceTypeReportCommand.cs" />
+    <Compile Include="Sales\Command\SalesJournalBranchCommand.cs" />
+    <Compile Include="Sales\Forms\MobilePointReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\MobilePointReport.Designer.cs">
+      <DependentUpon>MobilePointReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesInvoiceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesInvoiceReport.Designer.cs">
+      <DependentUpon>SalesInvoiceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\UninvoicedSalesCreditReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\UninvoicedSalesCreditReport.Designer.cs">
+      <DependentUpon>UninvoicedSalesCreditReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\UninvoicedSalesReportReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\UninvoicedSalesReportReport.Designer.cs">
+      <DependentUpon>UninvoicedSalesReportReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\InProcessSalesCounterReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\InProcessSalesCounterReport.Designer.cs">
+      <DependentUpon>InProcessSalesCounterReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalEmployeeReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalEmployeeReport.Designer.cs">
+      <DependentUpon>SalesJournalEmployeeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalDestinationCustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalDestinationCustomerReport.Designer.cs">
+      <DependentUpon>SalesJournalDestinationCustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalServiceTypeReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalServiceTypeReport.Designer.cs">
+      <DependentUpon>SalesJournalServiceTypeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalDestinationReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalDestinationReport.Designer.cs">
+      <DependentUpon>SalesJournalDestinationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalCustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalCustomerReport.Designer.cs">
+      <DependentUpon>SalesJournalCustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalMarketingReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalMarketingReport.Designer.cs">
+      <DependentUpon>SalesJournalMarketingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalBranchReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\SalesJournalBranchReport.Designer.cs">
+      <DependentUpon>SalesJournalBranchReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\Forms\UnvalidatedShipmentReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sales\Forms\UnvalidatedShipmentReport.Designer.cs">
+      <DependentUpon>UnvalidatedShipmentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitipInvoice\Command\OutstandingTitipInvoiceBranchCommand.cs" />
+    <Compile Include="TitipInvoice\Command\OutstandingTitipInvoiceCustomerCommand.cs" />
+    <Compile Include="TitipInvoice\Command\PaidTitipInvoiceBranchCommand.cs" />
+    <Compile Include="TitipInvoice\Command\PaidTitipInvoiceCustomerCommand.cs" />
+    <Compile Include="TitipInvoice\Command\TitipInvoiceBranchCommand.cs" />
+    <Compile Include="TitipInvoice\Command\TitipInvoiceCustomerCommand.cs" />
+    <Compile Include="TitipInvoice\Forms\OutstandingTitipInvoiceBranchReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\OutstandingTitipInvoiceBranchReport.Designer.cs">
+      <DependentUpon>OutstandingTitipInvoiceBranchReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\PaidTitipInvoiceBranchReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\PaidTitipInvoiceBranchReport.Designer.cs">
+      <DependentUpon>PaidTitipInvoiceBranchReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\TitipInvoiceBranchReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\TitipInvoiceBranchReport.Designer.cs">
+      <DependentUpon>TitipInvoiceBranchReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\OutstandingTitipInvoiceCustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\OutstandingTitipInvoiceCustomerReport.Designer.cs">
+      <DependentUpon>OutstandingTitipInvoiceCustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\PaidTitipInvoiceCustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\PaidTitipInvoiceCustomerReport.Designer.cs">
+      <DependentUpon>PaidTitipInvoiceCustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\TitipInvoiceCustomerReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitipInvoice\Forms\TitipInvoiceCustomerReport.Designer.cs">
+      <DependentUpon>TitipInvoiceCustomerReport.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SISCO.Models.AirwaybillModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ClaimReport.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.CodPaymentInDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.CodPaymentReport.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.CostDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.CostJournal.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.DeliveryPickupModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.DropPointReport.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.MasterData.UserRoleModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.MissDeliveryReportModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.OutstandingPph23.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentInAndDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentInCollectOutDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentInModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentOutCollectInDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PettyCashEmployeeBalance.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ReportDeliveryJournal.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ReportInvoice.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ReportSalesJournal.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ReturnPph23.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel+ShipmentMobile.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel+ShipmentReportRow.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.TransactionalJournalUnposted.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.TransactionJournalReport.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.WaybillModel.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccountReceivable\Forms\InvoiceAgingReport.resx">
+      <DependentUpon>InvoiceAgingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountReceivable\Forms\DueInvoicesReport.resx">
+      <DependentUpon>DueInvoicesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountReceivable\Forms\OverdueInvoicesReport.resx">
+      <DependentUpon>OverdueInvoicesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountReceivable\Forms\OutstandingInvoicesReport.resx">
+      <DependentUpon>OutstandingInvoicesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountReceivable\Forms\PaidInvoicesReport.resx">
+      <DependentUpon>PaidInvoicesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountReceivable\Forms\InvoicesReport.resx">
+      <DependentUpon>InvoicesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Forms\VoidShipmentReport.resx">
+      <DependentUpon>VoidShipmentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration\Forms\PodAgingReport.resx">
+      <DependentUpon>PodAgingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectIn\Forms\CollectInProcessReport.resx">
+      <DependentUpon>CollectInProcessReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectIn\Forms\CollectInUnInvoiceReport.resx">
+      <DependentUpon>CollectInUnInvoiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectIn\Forms\CollectInBrReport.resx">
+      <DependentUpon>CollectInBrReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectIn\Forms\OutstandingCollectInReport.resx">
+      <DependentUpon>OutstandingCollectInReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectIn\Forms\PaidCollectInReport.resx">
+      <DependentUpon>PaidCollectInReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectOut\Forms\CollectOutBrReport.resx">
+      <DependentUpon>CollectOutBrReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectOut\Forms\OutstandingCollectOutBrReport.resx">
+      <DependentUpon>OutstandingCollectOutBrReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CollectOut\Forms\PaidCollectOutBrReport.resx">
+      <DependentUpon>PaidCollectOutBrReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cost\Forms\CostJournalReport.resx">
+      <DependentUpon>CostJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cost\Forms\CostPivotReport.resx">
+      <DependentUpon>CostPivotReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CounterCash\Forms\DropPointCommissionReport.resx">
+      <DependentUpon>DropPointCommissionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\ComplaintReport.resx">
+      <DependentUpon>ComplaintReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\UnmanifestReport.resx">
+      <DependentUpon>UnmanifestReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\ShipmentStatusSummaryReport.resx">
+      <DependentUpon>ShipmentStatusSummaryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\PickupVehicleReport.resx">
+      <DependentUpon>PickupVehicleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\MissDeliveryOutReport.resx">
+      <DependentUpon>MissDeliveryOutReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\MissedPickupReport.resx">
+      <DependentUpon>MissedPickupReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerService\Forms\PickupOrderReport.resx">
+      <DependentUpon>PickupOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Forms\OutstandingDeliveryReport.resx">
+      <DependentUpon>OutstandingDeliveryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Forms\PaidDeliveryReport.resx">
+      <DependentUpon>PaidDeliveryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Forms\DeliveryReport.resx">
+      <DependentUpon>DeliveryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\Forms\DeliveryJournalReport.resx">
+      <DependentUpon>DeliveryJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\ClaimReport.resx">
+      <DependentUpon>ClaimReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\CodReport.resx">
+      <DependentUpon>CodReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\GeneralJournalReport.resx">
+      <DependentUpon>GeneralJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\GeneralJournalUnpostedReport.resx">
+      <DependentUpon>GeneralJournalUnpostedReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\PettyCashReport.resx">
+      <DependentUpon>PettyCashReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\ReturnPphReport.resx">
+      <DependentUpon>ReturnPphReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\OutstandingPphReport.resx">
+      <DependentUpon>OutstandingPphReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\PaymentInOutstandingReport.resx">
+      <DependentUpon>PaymentInOutstandingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketingCommission\Forms\MCJournalReport.resx">
+      <DependentUpon>MCJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketingCommission\Forms\MCReport.resx">
+      <DependentUpon>MCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketingCommission\Forms\OutstandingMCReport.resx">
+      <DependentUpon>OutstandingMCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketingCommission\Forms\PaidMCReport.resx">
+      <DependentUpon>PaidMCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marketing\Forms\MarketingSalesJournalCustomerReport.resx">
+      <DependentUpon>MarketingSalesJournalCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\DeliveryPickupReport.resx">
+      <DependentUpon>DeliveryPickupReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\MonthlyServiceSalesChartReport.resx">
+      <DependentUpon>MonthlyServiceSalesChartReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\MonthlyServiceTonnageChartReport.resx">
+      <DependentUpon>MonthlyServiceTonnageChartReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\OutboundWeightDiffReport.resx">
+      <DependentUpon>OutboundWeightDiffReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\PaymentOutDetailJournalReport.resx">
+      <DependentUpon>PaymentOutDetailJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\PaymentOutJournalReport.resx">
+      <DependentUpon>PaymentOutJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\PaymentInDetailJournalReport.resx">
+      <DependentUpon>PaymentInDetailJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance\Forms\PaymentInJournalReport.resx">
+      <DependentUpon>PaymentInJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\DeliveryOrderReport.resx">
+      <DependentUpon>DeliveryOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\FleetUtilizationPerVehicleReport.resx">
+      <DependentUpon>FleetUtilizationPerVehicleReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\DailyFleetUtilizationReport.resx">
+      <DependentUpon>DailyFleetUtilizationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\HandlingFeeReport.resx">
+      <DependentUpon>HandlingFeeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\LaporanWaybillReport.resx">
+      <DependentUpon>LaporanWaybillReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\LaporanAirwaybillReport.resx">
+      <DependentUpon>LaporanAirwaybillReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\LaporanDataEntryReport.resx">
+      <DependentUpon>LaporanDataEntryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\MissDeliveryReport.resx">
+      <DependentUpon>MissDeliveryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operation\Forms\ResponseTimeReport.resx">
+      <DependentUpon>ResponseTimeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ReturnCommission\Forms\OutstandingRCReport.resx">
+      <DependentUpon>OutstandingRCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnCommission\Forms\PaidRCReport.resx">
+      <DependentUpon>PaidRCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnCommission\Forms\RCReport.resx">
+      <DependentUpon>RCReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnCommission\Forms\RCJournalReport.resx">
+      <DependentUpon>RCJournalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\MobilePointReport.resx">
+      <DependentUpon>MobilePointReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesInvoiceReport.resx">
+      <DependentUpon>SalesInvoiceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\UninvoicedSalesCreditReport.resx">
+      <DependentUpon>UninvoicedSalesCreditReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\UninvoicedSalesReportReport.resx">
+      <DependentUpon>UninvoicedSalesReportReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\InProcessSalesCounterReport.resx">
+      <DependentUpon>InProcessSalesCounterReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalEmployeeReport.resx">
+      <DependentUpon>SalesJournalEmployeeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalDestinationCustomerReport.resx">
+      <DependentUpon>SalesJournalDestinationCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalServiceTypeReport.resx">
+      <DependentUpon>SalesJournalServiceTypeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalDestinationReport.resx">
+      <DependentUpon>SalesJournalDestinationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalCustomerReport.resx">
+      <DependentUpon>SalesJournalCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalMarketingReport.resx">
+      <DependentUpon>SalesJournalMarketingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\SalesJournalBranchReport.resx">
+      <DependentUpon>SalesJournalBranchReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\Forms\UnvalidatedShipmentReport.resx">
+      <DependentUpon>UnvalidatedShipmentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitipInvoice\Forms\OutstandingTitipInvoiceBranchReport.resx">
+      <DependentUpon>OutstandingTitipInvoiceBranchReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitipInvoice\Forms\PaidTitipInvoiceBranchReport.resx">
+      <DependentUpon>PaidTitipInvoiceBranchReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitipInvoice\Forms\TitipInvoiceBranchReport.resx">
+      <DependentUpon>TitipInvoiceBranchReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitipInvoice\Forms\OutstandingTitipInvoiceCustomerReport.resx">
+      <DependentUpon>OutstandingTitipInvoiceCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitipInvoice\Forms\PaidTitipInvoiceCustomerReport.resx">
+      <DependentUpon>PaidTitipInvoiceCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitipInvoice\Forms\TitipInvoiceCustomerReport.resx">
+      <DependentUpon>TitipInvoiceCustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Billing\SISCO.App.Billing.csproj">
+      <Project>{0a0626bf-5555-4622-bcbf-54a3e55f5071}</Project>
+      <Name>SISCO.App.Billing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.CustomerService\SISCO.App.CustomerService.csproj">
+      <Project>{70CFC4F0-A0CC-432C-98AC-650F1444363B}</Project>
+      <Name>SISCO.App.CustomerService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Finance\SISCO.App.Finance.csproj">
+      <Project>{3D69280C-E684-49F6-8E13-C4A7D36CB499}</Project>
+      <Name>SISCO.App.Finance</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Marketing\SISCO.App.Marketing.csproj">
+      <Project>{b574f6f0-ae0b-4de8-a273-39a024cf8bb8}</Project>
+      <Name>SISCO.App.Marketing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Operation\SISCO.App.Operation.csproj">
+      <Project>{9209c028-7aa1-4baa-8321-caf75571e0f9}</Project>
+      <Name>SISCO.App.Operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App\SISCO.App.csproj">
+      <Project>{8B965B65-2286-4F02-B1BC-8E126C22BCFB}</Project>
+      <Name>SISCO.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{a80e0e32-6788-46c3-9b10-755e597a11e5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Common\SISCO.Presentation.Common.csproj">
+      <Project>{518D8408-E160-4C14-B9A2-5770B7A7492A}</Project>
+      <Name>SISCO.Presentation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.MasterData\SISCO.Presentation.MasterData.csproj">
+      <Project>{94821d05-b609-43d3-9dc2-4894b2b83420}</Project>
+      <Name>SISCO.Presentation.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.MasterData\SISCO.Presentation.MasterData.csproj">
+      <Project>{94821D05-B609-43D3-9DC2-4894B2B83420}</Project>
+      <Name>SISCO.Presentation.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Repositories\SISCO.Repositories.csproj">
+      <Project>{9A5C8AF3-8127-444A-B499-8523B7E60BB2}</Project>
+      <Name>SISCO.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

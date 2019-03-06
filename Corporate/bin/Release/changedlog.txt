@@ -1,0 +1,4 @@
+﻿[2016-04-26] Tambah pickup popup
+[2016-04-26] Penambahan perhitungan packing dan volume di Data Entry E-connote
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-18] Perbaikan priviledge

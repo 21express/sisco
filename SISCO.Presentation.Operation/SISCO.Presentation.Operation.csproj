@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F431F556-155B-42CC-A24A-7C7FFC03CEA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Presentation.Operation</RootNamespace>
+    <AssemblyName>SISCO.Presentation.Operation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\HeavyDifferenceAirwaybillCommand.cs" />
+    <Compile Include="Command\PodHandoverCommand.cs" />
+    <Compile Include="Command\AcceptanceCommand.cs" />
+    <Compile Include="Command\ConsolidationCommand.cs" />
+    <Compile Include="Command\DataEntryAcceptanceCommand.cs" />
+    <Compile Include="Command\DataEntryAgentCommand.cs" />
+    <Compile Include="Command\DataEntryFranchiseCommand.cs" />
+    <Compile Include="Command\DataEntryCabangCommand.cs" />
+    <Compile Include="Command\DataEntryCityCommand.cs" />
+    <Compile Include="Command\DataEntryEcommerceCommand.cs" />
+    <Compile Include="Command\DataEntryOperationCommand.cs" />
+    <Compile Include="Command\DeliveryOrderCabangCommand.cs" />
+    <Compile Include="Command\DeliveryOrderCommand.cs" />
+    <Compile Include="Command\DeliveryOrderListCommand.cs" />
+    <Compile Include="Command\DeliveryResultCommand.cs" />
+    <Compile Include="Command\InboundBandaraCommand.cs" />
+    <Compile Include="Command\InboundBandaraViewCommand.cs" />
+    <Compile Include="Command\InboundCommand.cs" />
+    <Compile Include="Command\InboundDaratCommand.cs" />
+    <Compile Include="Command\InboundDaratViewCommand.cs" />
+    <Compile Include="Command\IncomingListCommand.cs" />
+    <Compile Include="Command\ManifestCommand.cs" />
+    <Compile Include="Command\ManifestInViewCommand.cs" />
+    <Compile Include="Command\ManifestListCommand.cs" />
+    <Compile Include="Command\ManifestVendorCommand.cs" />
+    <Compile Include="Command\OnboardCommand.cs" />
+    <Compile Include="Command\OnboardReportViewCommand.cs" />
+    <Compile Include="Command\OutboundBandaraCommand.cs" />
+    <Compile Include="Command\OutboundDaratCommand.cs" />
+    <Compile Include="Command\PickupArrangementCommand.cs" />
+    <Compile Include="Command\PickupResultCommand.cs" />
+    <Compile Include="Command\ShipmentListCommand.cs" />
+    <Compile Include="Forms\AcceptanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AcceptanceForm.Designer.cs">
+      <DependentUpon>AcceptanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DifferenceWeightAirwaybillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DifferenceWeightAirwaybillForm.Designer.cs">
+      <DependentUpon>DifferenceWeightAirwaybillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HeavyDifferenceAirwaybillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HeavyDifferenceAirwaybillForm.Designer.cs">
+      <DependentUpon>HeavyDifferenceAirwaybillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConsolidationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConsolidationForm.Designer.cs">
+      <DependentUpon>ConsolidationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryFranchiseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryFranchiseForm.Designer.cs">
+      <DependentUpon>DataEntryFranchiseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryAcceptanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryAcceptanceForm.Designer.cs">
+      <DependentUpon>DataEntryAcceptanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryAgentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryAgentForm.Designer.cs">
+      <DependentUpon>DataEntryAgentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryCabangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryCabangForm.Designer.cs">
+      <DependentUpon>DataEntryCabangForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryCityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryCityForm.Designer.cs">
+      <DependentUpon>DataEntryCityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryEcommerceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryEcommerceForm.Designer.cs">
+      <DependentUpon>DataEntryEcommerceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataEntryOperationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataEntryOperationForm.Designer.cs">
+      <DependentUpon>DataEntryOperationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeliveryOrderCabangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeliveryOrderCabangForm.Designer.cs">
+      <DependentUpon>DeliveryOrderCabangForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeliveryOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeliveryOrderForm.Designer.cs">
+      <DependentUpon>DeliveryOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeliveryOrderListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeliveryOrderListForm.Designer.cs">
+      <DependentUpon>DeliveryOrderListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DeliveryResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeliveryResultForm.Designer.cs">
+      <DependentUpon>DeliveryResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InboundBandaraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InboundBandaraForm.Designer.cs">
+      <DependentUpon>InboundBandaraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InboundBandaraViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InboundBandaraViewForm.Designer.cs">
+      <DependentUpon>InboundBandaraViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InboundDaratForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InboundDaratForm.Designer.cs">
+      <DependentUpon>InboundDaratForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InboundDaratViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InboundDaratViewForm.Designer.cs">
+      <DependentUpon>InboundDaratViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InboundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InboundForm.Designer.cs">
+      <DependentUpon>InboundForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IncomingListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IncomingListForm.Designer.cs">
+      <DependentUpon>IncomingListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManifestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManifestForm.Designer.cs">
+      <DependentUpon>ManifestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManifestInViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManifestInViewForm.Designer.cs">
+      <DependentUpon>ManifestInViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManifestListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManifestListForm.Designer.cs">
+      <DependentUpon>ManifestListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManifestVendorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManifestVendorForm.Designer.cs">
+      <DependentUpon>ManifestVendorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OnboardReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OnboardReportForm.Designer.cs">
+      <DependentUpon>OnboardReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OnboardReportViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OnboardReportViewForm.Designer.cs">
+      <DependentUpon>OnboardReportViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutboundBandaraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutboundBandaraForm.Designer.cs">
+      <DependentUpon>OutboundBandaraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutboundDaratForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutboundDaratForm.Designer.cs">
+      <DependentUpon>OutboundDaratForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PickupArrangementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PickupArrangementForm.Designer.cs">
+      <DependentUpon>PickupArrangementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PickupResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PickupResultForm.Designer.cs">
+      <DependentUpon>PickupResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PodHandOverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PodHandOverForm.Designer.cs">
+      <DependentUpon>PodHandOverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShipmentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShipmentListForm.Designer.cs">
+      <DependentUpon>ShipmentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationMenu.cs" />
+    <Compile Include="Popup\AcceptanceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\AcceptanceFilterPopup.Designer.cs">
+      <DependentUpon>AcceptanceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\BarcodeLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\BarcodeLookup.Designer.cs">
+      <DependentUpon>BarcodeLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ConsolidationFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ConsolidationFilterPopup.Designer.cs">
+      <DependentUpon>ConsolidationFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DataEntryAcceptanceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DataEntryAcceptanceFilterPopup.Designer.cs">
+      <DependentUpon>DataEntryAcceptanceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DataEntryAgentFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DataEntryAgentFilterPopup.Designer.cs">
+      <DependentUpon>DataEntryAgentFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DataEntryCabangFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DataEntryCabangFilterPopup.Designer.cs">
+      <DependentUpon>DataEntryCabangFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DataEntryCityFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DataEntryCityFilterPopup.Designer.cs">
+      <DependentUpon>DataEntryCityFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DeliveryOrderFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DeliveryOrderFilterPopup.Designer.cs">
+      <DependentUpon>DeliveryOrderFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FindAirwaybillPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FindAirwaybillPopup.Designer.cs">
+      <DependentUpon>FindAirwaybillPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\HandoverFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\HandoverFilterPopup.Designer.cs">
+      <DependentUpon>HandoverFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\HeavyDifferenceAirwaybillFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\HeavyDifferenceAirwaybillFilterPopup.Designer.cs">
+      <DependentUpon>HeavyDifferenceAirwaybillFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InboundBandaraFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InboundBandaraFilterPopup.Designer.cs">
+      <DependentUpon>InboundBandaraFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InboundFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InboundFilterPopup.Designer.cs">
+      <DependentUpon>InboundFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ManifestFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ManifestFilterPopup.Designer.cs">
+      <DependentUpon>ManifestFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ManifestInViewFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ManifestInViewFilterPopup.Designer.cs">
+      <DependentUpon>ManifestInViewFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\OutboundBandaraFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\OutboundBandaraFilterPopup.Designer.cs">
+      <DependentUpon>OutboundBandaraFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\OutboundDaratFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\OutboundDaratFilterPopup.Designer.cs">
+      <DependentUpon>OutboundDaratFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\RevisionSMUPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\RevisionSMUPopup.Designer.cs">
+      <DependentUpon>RevisionSMUPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\AirwaybillPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AirwaybillPrint.Designer.cs">
+      <DependentUpon>AirwaybillPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CnQrCodeCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CnQrCodeCard.Designer.cs">
+      <DependentUpon>CnQrCodeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CnBarcodeCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CnBarcodeCard.Designer.cs">
+      <DependentUpon>CnBarcodeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ConsolSMUCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ConsolSMUCard.Designer.cs">
+      <DependentUpon>ConsolSMUCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ConsolBarcodeCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ConsolBarcodeCard.Designer.cs">
+      <DependentUpon>ConsolBarcodeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DeliveryCollectPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeliveryCollectPrint.Designer.cs">
+      <DependentUpon>DeliveryCollectPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DeliveryCODPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeliveryCODPrint.Designer.cs">
+      <DependentUpon>DeliveryCODPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\eConnotePrintout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\eConnotePrintout.Designer.cs">
+      <DependentUpon>eConnotePrintout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\HandoverPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HandoverPrint.Designer.cs">
+      <DependentUpon>HandoverPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ManifestVendorPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ManifestVendorPrint.Designer.cs">
+      <DependentUpon>ManifestVendorPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PodCabangPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PodCabangPrint.Designer.cs">
+      <DependentUpon>PodCabangPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ManifestConsolBarcodeCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ManifestConsolBarcodeCard.Designer.cs">
+      <DependentUpon>ManifestConsolBarcodeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\IncomingListPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\IncomingListPrint.Designer.cs">
+      <DependentUpon>IncomingListPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ManifestInViewPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ManifestInViewPrint.Designer.cs">
+      <DependentUpon>ManifestInViewPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\WaybillPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\WaybillPrint.Designer.cs">
+      <DependentUpon>WaybillPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\OnboardPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\OnboardPrint.Designer.cs">
+      <DependentUpon>OnboardPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PickupOrderPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PickupOrderPrint.Designer.cs">
+      <DependentUpon>PickupOrderPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DeliveryNonCODPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeliveryNonCODPrint.Designer.cs">
+      <DependentUpon>DeliveryNonCODPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ManifestPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ManifestPrint.Designer.cs">
+      <DependentUpon>ManifestPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DeliveryResultReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeliveryResultReport.Designer.cs">
+      <DependentUpon>DeliveryResultReport.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common.WinControl\Devenlab.Common.WinControl.csproj">
+      <Project>{CADBB621-0F80-4C45-9135-7F10256C5EA5}</Project>
+      <Name>Devenlab.Common.WinControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Administration\SISCO.App.Administration.csproj">
+      <Project>{E6E40BCA-AC67-4FAE-8CC5-B5B20FBA7176}</Project>
+      <Name>SISCO.App.Administration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Corporate\SISCO.App.Corporate.csproj">
+      <Project>{a8471c2a-1679-4228-85c1-04a22c9af7d3}</Project>
+      <Name>SISCO.App.Corporate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.CustomerService\SISCO.App.CustomerService.csproj">
+      <Project>{70CFC4F0-A0CC-432C-98AC-650F1444363B}</Project>
+      <Name>SISCO.App.CustomerService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Franchise\SISCO.App.Franchise.csproj">
+      <Project>{eaa33893-39aa-49ab-977f-379a81e205b2}</Project>
+      <Name>SISCO.App.Franchise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Operation\SISCO.App.Operation.csproj">
+      <Project>{9209C028-7AA1-4BAA-8321-CAF75571E0F9}</Project>
+      <Name>SISCO.App.Operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App\SISCO.App.csproj">
+      <Project>{8b965b65-2286-4f02-b1bc-8e126c22bcfb}</Project>
+      <Name>SISCO.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Administration\SISCO.Presentation.Administration.csproj">
+      <Project>{ea551d83-ffcb-4807-a490-e9f6592ea0f8}</Project>
+      <Name>SISCO.Presentation.Administration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Common\SISCO.Presentation.Common.csproj">
+      <Project>{518D8408-E160-4C14-B9A2-5770B7A7492A}</Project>
+      <Name>SISCO.Presentation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.CustomerService\SISCO.Presentation.CustomerService.csproj">
+      <Project>{2292D610-29BB-459C-90D3-2E5A422957FB}</Project>
+      <Name>SISCO.Presentation.CustomerService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.MasterData\SISCO.Presentation.MasterData.csproj">
+      <Project>{94821d05-b609-43d3-9dc2-4894b2b83420}</Project>
+      <Name>SISCO.Presentation.MasterData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AcceptanceForm.resx">
+      <DependentUpon>AcceptanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DifferenceWeightAirwaybillForm.resx">
+      <DependentUpon>DifferenceWeightAirwaybillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HeavyDifferenceAirwaybillForm.resx">
+      <DependentUpon>HeavyDifferenceAirwaybillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConsolidationForm.resx">
+      <DependentUpon>ConsolidationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryFranchiseForm.resx">
+      <DependentUpon>DataEntryFranchiseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryAcceptanceForm.resx">
+      <DependentUpon>DataEntryAcceptanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryAgentForm.resx">
+      <DependentUpon>DataEntryAgentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryCabangForm.resx">
+      <DependentUpon>DataEntryCabangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryCityForm.resx">
+      <DependentUpon>DataEntryCityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryEcommerceForm.resx">
+      <DependentUpon>DataEntryEcommerceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataEntryOperationForm.resx">
+      <DependentUpon>DataEntryOperationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeliveryOrderCabangForm.resx">
+      <DependentUpon>DeliveryOrderCabangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeliveryOrderForm.resx">
+      <DependentUpon>DeliveryOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeliveryOrderListForm.resx">
+      <DependentUpon>DeliveryOrderListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeliveryResultForm.resx">
+      <DependentUpon>DeliveryResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InboundBandaraForm.resx">
+      <DependentUpon>InboundBandaraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InboundBandaraViewform.resx">
+      <DependentUpon>InboundBandaraViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InboundDaratForm.resx">
+      <DependentUpon>InboundDaratForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InboundDaratViewForm.resx">
+      <DependentUpon>InboundDaratViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InboundForm.resx">
+      <DependentUpon>InboundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IncomingListForm.resx">
+      <DependentUpon>IncomingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManifestForm.resx">
+      <DependentUpon>ManifestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManifestInViewForm.resx">
+      <DependentUpon>ManifestInViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManifestListForm.resx">
+      <DependentUpon>ManifestListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManifestVendorForm.resx">
+      <DependentUpon>ManifestVendorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OnboardReportForm.resx">
+      <DependentUpon>OnboardReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OnboardReportViewForm.resx">
+      <DependentUpon>OnboardReportViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutboundBandaraForm.resx">
+      <DependentUpon>OutboundBandaraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutboundDaratForm.resx">
+      <DependentUpon>OutboundDaratForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PickupArrangementForm.resx">
+      <DependentUpon>PickupArrangementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PickupResultForm.resx">
+      <DependentUpon>PickupResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PodHandOverForm.resx">
+      <DependentUpon>PodHandOverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShipmentListForm.resx">
+      <DependentUpon>ShipmentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\AcceptanceFilterPopup.resx">
+      <DependentUpon>AcceptanceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\BarcodeLookup.resx">
+      <DependentUpon>BarcodeLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ConsolidationFilterPopup.resx">
+      <DependentUpon>ConsolidationFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DataEntryAcceptanceFilterPopup.resx">
+      <DependentUpon>DataEntryAcceptanceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DataEntryAgentFilterPopup.resx">
+      <DependentUpon>DataEntryAgentFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DataEntryCabangFilterPopup.resx">
+      <DependentUpon>DataEntryCabangFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DataEntryCityFilterPopup.resx">
+      <DependentUpon>DataEntryCityFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DeliveryOrderFilterPopup.resx">
+      <DependentUpon>DeliveryOrderFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\FindAirwaybillPopup.resx">
+      <DependentUpon>FindAirwaybillPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\HandoverFilterPopup.resx">
+      <DependentUpon>HandoverFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\HeavyDifferenceAirwaybillFilterPopup.resx">
+      <DependentUpon>HeavyDifferenceAirwaybillFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InboundBandaraFilterPopup.resx">
+      <DependentUpon>InboundBandaraFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InboundFilterPopup.resx">
+      <DependentUpon>InboundFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ManifestFilterPopup.resx">
+      <DependentUpon>ManifestFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ManifestInViewFilterPopup.resx">
+      <DependentUpon>ManifestInViewFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\OutboundBandaraFilterPopup.resx">
+      <DependentUpon>OutboundBandaraFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\OutboundDaratFilterPopup.resx">
+      <DependentUpon>OutboundDaratFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\RevisionSMUPopup.resx">
+      <DependentUpon>RevisionSMUPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AirwaybillPrint.resx">
+      <DependentUpon>AirwaybillPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CnQrCodeCard.resx">
+      <DependentUpon>CnQrCodeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CnBarcodeCard.resx">
+      <DependentUpon>CnBarcodeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ConsolSMUCard.resx">
+      <DependentUpon>ConsolSMUCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ConsolBarcodeCard.resx">
+      <DependentUpon>ConsolBarcodeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeliveryCollectPrint.resx">
+      <DependentUpon>DeliveryCollectPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeliveryCODPrint.resx">
+      <DependentUpon>DeliveryCODPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\eConnotePrintout.resx">
+      <DependentUpon>eConnotePrintout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HandoverPrint.resx">
+      <DependentUpon>HandoverPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ManifestVendorPrint.resx">
+      <DependentUpon>ManifestVendorPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PodCabangPrint.resx">
+      <DependentUpon>PodCabangPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ManifestConsolBarcodeCard.resx">
+      <DependentUpon>ManifestConsolBarcodeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\IncomingListPrint.resx">
+      <DependentUpon>IncomingListPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ManifestInViewPrint.resx">
+      <DependentUpon>ManifestInViewPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\WaybillPrint.resx">
+      <DependentUpon>WaybillPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\OnboardPrint.resx">
+      <DependentUpon>OnboardPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PickupOrderPrint.resx">
+      <DependentUpon>PickupOrderPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeliveryNonCODPrint.resx">
+      <DependentUpon>DeliveryNonCODPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ManifestPrint.resx">
+      <DependentUpon>ManifestPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeliveryResultReport.resx">
+      <DependentUpon>DeliveryResultReport.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SISCO.Models.AirwaybillModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.AirwaybillPrintModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.DeliveryOrderDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PrintBarcode.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PrintBarcodeCustomer.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.QrCodePrint.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel+ShipmentReportRow.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel.datasource" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

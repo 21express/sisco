@@ -1,0 +1,31 @@
+﻿[2016-05-11] Menampikan decimal 1 digit untuk Pph 23 di Report
+[2016-05-10] Penambahan pembulan 1 digit dibelakang koma untuk perhitungan Pph23
+[2016-05-02] Perbaikan untuk pickup / cut off
+[2016-04-27] Add Franchise Log untuk mengetahui versi aplikasi yang digunakan Agent
+[2016-04-26] Tambah kolom Other Fee di Sales Report
+[2016-04-16] Implement local storage untuk data customer, kota, package type, service type, payment type dan data kurir
+[2016-04-14] Implement promo untuk Counter cash dan Data Entry
+[2016-04-11] Disabled tombol POD jika tanggal POD melebihi 1 hari untuk Counter Cash dan Data Entry
+[2016-04-07] Disable tombol Void ketika POD sudah Pick up
+[2016-03-10] Penambahan penetapan nilai minimum untuk total gross weight berdasarkan service tertentu di Modul Counter Cash dan Data Entry
+[2016-03-08] Penambahan filter popup di Pickup Form
+[2016-03-08] Perbaikan Laporan Status pembayaran untuk POD yang sudah dibayarkan tapi status tetap UNPAID
+[2016-03-08] Perbaikan pada tariff untuk Service ONS/Darat di Counter Cash
+[2016-03-08] Penambahan informasi Service is Not Available di Counter Cash/Retail
+[2016-03-07] Always copy changedlog.txt
+[2016-02-27] Penambahan informasi Voided di Tracking View
+[2016-02-24] Komisi agent menjadi 10% untuk penjualan dengan Service "DARAT"
+[2016-02-20] Perbaikan untuk perhitungan chargeable di atas 10
+[2016-02-16] Tambah info Shipper dan Service Type di Laporan Penjualan
+[2016-02-10] Tambah info NPWP di Laporan Penjualan
+[2016-02-02] Tambah Filter popup untuk master data Customer
+[2016-02-02] Tambah field Note untuk Master Data Consignee
+[2016-02-02] Perbaikan UI
+[2016-02-02] Perubahan perhitugan PPh Franchise untuk Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP
+[2016-01-27] Perbaikan untuk report penjualan dengan tidak menampilkan POD yang sudah VOID
+[2016-01-22] Perbaikan Origin City untuk perhitungan tarif
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-19] Perbaikan Data Entry untuk 'Type Cast Error'
+[2016-01-18] Perbaikan priviledge
+[2016-01-12] Perbaikan pada tampilan Counter Cash
+[2016-01-11] Perubahan perhitungan komisi

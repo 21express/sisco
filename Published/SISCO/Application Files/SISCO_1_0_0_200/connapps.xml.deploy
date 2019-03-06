@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <MySQL>
+    <Server>192.168.4.5</Server>
+    <Port>3306</Port>
+    <Database>siscodb</Database>
+    <Username>user21-it</Username>
+    <Password>21express*</Password>
+  </MySQL>
+
+  <PrinterSetting>
+    <DotMetrix></DotMetrix>
+    <BarCodePrinter></BarCodePrinter>
+    <InkJet></InkJet>
+  </PrinterSetting>
+
+  <BackgroundPath></BackgroundPath>
+</Data>

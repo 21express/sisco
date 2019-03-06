@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MySQL>
+  <Server>semar01-pc</Server>
+  <Port>3306</Port>
+  <Database>siscodb</Database>
+  <Username>root</Username>
+  <Password />
+</MySQL>

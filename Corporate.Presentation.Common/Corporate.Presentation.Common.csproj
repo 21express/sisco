@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{893D5CA5-3381-4AF2-A32F-F4B5730B1CA6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corporate.Presentation.Common</RootNamespace>
+    <AssemblyName>Corporate.Presentation.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization.cs" />
+    <Compile Include="BaseControl.cs" />
+    <Compile Include="ComponentRepositories\DateEditCRepo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComponentRepositories\LookupCRepo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComponentRepositories\TextEditCRepo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComponentRepositories\TimeEditFRepo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ComponentRepositories\TimeEditFRepo.Designer.cs">
+      <DependentUpon>TimeEditFRepo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\ComponentValidationError.cs" />
+    <Compile Include="Component\ComponentValidationHelper.cs" />
+    <Compile Include="Component\ComponentValidationRule.cs" />
+    <Compile Include="Component\dCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dCalendar.Designer.cs">
+      <DependentUpon>dCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\dCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dCheckBox.Designer.cs">
+      <DependentUpon>dCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\dComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dComboBox.Designer.cs">
+      <DependentUpon>dComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\dLookupC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dLookupC.Designer.cs">
+      <DependentUpon>dLookupC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\dTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dTextBox.Designer.cs">
+      <DependentUpon>dTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\dTextBoxNumber.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dTextBoxNumber.designer.cs">
+      <DependentUpon>dTextBoxNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\dTime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\dTime.Designer.cs">
+      <DependentUpon>dTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\EntityObject.cs" />
+    <Compile Include="Component\EnumComponentValidationRule.cs" />
+    <Compile Include="Component\Interfaces\IValidatableComponent.cs" />
+    <Compile Include="Component\MarqueeLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\SalesTodayNavigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Component\SalesTodayNavigation.Designer.cs">
+      <DependentUpon>SalesTodayNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutoClosingMessageBox.cs" />
+    <Compile Include="Forms\BaseCrudForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BasePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasePage.Designer.cs">
+      <DependentUpon>BasePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BasePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasePopup.Designer.cs">
+      <DependentUpon>BasePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BasePopupGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasePopupGrid.Designer.cs">
+      <DependentUpon>BasePopupGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseSearchCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseSearchPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseSearchPopup.Designer.cs">
+      <DependentUpon>BaseSearchPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseToolbarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseToolbarForm.Designer.cs">
+      <DependentUpon>BaseToolbarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InfoPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InfoPopup.Designer.cs">
+      <DependentUpon>InfoPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReportGenericFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReportGenericFilterForm.Designer.cs">
+      <DependentUpon>ReportGenericFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IBaseForm.cs" />
+    <Compile Include="IMenuInvoker.cs" />
+    <Compile Include="Interfaces\IChildForm.cs" />
+    <Compile Include="Interfaces\IGridChildForm.cs" />
+    <Compile Include="Interfaces\IPopup.cs" />
+    <Compile Include="MenuCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MenuCommand.Designer.cs">
+      <DependentUpon>MenuCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\InkJetPrintOut.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ViewModel\AccessTokenViewModel.cs" />
+    <Compile Include="ViewModel\CorporateViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Component\SalesTodayNavigation.resx">
+      <DependentUpon>SalesTodayNavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BasePopup.resx">
+      <DependentUpon>BasePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BasePopupGrid.resx">
+      <DependentUpon>BasePopupGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseSearchPopup.resx">
+      <DependentUpon>BaseSearchPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseToolbarForm.resx">
+      <DependentUpon>BaseToolbarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InfoPopup.resx">
+      <DependentUpon>InfoPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReportGenericFilterForm.resx">
+      <DependentUpon>ReportGenericFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common.WinControl\Devenlab.Common.WinControl.csproj">
+      <Project>{CADBB621-0F80-4C45-9135-7F10256C5EA5}</Project>
+      <Name>Devenlab.Common.WinControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Corporate\SISCO.App.Corporate.csproj">
+      <Project>{A8471C2A-1679-4228-85C1-04A22C9AF7D3}</Project>
+      <Name>SISCO.App.Corporate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Operation\SISCO.App.Operation.csproj">
+      <Project>{9209C028-7AA1-4BAA-8321-CAF75571E0F9}</Project>
+      <Name>SISCO.App.Operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\about.jpg" />
+    <Content Include="Resources\about.png" />
+    <Content Include="Resources\Banner.png" />
+    <Content Include="Resources\Banner2.png" />
+    <Content Include="Resources\Banner3.png" />
+    <Content Include="Resources\change_password.png" />
+    <Content Include="Resources\delete-file.png" />
+    <Content Include="Resources\document_new.png" />
+    <Content Include="Resources\document_save.png" />
+    <Content Include="Resources\document_search.png" />
+    <Content Include="Resources\excel-xp.png" />
+    <Content Include="Resources\exit.png" />
+    <Content Include="Resources\go-first.png" />
+    <Content Include="Resources\go-last.png" />
+    <Content Include="Resources\go-next.png" />
+    <Content Include="Resources\go-previous.png" />
+    <Content Include="Resources\info.png" />
+    <Content Include="Resources\login.png" />
+    <Content Include="Resources\Logo.png" />
+    <Content Include="Resources\printer.png" />
+    <Content Include="Resources\printer_small.png" />
+    <Content Include="Resources\print_preview.png" />
+    <Content Include="Resources\Remove.png" />
+    <None Include="packages.config" />
+    <None Include="Resources\system-search-small.png" />
+    <None Include="Resources\Rep_Cal_Icon.png" />
+    <None Include="Resources\Office-Excel-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

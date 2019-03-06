@@ -1,0 +1,80 @@
+﻿[2016-04-21] Tambah tombol export to excel di Delivery Order
+[2016-04-21] Editable untuk jumlah pembayaran di Franchise Payment In
+[2016-04-21] Perbaikan alokasi pod untuk customer di Data Entry Operation dan City
+[2016-04-20] Disable form Data Entry dan Counter Cash jika POD telah di entry lebih dari 24 jam.
+[2016-04-18] Penambahan modul notification. Notification akan muncul setiap kali user login.
+[2016-04-16] Implement local storage untuk data customer, kota, package type, service type, payment type dan data kurir
+[2016-04-15] Penambahan note di surat serah terima Alokasi POD
+[2016-04-14] Penambahan fungsi untuk mengenali POD dialokasikan untuk franchise di Modul Counter Cash & Data Entry
+[2016-04-14] Penambahan modul Data Entry Franchise
+[2016-04-11] Disabled form jika umur POD sudah lebih dari 4 hari di Koreksi Data Entry Agent
+[2016-04-11] Implemen promo untuk counter cash
+[2016-04-07] Penambahan kolom Status pembayaran (informasi status setor agent ke G21) di Report PPh 23 Agent.
+[2016-04-07] Penambahan tombol koreksi Tariff dan Komisi di Koreksi Data Entry Agent
+[2016-04-04] Penambahan modul Undelivered list
+[2016-04-01] Perbaikan Shipment Delivery List untuk final status
+[2016-04-01] Perbaikan Tracking status untuk Delivery Order, tracking status untuk delivery order bisa lebih dari 1 kali
+[2016-03-26] Penambahan modul untuk manage promo
+[2016-03-26] Penambahan fungsi Print/Preview di Koreksi Data Agent
+[2016-03-15] Perbaikan status shipment di Kirim POD Cabang
+[2016-03-10] Penambahan alokasi POD untuk Franchise di Alokasi CN
+[2016-03-10] Penambahan Kolom Min. Weight di Master Data Customer Tariff
+[2016-03-10] Penambahan Kolom Min. Weight di Master Data Published Tariff
+[2016-03-10] Penambahan penetapan nilai minimum untuk total gross weight untuk layanan tertentu di Counter Cash
+[2016-03-08] Penambahan penetapan nilai minimum untuk total gross weight untuk layanan tertentu di Data Entry Retail
+[2016-03-08] Perbaikan untuk import data Tariff di Published Tariff dan Customer Tariff
+[2016-03-08] Perbaikan pada tariff untuk Service
+[2016-03-08] Penambahan informasi Service is Not Available di Counter Cash/Retail/Koreksi Data Entry Agent
+[2016-03-08] Penambahan perhitungan insurance fee di Counter Cash
+[2016-03-07] Always copy changedlog.txt
+[2016-03-07] Perbaikan untuk Get Last Final Stasus untuk shipment di modul Administration - Kirim POD Cabang.
+[2016-02-27] Penambahan Laporan Pengembalian Pph untuk Finance
+[2016-02-25] Mengosongkan kembali data di grid ketika selesai Import Data Shipment
+[2016-02-24] Peningkatan untuk priviledge Modul
+[2016-02-24] Menonaktifkan field STT/POD di Data Entry ketika menampilkan data
+[2016-02-24] Perbaikan untuk search POD di Counter Cash Retail
+[2016-02-24] Perbaikan double POD dan performa untuk Export Shipment 
+[2016-02-15] Perbaikan modul Customer Tariff
+[2016-02-12] Perbaikan modul Published Tariff
+[2016-02-12] Penambahan kolom lead time di Published Tariff
+[2016-02-12] Perbaikan pada saat create new customer
+[2016-02-11] Perbaikan Filter Get Data pada Create Sales Invoice Screen
+[2016-02-10] Perbaikan untuk PPh 23 di Payment In pada saat create new payment
+[2016-02-10] Tambah info NPWP di Laporan Penjualan Agent dan PPh23 / 21
+[2016-02-10] Perbaikan pada tambah POD baru di Create Sales Invoice
+[2016-02-05] Perbaikan pada menu jika resolusi komputer 1024
+[2016-02-05] Pengurangan jumlah kolom excel untuk Report - Account Receivable - Paid Invoice
+[2016-02-05] Peningkatan performa untuk save/print invoice di Create Sales Invoice
+[2016-02-04] Tambah lookup Customer di Syncronous Data Entry
+[2016-02-04] Perbaikan untuk Customer Service - Tracking By Shipment ketika add Status
+[2016-02-04] Informasi POD sudah void di Tracking View
+[2016-02-03] Perbaikan untuk modul Finance Cost, error ketika delete row kemudian save
+[2016-02-02] Pembulatan ke bawah untuk total Tax pada saat print invoice
+[2016-02-02] Perubahan perhitugan PPh Franchise untuk Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP
+[2016-02-02] Penambahan organisasi type untuk franchise (Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP)
+[2016-02-02] Perbaikan pada Filter Franchise di Master data Franchise
+[2016-01-27] Menambahkan Report Outstanding PPh 23
+[2016-01-27] Menambahkan modul Finance - Pengembalian PPh 23
+[2016-01-27] Menambahkan fitur perhitungan PPh 23 pada modul Payment In
+[2016-01-27] Menambahkan field posted pada saat import POD (Billing - Import Shipment List)
+[2016-01-26] Perbaikan Double POD di Data Entry
+[2016-01-23] Perbaikan Filter di modul Franchise - Koreksi Data Entry
+[2016-01-22] Perbaikan Origin City pada Franchise - Koreksi Data Entry untuk perhitungan tarif
+[2016-01-20] Penambahan modul Corporate - Syncronous Data Entry intergrasi dengan Bilna
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-20] Perbaikan di Corporate - Bulk Data Entry untuk error 'Object reference is null'
+[2016-01-19] Tombol Un-Void di Franchise - Koreksi Data Entry
+[2016-01-19] Perbaikan untuk Franchise - Koreksi Data Entry, update data sesuai dengan branch dan city original POD
+[2016-01-19] Penambahan Filter popup model Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan pada update data Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan fitur filter/pencarian pada modul  Franchise - Koreksi Data Entry
+[2016-01-18] Perbaikan modul Franchise - Report - Laporan Penjualan Agent Franchise
+[2016-01-18] Penambahan modul Corporate Bulk Data Entry untuk Import Excel Bilna dan Quantium
+[2016-01-15] Penambahan modul Finance - Invoice Acceptance
+[2016-01-12] Mengganti "Parcel" menjadi "Paket" pada saat print invoice
+[2016-01-11] Penambahan Modul Koreksi Data Entry Agent Franchise
+[2016-01-11] Perubahan perhitungan komisi Agent Franchise
+[2016-01-11] Perbaikan Operation - Inbound untuk pengurangan jumlah POD yang masuk ke cabang (Table Kiri)
+[2016-01-09] Perbaikan Finance - Payment In Titip Invoice
+[2016-01-09] Penambahan data tipe perusahaan (perorangan/perusahaan) untuk agent Franchise
+[2016-01-09] Penambahan form About

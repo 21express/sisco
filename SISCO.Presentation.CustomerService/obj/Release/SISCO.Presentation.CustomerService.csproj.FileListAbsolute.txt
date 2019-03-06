@@ -1,0 +1,712 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.App.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManageBranchForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManagePublishedTariffForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ShipmentDeliveryListForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingByShipmentForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingViewForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ComplaintForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupOrderForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ShipmentPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Properties.Resources.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.GenerateResource.Cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll.licenses
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Charts.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Office.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Office.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Office.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Office.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Charts.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.App.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManageBranchForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManagePublishedTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ShipmentDeliveryListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingByShipmentForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingViewForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ComplaintForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupOrderForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ShipmentPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Properties.Resources.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.GenerateResource.Cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll.licenses
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Charts.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Franchise.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Franchise.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Office.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.PivotGrid.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraCharts.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.App.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManageBranchForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManagePublishedTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ShipmentDeliveryListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingByShipmentForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingViewForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ComplaintForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupOrderForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ShipmentPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Properties.Resources.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.GenerateResource.Cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll.licenses
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll.config
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Charts.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Franchise.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.LocalStorage.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Billing.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Franchise.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.LocalStorage.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.IO.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\NLog.xml
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Billing.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Office.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Office.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Office.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Office.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraCharts.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraCharts.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraCharts.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraCharts.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.App.config
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.InsuranceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManageBranchForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManagePublishedTariffForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupCashForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupSchedulerForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PODReturnForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.UnReceivedListForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ShipmentDeliveryListForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingByShipmentForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingViewForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ComplaintForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupOrderForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.InsurancePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ShipmentPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Properties.Resources.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Reports.EConnotePrintout.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.GenerateResource.Cache
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll.licenses
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll.config
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.CustomerService.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Charts.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.MasterData.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Franchise.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.LocalStorage.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.IO.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Linq.Dynamic.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.Common.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\NLog.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Billing.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Net.Http.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.MasterData.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Franchise.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Operation.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.LocalStorage.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Models.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.MasterData.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Presentation.Reports.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.Repositories.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Data.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Office.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.PivotGrid.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Printing.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.RichEdit.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Sparkline.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.Utils.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraCharts.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraEditors.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraGrid.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraNavBar.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraPrinting.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\DevExpress.XtraReports.v13.2.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\EntityFramework.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.IO.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Runtime.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Threading.Tasks.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Franchise.Presentation.Common.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\NLog.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Marketing.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Billing.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\SISCO.App.Finance.pdb
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\System.Net.Http.xml
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Office.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Office.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Office.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Office.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.PivotGrid.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.RichEdit.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Sparkline.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraCharts.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraCharts.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraCharts.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraCharts.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\de\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\es\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ja\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\bin\Release\ru\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.App.config
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.InsuranceForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManageBranchForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ManagePublishedTariffForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupCashForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupSchedulerForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PODReturnForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.UnReceivedListForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ShipmentDeliveryListForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingByShipmentForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.TrackingViewForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ComplaintForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.PickupOrderForm.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.InsurancePopup.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ShipmentPopup.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Properties.Resources.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Reports.EConnotePrintout.resources
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.csproj.GenerateResource.Cache
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll.licenses
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.dll
+D:\sisco\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.pdb
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.SchedulerPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Forms.ClaimedForm.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ClaimedPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.CustomerService\obj\Release\SISCO.Presentation.CustomerService.Popup.ClaimPopup.resources

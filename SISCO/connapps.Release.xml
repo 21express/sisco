@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- For more information on using transformations 
+     see the web.config examples at http://go.microsoft.com/fwlink/?LinkId=214134. -->
+<MySQL xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <Server xdt:Transform="Replace">207.46.228.51</Server>
+  <Port xdt:Transform="Replace">3306</Port>
+  <Database xdt:Transform="Replace">siscodb</Database>
+  <Username xdt:Transform="Replace">root</Username>
+  <Password xdt:Transform="Replace">devpassword111</Password>
+</MySQL>

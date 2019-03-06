@@ -1,0 +1,120 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\NLog.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\NLog.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\bin\Release\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\bin\Release\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\NLog.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.pdb
+D:\Projects\SISCO\SISCO.App.CustomerService\bin\Release\NLog.xml
+D:\Projects\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.dll
+D:\Projects\SISCO\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.CustomerService.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\Devenlab.Common.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.Models.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\System.Linq.Dynamic.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\NLog.dll
+D:\sisco\SISCO.App.CustomerService\bin\Release\Devenlab.Common.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.Models.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.Presentation.Common.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.Repositories.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.MasterData.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\Devenlab.Common.WinControl.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\SISCO.App.Operation.pdb
+D:\sisco\SISCO.App.CustomerService\bin\Release\NLog.xml
+D:\sisco\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.dll
+D:\sisco\SISCO.App.CustomerService\obj\Release\SISCO.App.CustomerService.pdb

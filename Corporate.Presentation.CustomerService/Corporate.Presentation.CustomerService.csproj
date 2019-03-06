@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84764172-5E0E-4404-88C4-8F627F85F1D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corporate.Presentation.CustomerService</RootNamespace>
+    <AssemblyName>Corporate.Presentation.CustomerService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\PickupCommand.cs" />
+    <Compile Include="Command\ShipmentListCommand.cs" />
+    <Compile Include="Command\TariffCommand.cs" />
+    <Compile Include="Command\TrackingViewCommand.cs" />
+    <Compile Include="CustomerServiceMenu.cs" />
+    <Compile Include="Forms\PickupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PickupForm.Designer.cs">
+      <DependentUpon>PickupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShipmentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShipmentListForm.Designer.cs">
+      <DependentUpon>ShipmentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TariffForm.Designer.cs">
+      <DependentUpon>TariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrackingViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TrackingViewForm.Designer.cs">
+      <DependentUpon>TrackingViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PickupPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PickupPopup.Designer.cs">
+      <DependentUpon>PickupPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\PickupPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PickupPrint.Designer.cs">
+      <DependentUpon>PickupPrint.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\PickupForm.resx">
+      <DependentUpon>PickupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShipmentListForm.resx">
+      <DependentUpon>ShipmentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TariffForm.resx">
+      <DependentUpon>TariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TrackingViewForm.resx">
+      <DependentUpon>TrackingViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PickupPopup.resx">
+      <DependentUpon>PickupPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reports\PickupPrint.resx">
+      <DependentUpon>PickupPrint.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Corporate.Presentation.Common\Corporate.Presentation.Common.csproj">
+      <Project>{893D5CA5-3381-4AF2-A32F-F4B5730B1CA6}</Project>
+      <Name>Corporate.Presentation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corporate.Presentation.DataEntry\Corporate.Presentation.DataEntry.csproj">
+      <Project>{58350367-4EC9-4DBB-8576-1AAAEC029E5A}</Project>
+      <Name>Corporate.Presentation.DataEntry</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corporate.Presentation.MasterData\Corporate.Presentation.MasterData.csproj">
+      <Project>{542881EA-2FA1-432B-9359-4ADCB1C25598}</Project>
+      <Name>Corporate.Presentation.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Corporate\SISCO.App.Corporate.csproj">
+      <Project>{A8471C2A-1679-4228-85C1-04A22C9AF7D3}</Project>
+      <Name>SISCO.App.Corporate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Operation\SISCO.App.Operation.csproj">
+      <Project>{9209C028-7AA1-4BAA-8321-CAF75571E0F9}</Project>
+      <Name>SISCO.App.Operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.MasterData\SISCO.Presentation.MasterData.csproj">
+      <Project>{94821D05-B609-43D3-9DC2-4894B2B83420}</Project>
+      <Name>SISCO.Presentation.MasterData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Properties\DataSources\SISCO.Models.CorporatePickupDetailModel.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14BF7218-ADC4-4CD9-B867-F2045B5BD4BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Presentation.Finance</RootNamespace>
+    <AssemblyName>SISCO.Presentation.Finance</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RND|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RND\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\CodFundTransferCommand.cs" />
+    <Compile Include="Command\ClosingBankTransactionCommand.cs" />
+    <Compile Include="Command\PettyCashCommand.cs" />
+    <Compile Include="Command\TransactionalAccountCommand.cs" />
+    <Compile Include="Command\InputTransactionalAccountCommand.cs" />
+    <Compile Include="Command\InvoiceDistributionReportCommand.cs" />
+    <Compile Include="Command\InvoiceTransferAcceptanceCommand.cs" />
+    <Compile Include="Command\InvoiceTransferCommand.cs" />
+    <Compile Include="Command\InvoiceDistributionResultCommand.cs" />
+    <Compile Include="Command\PaymentCounterListCommand.cs" />
+    <Compile Include="Command\CollectInListCommand.cs" />
+    <Compile Include="Command\CollectOutListCommand.cs" />
+    <Compile Include="Command\CodPaymentInCommand.cs" />
+    <Compile Include="Command\CodFundTransferVerificationCommand.cs" />
+    <Compile Include="Command\CodOutstandingCommand.cs" />
+    <Compile Include="Command\FranchiseOutstandingShipmentCommand.cs" />
+    <Compile Include="Command\FranchiseFundTransferVerificationCommand.cs" />
+    <Compile Include="Command\FranchiseFundTransferCommand.cs" />
+    <Compile Include="Command\FranchiseCreditPaymentCommand.cs" />
+    <Compile Include="Command\RefundPph23Command.cs" />
+    <Compile Include="Command\SalesInvoiceAcceptanceCommand.cs" />
+    <Compile Include="Command\FranchisePaymentInCommand.cs" />
+    <Compile Include="Command\CostCommand.cs" />
+    <Compile Include="Command\PaymentInCollectInCommand.cs" />
+    <Compile Include="Command\PaymentInCollectOutCommand.cs" />
+    <Compile Include="Command\PaymentInCommand.cs" />
+    <Compile Include="Command\PaymentInCounterCommand.cs" />
+    <Compile Include="Command\PaymentInTitipInvoiceCommand.cs" />
+    <Compile Include="Command\PaymentOutCollectInCommand.cs" />
+    <Compile Include="Command\PaymentOutDeliveryCommand.cs" />
+    <Compile Include="Command\PaymentOutMCCommand.cs" />
+    <Compile Include="Command\PaymentOutRCCommand.cs" />
+    <Compile Include="Command\PaymentOutTitipInvoiceCommand.cs" />
+    <Compile Include="Command\TitipInvoiceAcceptanceCommand.cs" />
+    <Compile Include="Command\SendTitipInvoiceCommand.cs" />
+    <Compile Include="Command\TitipInvoiceCommand.cs" />
+    <Compile Include="Command\TitipInvoiceListCommand.cs" />
+    <Compile Include="Command\TitipInvoiceViewCommand.cs" />
+    <Compile Include="FinanceMenu.cs" />
+    <Compile Include="Forms\ClosingBankTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClosingBankTransactionForm.Designer.cs">
+      <DependentUpon>ClosingBankTransactionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CodPaymentInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CodPaymentInForm.Designer.cs">
+      <DependentUpon>CodPaymentInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CollectInListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CollectInListForm.Designer.cs">
+      <DependentUpon>CollectInListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CollectOutListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CollectOutListForm.Designer.cs">
+      <DependentUpon>CollectOutListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CodFundTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CodFundTransferForm.Designer.cs">
+      <DependentUpon>CodFundTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CodFundTransferVerificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CodFundTransferVerificationForm.Designer.cs">
+      <DependentUpon>CodFundTransferVerificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FranchiseCreditPaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FranchiseCreditPaymentForm.Designer.cs">
+      <DependentUpon>FranchiseCreditPaymentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FranchiseFundTransferVerificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FranchiseFundTransferVerificationForm.Designer.cs">
+      <DependentUpon>FranchiseFundTransferVerificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FranchiseFundTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FranchiseFundTransferForm.Designer.cs">
+      <DependentUpon>FranchiseFundTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CodOutstandingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CodOutstandingForm.Designer.cs">
+      <DependentUpon>CodOutstandingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FranchiseOutstandingShipmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FranchiseOutstandingShipmentForm.Designer.cs">
+      <DependentUpon>FranchiseOutstandingShipmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FranchisePaymentInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FranchisePaymentInForm.Designer.cs">
+      <DependentUpon>FranchisePaymentInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CostForm.Designer.cs">
+      <DependentUpon>CostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvoiceAcceptanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceAcceptanceForm.Designer.cs">
+      <DependentUpon>InvoiceAcceptanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvoiceDistributionReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceDistributionReportForm.Designer.cs">
+      <DependentUpon>InvoiceDistributionReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvoiceDistributionResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceDistributionResultForm.Designer.cs">
+      <DependentUpon>InvoiceDistributionResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvoiceTransferAcceptanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceTransferAcceptanceForm.Designer.cs">
+      <DependentUpon>InvoiceTransferAcceptanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvoiceTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceTransferForm.Designer.cs">
+      <DependentUpon>InvoiceTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentCounterListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentCounterListForm.Designer.cs">
+      <DependentUpon>PaymentCounterListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentInCollectInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentInCollectInForm.Designer.cs">
+      <DependentUpon>PaymentInCollectInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentInCollectOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentInCollectOutForm.Designer.cs">
+      <DependentUpon>PaymentInCollectOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentInCounterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentInCounterForm.Designer.cs">
+      <DependentUpon>PaymentInCounterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentInForm.Designer.cs">
+      <DependentUpon>PaymentInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentInTitipInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentInTitipInvoiceForm.Designer.cs">
+      <DependentUpon>PaymentInTitipInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentOutCollectInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentOutCollectInForm.Designer.cs">
+      <DependentUpon>PaymentOutCollectInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentOutDeliveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentOutDeliveryForm.Designer.cs">
+      <DependentUpon>PaymentOutDeliveryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentOutMCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentOutMCForm.Designer.cs">
+      <DependentUpon>PaymentOutMCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentOutRCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentOutRCForm.Designer.cs">
+      <DependentUpon>PaymentOutRCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentOutTitipInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentOutTitipInvoiceForm.Designer.cs">
+      <DependentUpon>PaymentOutTitipInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PettyCashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PettyCashForm.Designer.cs">
+      <DependentUpon>PettyCashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RefundPph23Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RefundPph23Form.Designer.cs">
+      <DependentUpon>RefundPph23Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SendTitipInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SendTitipInvoiceForm.Designer.cs">
+      <DependentUpon>SendTitipInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceAccceptanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceAccceptanceForm.Designer.cs">
+      <DependentUpon>TitipInvoiceAccceptanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceForm.Designer.cs">
+      <DependentUpon>TitipInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceListForm.Designer.cs">
+      <DependentUpon>TitipInvoiceListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TitipInvoiceViewForm.Designer.cs">
+      <DependentUpon>TitipInvoiceViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InputTransactionalAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InputTransactionalAccountForm.Designer.cs">
+      <DependentUpon>InputTransactionalAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TransactionalAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TransactionalAccountForm.Designer.cs">
+      <DependentUpon>TransactionalAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CodFundTransferFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CodFundTransferFilterPopup.Designer.cs">
+      <DependentUpon>CodFundTransferFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CodFundTransferVerificationFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CodFundTransferVerificationFilterPopup.Designer.cs">
+      <DependentUpon>CodFundTransferVerificationFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FranchiseFundTransferVerificationFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FranchiseFundTransferVerificationFilterPopup.Designer.cs">
+      <DependentUpon>FranchiseFundTransferVerificationFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FranchiseFundTransferFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FranchiseFundTransferFilterPopup.Designer.cs">
+      <DependentUpon>FranchiseFundTransferFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FranchisePaymentInFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FranchisePaymentInFilterPopup.Designer.cs">
+      <DependentUpon>FranchisePaymentInFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CostFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CostFilterPopup.Designer.cs">
+      <DependentUpon>CostFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CodPaymentInFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CodPaymentInFilterPopup.Designer.cs">
+      <DependentUpon>CodPaymentInFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InvoiceTransferAcceptanceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InvoiceTransferAcceptanceFilterPopup.Designer.cs">
+      <DependentUpon>InvoiceTransferAcceptanceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InvoiceTransferFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InvoiceTransferFilterPopup.Designer.cs">
+      <DependentUpon>InvoiceTransferFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InvoiceDistributionFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InvoiceDistributionFilterPopup.Designer.cs">
+      <DependentUpon>InvoiceDistributionFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PettyCashFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PettyCashFilterPopup.Designer.cs">
+      <DependentUpon>PettyCashFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\TransactionalAccountPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\TransactionalAccountPopup.Designer.cs">
+      <DependentUpon>TransactionalAccountPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\TransactionalModificationPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\TransactionalModificationPopup.Designer.cs">
+      <DependentUpon>TransactionalModificationPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\RefundFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\RefundFilterPopup.Designer.cs">
+      <DependentUpon>RefundFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InvoiceAcceptanceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InvoiceAcceptanceFilterPopup.Designer.cs">
+      <DependentUpon>InvoiceAcceptanceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentInCollectInFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentInCollectInFilterPopup.Designer.cs">
+      <DependentUpon>PaymentInCollectInFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentInCollectOutFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentInCollectOutFilterPopup.Designer.cs">
+      <DependentUpon>PaymentInCollectOutFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentInCounterFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentInCounterFilterPopup.Designer.cs">
+      <DependentUpon>PaymentInCounterFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentInFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentInFilterPopup.Designer.cs">
+      <DependentUpon>PaymentInFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentInTitipInvoiceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentInTitipInvoiceFilterPopup.Designer.cs">
+      <DependentUpon>PaymentInTitipInvoiceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentMcFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentMcFilterPopup.Designer.cs">
+      <DependentUpon>PaymentMcFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentOutCollectInFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentOutCollectInFilterPopup.Designer.cs">
+      <DependentUpon>PaymentOutCollectInFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentOutDeliveryFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentOutDeliveryFilterPopup.Designer.cs">
+      <DependentUpon>PaymentOutDeliveryFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentOutTitipInvoiceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentOutTitipInvoiceFilterPopup.Designer.cs">
+      <DependentUpon>PaymentOutTitipInvoiceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentRcFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentRcFilterPopup.Designer.cs">
+      <DependentUpon>PaymentRcFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\SendInvoiceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\SendInvoiceFilterPopup.Designer.cs">
+      <DependentUpon>SendInvoiceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\TitipInvoiceAcceptanceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\TitipInvoiceAcceptanceFilterPopup.Designer.cs">
+      <DependentUpon>TitipInvoiceAcceptanceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\TitipInvoiceFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\TitipInvoiceFilterPopup.Designer.cs">
+      <DependentUpon>TitipInvoiceFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CashListPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CashListPrint.Designer.cs">
+      <DependentUpon>CashListPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CodPaymentPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CodPaymentPrint.Designer.cs">
+      <DependentUpon>CodPaymentPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CollectOutListPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CollectOutListPrint.Designer.cs">
+      <DependentUpon>CollectOutListPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CollectInListPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CollectInListPrint.Designer.cs">
+      <DependentUpon>CollectInListPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\AcceptancePrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\AcceptancePrint.Designer.cs">
+      <DependentUpon>AcceptancePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\McInvoicePrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\McInvoicePrint.Designer.cs">
+      <DependentUpon>McInvoicePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\KirimTitipInvoicePrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\KirimTitipInvoicePrint.Designer.cs">
+      <DependentUpon>KirimTitipInvoicePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PaymentInPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PaymentInPrint.Designer.cs">
+      <DependentUpon>PaymentInPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PaymentOutCollectInPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PaymentOutCollectInPrint.Designer.cs">
+      <DependentUpon>PaymentOutCollectInPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PaymentOutTitipInvoicePrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PaymentOutTitipInvoicePrint.Designer.cs">
+      <DependentUpon>PaymentOutTitipInvoicePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RcPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\RcPrint.Designer.cs">
+      <DependentUpon>RcPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\McPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\McPrint.Designer.cs">
+      <DependentUpon>McPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CostPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CostPrint.Designer.cs">
+      <DependentUpon>CostPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PaymentInCollectInPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PaymentInCollectInPrint.Designer.cs">
+      <DependentUpon>PaymentInCollectInPrint.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common.WinControl\Devenlab.Common.WinControl.csproj">
+      <Project>{CADBB621-0F80-4C45-9135-7F10256C5EA5}</Project>
+      <Name>Devenlab.Common.WinControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Billing\SISCO.App.Billing.csproj">
+      <Project>{0A0626BF-5555-4622-BCBF-54A3E55F5071}</Project>
+      <Name>SISCO.App.Billing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.CustomerService\SISCO.App.CustomerService.csproj">
+      <Project>{70cfc4f0-a0cc-432c-98ac-650f1444363b}</Project>
+      <Name>SISCO.App.CustomerService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Finance\SISCO.App.Finance.csproj">
+      <Project>{3D69280C-E684-49F6-8E13-C4A7D36CB499}</Project>
+      <Name>SISCO.App.Finance</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Franchise\SISCO.App.Franchise.csproj">
+      <Project>{eaa33893-39aa-49ab-977f-379a81e205b2}</Project>
+      <Name>SISCO.App.Franchise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Operation\SISCO.App.Operation.csproj">
+      <Project>{9209c028-7aa1-4baa-8321-caf75571e0f9}</Project>
+      <Name>SISCO.App.Operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Common\SISCO.Presentation.Common.csproj">
+      <Project>{518d8408-e160-4c14-b9a2-5770b7a7492a}</Project>
+      <Name>SISCO.Presentation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.CustomerService\SISCO.Presentation.CustomerService.csproj">
+      <Project>{2292D610-29BB-459C-90D3-2E5A422957FB}</Project>
+      <Name>SISCO.Presentation.CustomerService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Franchise\SISCO.Presentation.Franchise.csproj">
+      <Project>{8356c640-acaa-4ea6-b570-eba0e9e24520}</Project>
+      <Name>SISCO.Presentation.Franchise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.MasterData\SISCO.Presentation.MasterData.csproj">
+      <Project>{94821D05-B609-43D3-9DC2-4894B2B83420}</Project>
+      <Name>SISCO.Presentation.MasterData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ClosingBankTransactionForm.resx">
+      <DependentUpon>ClosingBankTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CodPaymentInForm.resx">
+      <DependentUpon>CodPaymentInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CollectInListForm.resx">
+      <DependentUpon>CollectInListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CollectOutListForm.resx">
+      <DependentUpon>CollectOutListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CodFundTransferForm.resx">
+      <DependentUpon>CodFundTransferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CodFundTransferVerificationForm.resx">
+      <DependentUpon>CodFundTransferVerificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FranchiseCreditPaymentForm.resx">
+      <DependentUpon>FranchiseCreditPaymentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FranchiseFundTransferVerificationForm.resx">
+      <DependentUpon>FranchiseFundTransferVerificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FranchiseFundTransferForm.resx">
+      <DependentUpon>FranchiseFundTransferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CodOutstandingForm.resx">
+      <DependentUpon>CodOutstandingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FranchiseOutstandingShipmentForm.resx">
+      <DependentUpon>FranchiseOutstandingShipmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FranchisePaymentInForm.resx">
+      <DependentUpon>FranchisePaymentInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CostForm.resx">
+      <DependentUpon>CostForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvoiceAcceptanceForm.resx">
+      <DependentUpon>InvoiceAcceptanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvoiceDistributionReportForm.resx">
+      <DependentUpon>InvoiceDistributionReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvoiceDistributionResultForm.resx">
+      <DependentUpon>InvoiceDistributionResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvoiceTransferAcceptanceForm.resx">
+      <DependentUpon>InvoiceTransferAcceptanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvoiceTransferForm.resx">
+      <DependentUpon>InvoiceTransferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentCounterListForm.resx">
+      <DependentUpon>PaymentCounterListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentInCollectInForm.resx">
+      <DependentUpon>PaymentInCollectInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentInCollectOutForm.resx">
+      <DependentUpon>PaymentInCollectOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentInCounterForm.resx">
+      <DependentUpon>PaymentInCounterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentInForm.resx">
+      <DependentUpon>PaymentInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentInTitipInvoiceForm.resx">
+      <DependentUpon>PaymentInTitipInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentOutCollectInForm.resx">
+      <DependentUpon>PaymentOutCollectInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentOutDeliveryForm.resx">
+      <DependentUpon>PaymentOutDeliveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentOutMCForm.resx">
+      <DependentUpon>PaymentOutMCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentOutRCForm.resx">
+      <DependentUpon>PaymentOutRCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentOutTitipInvoiceForm.resx">
+      <DependentUpon>PaymentOutTitipInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PettyCashForm.resx">
+      <DependentUpon>PettyCashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RefundPph23Form.resx">
+      <DependentUpon>RefundPph23Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SendTitipInvoiceForm.resx">
+      <DependentUpon>SendTitipInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TitipInvoiceAccceptanceForm.resx">
+      <DependentUpon>TitipInvoiceAccceptanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TitipInvoiceForm.resx">
+      <DependentUpon>TitipInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TitipInvoiceListForm.resx">
+      <DependentUpon>TitipInvoiceListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TitipInvoiceViewForm.resx">
+      <DependentUpon>TitipInvoiceViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InputTransactionalAccountForm.resx">
+      <DependentUpon>InputTransactionalAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TransactionalAccountForm.resx">
+      <DependentUpon>TransactionalAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CodFundTransferFilterPopup.resx">
+      <DependentUpon>CodFundTransferFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CodFundTransferVerificationFilterPopup.resx">
+      <DependentUpon>CodFundTransferVerificationFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\FranchiseFundTransferVerificationFilterPopup.resx">
+      <DependentUpon>FranchiseFundTransferVerificationFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\FranchiseFundTransferFilterPopup.resx">
+      <DependentUpon>FranchiseFundTransferFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\FranchisePaymentInFilterPopup.resx">
+      <DependentUpon>FranchisePaymentInFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CostFilterPopup.resx">
+      <DependentUpon>CostFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CodPaymentInFilterPopup.resx">
+      <DependentUpon>CodPaymentInFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InvoiceTransferAcceptanceFilterPopup.resx">
+      <DependentUpon>InvoiceTransferAcceptanceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InvoiceTransferFilterPopup.resx">
+      <DependentUpon>InvoiceTransferFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InvoiceDistributionFilterPopup.resx">
+      <DependentUpon>InvoiceDistributionFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PettyCashFilterPopup.resx">
+      <DependentUpon>PettyCashFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\TransactionalAccountPopup.resx">
+      <DependentUpon>TransactionalAccountPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\TransactionalModificationPopup.resx">
+      <DependentUpon>TransactionalModificationPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\RefundFilterPopup.resx">
+      <DependentUpon>RefundFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InvoiceAcceptanceFilterPopup.resx">
+      <DependentUpon>InvoiceAcceptanceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentInCollectInFilterPopup.resx">
+      <DependentUpon>PaymentInCollectInFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentInCollectOutFilterPopup.resx">
+      <DependentUpon>PaymentInCollectOutFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentInCounterFilterPopup.resx">
+      <DependentUpon>PaymentInCounterFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentInFilterPopup.resx">
+      <DependentUpon>PaymentInFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentInTitipInvoiceFilterPopup.resx">
+      <DependentUpon>PaymentInTitipInvoiceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentMcFilterPopup.resx">
+      <DependentUpon>PaymentMcFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentOutCollectInFilterPopup.resx">
+      <DependentUpon>PaymentOutCollectInFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentOutDeliveryFilterPopup.resx">
+      <DependentUpon>PaymentOutDeliveryFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentOutTitipInvoiceFilterPopup.resx">
+      <DependentUpon>PaymentOutTitipInvoiceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentRcFilterPopup.resx">
+      <DependentUpon>PaymentRcFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\SendInvoiceFilterPopup.resx">
+      <DependentUpon>SendInvoiceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\TitipInvoiceAcceptanceFilterPopup.resx">
+      <DependentUpon>TitipInvoiceAcceptanceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\TitipInvoiceFilterPopup.resx">
+      <DependentUpon>TitipInvoiceFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CashListPrint.resx">
+      <DependentUpon>CashListPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CodPaymentPrint.resx">
+      <DependentUpon>CodPaymentPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CollectOutListPrint.resx">
+      <DependentUpon>CollectOutListPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CollectInListPrint.resx">
+      <DependentUpon>CollectInListPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\AcceptancePrint.resx">
+      <DependentUpon>AcceptancePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\McInvoicePrint.resx">
+      <DependentUpon>McInvoicePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\KirimTitipInvoicePrint.resx">
+      <DependentUpon>KirimTitipInvoicePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PaymentInPrint.resx">
+      <DependentUpon>PaymentInPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PaymentOutCollectInPrint.resx">
+      <DependentUpon>PaymentOutCollectInPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PaymentOutTitipInvoicePrint.resx">
+      <DependentUpon>PaymentOutTitipInvoicePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RcPrint.resx">
+      <DependentUpon>RcPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\McPrint.resx">
+      <DependentUpon>McPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CostPrint.resx">
+      <DependentUpon>CostPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PaymentInCollectInPrint.resx">
+      <DependentUpon>PaymentInCollectInPrint.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SISCO.Models.CodPaymentInDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.CostTransactionalAccount.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.McInvoice.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.OtherInvoicePaymentOutDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.OutstandingPayment.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentClaim.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentInCollectInDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentInModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PaymentOutCollectInDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.PettyCashSummary.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.SalesInvoiceAcceptanceDetailModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.SendInvoice.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel.datasource" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

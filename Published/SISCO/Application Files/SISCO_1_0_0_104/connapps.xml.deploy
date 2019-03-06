@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <MySQL>
+    <Server>localhost</Server>
+    <Port>3306</Port>
+    <Database>siscodb</Database>
+    <Username>root</Username>
+    <Password></Password>
+  </MySQL>
+
+  <PrinterSetting>
+    <DotMetrix>EPSON LX-310 ESC/P (Copy 1)</DotMetrix>
+    <BarCodePrinter>TSC TTP-244 Plus</BarCodePrinter>
+    <InkJet></InkJet>
+  </PrinterSetting>
+
+  <BackgroundPath></BackgroundPath>
+</Data>

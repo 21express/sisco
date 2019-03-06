@@ -1,0 +1,40 @@
+﻿[2016-02-11] Perbaikan Filter Get Data pada Create Sales Invoice Screen
+[2016-02-10] Perbaikan untuk PPh 23 di Payment In pada saat create new payment
+[2016-02-10] Tambah info NPWP di Laporan Penjualan Agent dan PPh23 / 21
+[2016-02-10] Perbaikan pada tambah POD baru di Create Sales Invoice
+[2016-02-05] Perbaikan pada menu jika resolusi komputer 1024
+[2016-02-05] Pengurangan jumlah kolom excel untuk Report - Account Receivable - Paid Invoice
+[2016-02-05] Peningkatan performa untuk save/print invoice di Create Sales Invoice
+[2016-02-04] Tambah lookup Customer di Syncronous Data Entry
+[2016-02-04] Perbaikan untuk Customer Service - Tracking By Shipment ketika add Status
+[2016-02-04] Informasi POD sudah void di Tracking View
+[2016-02-03] Perbaikan untuk modul Finance Cost, error ketika delete row kemudian save
+[2016-02-02] Pembulatan ke bawah untuk total Tax pada saat print invoice
+[2016-02-02] Perubahan perhitugan PPh Franchise untuk Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP
+[2016-02-02] Penambahan organisasi type untuk franchise (Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP)
+[2016-02-02] Perbaikan pada Filter Franchise di Master data Franchise
+[2016-01-27] Menambahkan Report Outstanding PPh 23
+[2016-01-27] Menambahkan modul Finance - Pengembalian PPh 23
+[2016-01-27] Menambahkan fitur perhitungan PPh 23 pada modul Payment In
+[2016-01-27] Menambahkan field posted pada saat import POD (Billing - Import Shipment List)
+[2016-01-26] Perbaikan Double POD di Data Entry
+[2016-01-23] Perbaikan Filter di modul Franchise - Koreksi Data Entry
+[2016-01-22] Perbaikan Origin City pada Franchise - Koreksi Data Entry untuk perhitungan tarif
+[2016-01-20] Penambahan modul Corporate - Syncronous Data Entry intergrasi dengan Bilna
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-20] Perbaikan di Corporate - Bulk Data Entry untuk error 'Object reference is null'
+[2016-01-19] Tombol Un-Void di Franchise - Koreksi Data Entry
+[2016-01-19] Perbaikan untuk Franchise - Koreksi Data Entry, update data sesuai dengan branch dan city original POD
+[2016-01-19] Penambahan Filter popup model Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan pada update data Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan fitur filter/pencarian pada modul  Franchise - Koreksi Data Entry
+[2016-01-18] Perbaikan modul Franchise - Report - Laporan Penjualan Agent Franchise
+[2016-01-18] Penambahan modul Corporate Bulk Data Entry untuk Import Excel Bilna dan Quantium
+[2016-01-15] Penambahan modul Finance - Invoice Acceptance
+[2016-01-12] Mengganti "Parcel" menjadi "Paket" pada saat print invoice
+[2016-01-11] Penambahan Modul Koreksi Data Entry Agent Franchise
+[2016-01-11] Perubahan perhitungan komisi Agent Franchise
+[2016-01-11] Perbaikan Operation - Inbound untuk pengurangan jumlah POD yang masuk ke cabang (Table Kiri)
+[2016-01-09] Perbaikan Finance - Payment In Titip Invoice
+[2016-01-09] Penambahan data tipe perusahaan (perorangan/perusahaan) untuk agent Franchise
+[2016-01-09] Penambahan form About

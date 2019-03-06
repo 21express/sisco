@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <MySQL>
+    <Server></Server>
+    <Port></Port>
+    <Database></Database>
+    <Username></Username>
+    <Password></Password>
+  </MySQL>
+
+  <PrinterSetting>
+    <DotMetrix></DotMetrix>
+    <BarCodePrinter></BarCodePrinter>
+    <InkJet></InkJet>
+  </PrinterSetting>
+
+  <BackgroundPath></BackgroundPath>
+</Data>

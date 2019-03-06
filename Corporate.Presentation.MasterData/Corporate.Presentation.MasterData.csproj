@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{542881EA-2FA1-432B-9359-4ADCB1C25598}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corporate.Presentation.MasterData</RootNamespace>
+    <AssemblyName>Corporate.Presentation.MasterData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\ConsigneeCommand.cs" />
+    <Compile Include="Forms\ConsigneeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConsigneeForm.Designer.cs">
+      <DependentUpon>ConsigneeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataMenu.cs" />
+    <Compile Include="Popup\BranchPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\BranchPopup.Designer.cs">
+      <DependentUpon>BranchPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CityPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CityPopup.Designer.cs">
+      <DependentUpon>CityPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ConsigneePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ConsigneePopup.Designer.cs">
+      <DependentUpon>ConsigneePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ConsigneeFilterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ConsigneeFilterPopup.Designer.cs">
+      <DependentUpon>ConsigneeFilterPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\EmployeePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\EmployeePopup.Designer.cs">
+      <DependentUpon>EmployeePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\MessengerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\MessengerPopup.Designer.cs">
+      <DependentUpon>MessengerPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PackageTypePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PackageTypePopup.Designer.cs">
+      <DependentUpon>PackageTypePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentMethodPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentMethodPopup.Designer.cs">
+      <DependentUpon>PaymentMethodPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ServiceTypePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ServiceTypePopup.Designer.cs">
+      <DependentUpon>ServiceTypePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ConsigneeForm.resx">
+      <DependentUpon>ConsigneeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CityPopup.resx">
+      <DependentUpon>CityPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ConsigneePopup.resx">
+      <DependentUpon>ConsigneePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ConsigneeFilterPopup.resx">
+      <DependentUpon>ConsigneeFilterPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\EmployeePopup.resx">
+      <DependentUpon>EmployeePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\MessengerPopup.resx">
+      <DependentUpon>MessengerPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PackageTypePopup.resx">
+      <DependentUpon>PackageTypePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentMethodPopup.resx">
+      <DependentUpon>PaymentMethodPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ServiceTypePopup.resx">
+      <DependentUpon>ServiceTypePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Corporate.Presentation.Common\Corporate.Presentation.Common.csproj">
+      <Project>{893D5CA5-3381-4AF2-A32F-F4B5730B1CA6}</Project>
+      <Name>Corporate.Presentation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Corporate\SISCO.App.Corporate.csproj">
+      <Project>{A8471C2A-1679-4228-85C1-04A22C9AF7D3}</Project>
+      <Name>SISCO.App.Corporate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

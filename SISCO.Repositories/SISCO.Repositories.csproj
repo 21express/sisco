@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A5C8AF3-8127-444A-B499-8523B7E60BB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Repositories</RootNamespace>
+    <AssemblyName>SISCO.Repositories</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <NuGetPackageImportStamp>849bac3f</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RND|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RND\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BankAccountBranchRepository.cs" />
+    <Compile Include="PaymentClaimAdditionalRepository.cs" />
+    <Compile Include="ClaimedDetailRepository.cs" />
+    <Compile Include="ClaimedRepository.cs" />
+    <Compile Include="CostTransactionalAccountRepository.cs" />
+    <Compile Include="PettyCashJournalRepository.cs" />
+    <Compile Include="PettyCashRepository.cs" />
+    <Compile Include="TransactionalAccountRepository.cs" />
+    <Compile Include="AirwaybillDifferenceWeightDetailRepository.cs" />
+    <Compile Include="AirwaybillDifferenceWeightRepository.cs" />
+    <Compile Include="BankAccountRepository.cs" />
+    <Compile Include="InvoiceTransferAcceptanceDetailRepository.cs" />
+    <Compile Include="InvoiceTransferAcceptanceRepository.cs" />
+    <Compile Include="InvoiceTransferDetailRepository.cs" />
+    <Compile Include="InvoiceTransferRepository.cs" />
+    <Compile Include="InvoiceDistributionResultDetailRepository.cs" />
+    <Compile Include="InvoiceDistributionResultRepository.cs" />
+    <Compile Include="InvoiceToFinanceDetailRepository.cs" />
+    <Compile Include="InvoiceToFinanceRepository.cs" />
+    <Compile Include="BookingPodDetailRepository.cs" />
+    <Compile Include="BookingPodRepository.cs" />
+    <Compile Include="DivisionRepository.cs" />
+    <Compile Include="DropPointRepository.cs" />
+    <Compile Include="FranchiseDropPointDetailRepository.cs" />
+    <Compile Include="FranchiseDropPointRepository.cs" />
+    <Compile Include="LocalStorage\CountryObject.cs" />
+    <Compile Include="LookupRepository.cs" />
+    <Compile Include="ManifestVendorDetailRepository.cs" />
+    <Compile Include="ManifestVendorRepository.cs" />
+    <Compile Include="OtherInvoiceAcceptanceDetailRepository.cs" />
+    <Compile Include="OtherInvoiceAcceptanceRepository.cs" />
+    <Compile Include="OtherInvoiceSendDetailRepository.cs" />
+    <Compile Include="OtherInvoiceSendRepository.cs" />
+    <Compile Include="PickupDocumentPodRepository.cs" />
+    <Compile Include="PickupDocumentRepository.cs" />
+    <Compile Include="FranchiseCreditPaymentDetailRepository.cs" />
+    <Compile Include="FranchiseCreditPaymentRepository.cs" />
+    <Compile Include="FranchiseInvoiceListRepository.cs" />
+    <Compile Include="FranchiseInvoiceRepository.cs" />
+    <Compile Include="CodPaymentInDetailRepository.cs" />
+    <Compile Include="CodPaymentInRepository.cs" />
+    <Compile Include="CodFundTransferDetailRepository.cs" />
+    <Compile Include="FranchiseFundTransferDetailRepository.cs" />
+    <Compile Include="CodFundTransferRepository.cs" />
+    <Compile Include="CodFundTransferVerificationDetailRepository.cs" />
+    <Compile Include="FranchiseFundTransferVerificationDetailRepository.cs" />
+    <Compile Include="CodFundTransferVerificationRepository.cs" />
+    <Compile Include="FranchiseFundTransferVerificationRepository.cs" />
+    <Compile Include="FranchiseFundTransferRepository.cs" />
+    <Compile Include="ApiLogRepository.cs" />
+    <Compile Include="DistrictRepository.cs" />
+    <Compile Include="PodHandoverDetailRepository.cs" />
+    <Compile Include="PodHandoverRepository.cs" />
+    <Compile Include="ProvinceRepository.cs" />
+    <Compile Include="FranchiseLogRepository.cs" />
+    <Compile Include="ShipmentExpandRepository.cs" />
+    <Compile Include="NotificationRepository.cs" />
+    <Compile Include="LocalStorage\CityObject.cs" />
+    <Compile Include="LocalStorage\CustomerObject.cs" />
+    <Compile Include="LocalStorage\MessengerObject.cs" />
+    <Compile Include="LocalStorage\PackageTypeObject.cs" />
+    <Compile Include="LocalStorage\PaymentMethodObject.cs" />
+    <Compile Include="LocalStorage\ServiceTypeObject.cs" />
+    <Compile Include="PickupSchedulerRepository.cs" />
+    <Compile Include="PromoRepository.cs" />
+    <Compile Include="AirlineRepository.cs" />
+    <Compile Include="AirlineTariffRepository.cs" />
+    <Compile Include="AirportRepository.cs" />
+    <Compile Include="AirwaybillDetailRepository.cs" />
+    <Compile Include="AirwaybillRepository.cs" />
+    <Compile Include="BranchCityListRepository.cs" />
+    <Compile Include="BranchDeliveryTariffRepository.cs" />
+    <Compile Include="BranchRepository.cs" />
+    <Compile Include="BranchTypeRepository.cs" />
+    <Compile Include="CityRepository.cs" />
+    <Compile Include="ComplaintFollowUpRepository.cs" />
+    <Compile Include="ComplaintRepository.cs" />
+    <Compile Include="ConsolidationDetailRepository.cs" />
+    <Compile Include="ConsolidationRepository.cs" />
+    <Compile Include="ContactRepository.cs" />
+    <Compile Include="Context\DataModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintCategoryRepository.cs" />
+    <Compile Include="AccountReferenceRepository.cs" />
+    <Compile Include="ConfigRepository.cs" />
+    <Compile Include="ConsigneeRepository.cs" />
+    <Compile Include="CorporatePickupDetailRepository.cs" />
+    <Compile Include="CorporatePickupRepository.cs" />
+    <Compile Include="CorporateUserRepository.cs" />
+    <Compile Include="CorporateUserPrivilegeRepository.cs" />
+    <Compile Include="CorporatePriviledgeRepository.cs" />
+    <Compile Include="FranchiseTypeRepository.cs" />
+    <Compile Include="FranchisePaymentInDetailRepository.cs" />
+    <Compile Include="FranchisePaymentInRepository.cs" />
+    <Compile Include="FranchiseAcceptanceChecklistRepository.cs" />
+    <Compile Include="FranchiseAcceptanceDetailRepository.cs" />
+    <Compile Include="FranchiseAcceptanceRepository.cs" />
+    <Compile Include="FranchiseCommissionRepository.cs" />
+    <Compile Include="FranchisePickupDetailRepository.cs" />
+    <Compile Include="FranchisePickupRepository.cs" />
+    <Compile Include="FranchiseUserPrivilegeRepository.cs" />
+    <Compile Include="FranchisePriviledgeRepository.cs" />
+    <Compile Include="FranchiseRepository.cs" />
+    <Compile Include="PrivilegeRepository.cs" />
+    <Compile Include="SalesInvoiceAcceptanceRepository.cs" />
+    <Compile Include="SalesInvoiceAcceptanceDetailRepository.cs" />
+    <Compile Include="ShipmentInsuranceDetailRepository.cs" />
+    <Compile Include="ShipmentInsuranceRepository.cs" />
+    <Compile Include="SyncJsonRepository.cs" />
+    <Compile Include="ShipmentSyncRepository.cs" />
+    <Compile Include="TaxInvoiceRepository.cs" />
+    <Compile Include="UserFranchiseRepository.cs" />
+    <Compile Include="UserPrivilegeRepository.cs" />
+    <Compile Include="CostTypeRepository.cs" />
+    <Compile Include="InboundChecklistRepository.cs" />
+    <Compile Include="InboxRepository.cs" />
+    <Compile Include="DeliveryTariffRepository.cs" />
+    <Compile Include="PaymentDeliveryDetailRepository.cs" />
+    <Compile Include="PaymentInCollectOutDetailRepository.cs" />
+    <Compile Include="PaymentMcDetailRepository.cs" />
+    <Compile Include="PaymentMcRepository.cs" />
+    <Compile Include="PaymentOutCollectInDetailRepository.cs" />
+    <Compile Include="PaymentTypeRepository.cs" />
+    <Compile Include="SalesLeadStatusRepository.cs" />
+    <Compile Include="InboundDetailRepository.cs" />
+    <Compile Include="InboundRepository.cs" />
+    <Compile Include="Interfaces\IExtendedQueryableRepository.cs" />
+    <Compile Include="SalesInvoiceCostRepository.cs" />
+    <Compile Include="SalesInvoiceTypeRepository.cs" />
+    <Compile Include="SalesInvoiceListRepository.cs" />
+    <Compile Include="TaxTypeRepository.cs" />
+    <Compile Include="FlightRepository.cs" />
+    <Compile Include="MissDeliveryReasonRepository.cs" />
+    <Compile Include="ShipmentStatusRepository.cs" />
+    <Compile Include="CostDetailRepository.cs" />
+    <Compile Include="CostRepository.cs" />
+    <Compile Include="CountryRepository.cs" />
+    <Compile Include="CurrencyRepository.cs" />
+    <Compile Include="CustomerRepository.cs" />
+    <Compile Include="CustomerTariffRepository.cs" />
+    <Compile Include="DeliveryOrderDetailRepository.cs" />
+    <Compile Include="DeliveryOrderRepository.cs" />
+    <Compile Include="DepartmentRepository.cs" />
+    <Compile Include="EmployeeRepository.cs" />
+    <Compile Include="EmployeeRolesRepository.cs" />
+    <Compile Include="FleetRepository.cs" />
+    <Compile Include="ManifestDetailRepository.cs" />
+    <Compile Include="ManifestRepository.cs" />
+    <Compile Include="OtherInvoicePaymentInDetailRepository.cs" />
+    <Compile Include="OtherInvoicePaymentInRepository.cs" />
+    <Compile Include="OtherInvoicePaymentOutDetailRepository.cs" />
+    <Compile Include="OtherInvoicePaymentOutRepository.cs" />
+    <Compile Include="OtherInvoiceRepository.cs" />
+    <Compile Include="PackageTypeRepository.cs" />
+    <Compile Include="PaymentDeliveryRepository.cs" />
+    <Compile Include="PaymentInCollectInDetailRepository.cs" />
+    <Compile Include="PaymentInCollectInRepository.cs" />
+    <Compile Include="PaymentInCollectOutRepository.cs" />
+    <Compile Include="PaymentInCounterDetailRepository.cs" />
+    <Compile Include="PaymentInCounterRepository.cs" />
+    <Compile Include="PaymentInDetailRepository.cs" />
+    <Compile Include="PaymentInRepository.cs" />
+    <Compile Include="PaymentMethodRepository.cs" />
+    <Compile Include="PaymentOutCollectInRepository.cs" />
+    <Compile Include="PaymentRcDetailRepository.cs" />
+    <Compile Include="PaymentRcRepository.cs" />
+    <Compile Include="PickupOrderRepository.cs" />
+    <Compile Include="PodCustomerRepository.cs" />
+    <Compile Include="PodCustomerShipmentRepository.cs" />
+    <Compile Include="PodInRepository.cs" />
+    <Compile Include="PodInShipmentRepository.cs" />
+    <Compile Include="PodOutRepository.cs" />
+    <Compile Include="PodOutShipmentRepository.cs" />
+    <Compile Include="PrefixCodeRepository.cs" />
+    <Compile Include="PricingPlanRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteRepository.cs" />
+    <Compile Include="RunningTextRepository.cs" />
+    <Compile Include="SalesInvoiceRepository.cs" />
+    <Compile Include="SalesLeadFollowUpRepository.cs" />
+    <Compile Include="SalesLeadRepository.cs" />
+    <Compile Include="ServiceTypeRepository.cs" />
+    <Compile Include="ShipmentAllocationRepository.cs" />
+    <Compile Include="ShipmentRepository.cs" />
+    <Compile Include="SISCOBaseRepository.cs" />
+    <Compile Include="StatusRepository.cs" />
+    <Compile Include="TariffInternationalRepository.cs" />
+    <Compile Include="TariffRepository.cs" />
+    <Compile Include="TestRepository.cs" />
+    <Compile Include="TrackingStatusRepository.cs" />
+    <Compile Include="UserRolesRepository.cs" />
+    <Compile Include="RefundPph23Repository.cs" />
+    <Compile Include="UsersRepository.cs" />
+    <Compile Include="VehicleTypeRepository.cs" />
+    <Compile Include="VendorRepository.cs" />
+    <Compile Include="WaybillDetailRepository.cs" />
+    <Compile Include="WaybillRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802c9d7-5433-4071-bd6c-ecac025f397e}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Context\DataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DataModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SISCO.Repositories.Context.SISCODBEntities.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

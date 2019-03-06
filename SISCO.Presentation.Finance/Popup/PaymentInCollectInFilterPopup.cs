@@ -1,0 +1,124 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.UI.Design.WebControls;
+using Devenlab.Common;
+using Devenlab.Common.Interfaces;
+using DevExpress.Utils;
+using DevExpress.XtraGrid.Columns;
+using SISCO.App.Finance;
+using SISCO.Models;
+using SISCO.Presentation.Common;
+using SISCO.Presentation.Common.Forms;
+
+namespace SISCO.Presentation.Finance.Popup
+{
+    public partial class PaymentInCollectInFilterPopup : BaseSearchCode<PaymentInCollectInModel, PaymentInCollectInDataManager>//BaseSearchPopup//
+    {
+        public PaymentInCollectInFilterPopup()
+        {
+            InitializeComponent();
+
+            form = this;
+            var clDate = new GridColumn
+            {
+                Name = "clDate",
+                Caption = @"Date",
+                FieldName = "DateProcess",
+                VisibleIndex = 0,
+                Width = 60
+            };
+
+            clDate.DisplayFormat.FormatString = "dd-MM-yyyy";
+            clDate.DisplayFormat.FormatType = FormatType.DateTime;
+
+            var clCode = new GridColumn
+            {
+                Name = "clCode",
+                Caption = @"Code",
+                FieldName = "Code",
+                VisibleIndex = 1,
+                Width = 75
+            };
+
+            var clStt = new GridColumn
+            {
+                Name = "clSTT",
+                Caption = @"CN",
+                FieldName = "Kwitansi",
+                VisibleIndex = 4
+            };
+
+            SearchView.Columns.AddRange(new[] { clDate, clCode, clStt });
+            SearchView.GridControl = GridSearch;
+
+            DataManager.DefaultParameters = new IListParameter[] { WhereTerm.Default(BaseControl.BranchId, "branch_id", EnumSqlOperator.Equals) };
+            rbCredit.Click += (sender, args) => tbxStt.Focus();
+            rbCash.Click += (sender, args) => tbxStt.Focus();
+        }
+
+        private bool ParamEmpty { get; set; }
+        protected override void BeforeFilter()
+        {
+            ByPaging = false;
+            var param = new List<WhereTerm>();
+
+            ParamEmpty = true;
+            param.Add(WhereTerm.Default(BaseControl.BranchId, "branch_id", EnumSqlOperator.Equals));
+
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
+            var dateNull = new DateTime(1900, 1, 1, 0, 0, 0);
+            if (tbxFrom.Value > dateNull)
+            {
+                var fdate = new DateTime(tbxFrom.Value.Year, tbxFrom.Value.Month, tbxFrom.Value.Day, 0, 0, 0);
+                param.Add(WhereTerm.Default(fdate, "date_process", EnumSqlOperator.GreatThanEqual));
+                ParamEmpty = false;
+            }
+
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
+            if (tbxTo.Value > dateNull)
+            {
+                var ldate = new DateTime(tbxTo.Value.Year, tbxTo.Value.Month, tbxTo.Value.Day, 23, 59, 59);
+                param.Add(WhereTerm.Default(ldate, "date_process", EnumSqlOperator.LesThanEqual));
+                ParamEmpty = false;
+            }
+
+            if (tbxStt.Text != "") ParamEmpty = false;
+
+            // ReSharper disable once CoVariantArrayConversion
+            if (param.Any()) AutoCompleteWheretermFormater = param.ToArray();
+        }
+
+        protected override void Filter(object sender, EventArgs e)
+        {
+            base.Filter(sender, e);
+            if (!ParamEmpty) AfterFilter();
+        }
+
+        private void AfterFilter()
+        {
+            var param = new List<WhereTerm>();
+            var dm = new PaymentInCollectInDetailDataManager();
+
+            if (rbCash.Checked)
+            {
+                param.Add(WhereTerm.Default("CASH", "collect_payment_method", EnumSqlOperator.Equals));
+            }
+
+            if (rbCredit.Checked)
+            {
+                param.Add(WhereTerm.Default("CREDIT", "collect_payment_method", EnumSqlOperator.Equals));
+            }
+
+            if (tbxStt.Text != "")
+            {
+                param.Add(WhereTerm.Default(tbxStt.Text, "invoice_code", EnumSqlOperator.Like));
+            }
+
+            // ReSharper disable once CoVariantArrayConversion
+            var detail = dm.FilterPayment(CurrentFilter, param.ToArray());
+            GridSearch.DataSource = detail;
+            SearchView.RefreshData();
+        }
+    }
+}

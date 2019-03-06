@@ -1,0 +1,18 @@
+﻿[2016-01-20] Penambahan modul Corporate - Syncronous Data Entry intergrasi dengan Bilna
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-20] Perbaikan di Corporate - Bulk Data Entry untuk error 'Object reference is null'
+[2016-01-19] Tombol Un-Void di Franchise - Koreksi Data Entry
+[2016-01-19] Perbaikan untuk Franchise - Koreksi Data Entry, update data sesuai dengan branch dan city original POD
+[2016-01-19] Penambahan Filter popup model Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan pada update data Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan fitur filter/pencarian pada modul  Franchise - Koreksi Data Entry
+[2016-01-18] Perbaikan modul Franchise - Report - Laporan Penjualan Agent Franchise
+[2016-01-18] Penambahan modul Corporate Bulk Data Entry untuk Import Excel Bilna dan Quantium
+[2016-01-15] Penambahan modul Finance - Invoice Acceptance
+[2016-01-12] Mengganti "Parcel" menjadi "Paket" pada saat print invoice
+[2016-01-11] Penambahan Modul Koreksi Data Entry Agent Franchise
+[2016-01-11] Perubahan perhitungan komisi Agent Franchise
+[2016-01-11] Perbaikan Operation - Inbound untuk pengurangan jumlah POD yang masuk ke cabang (Table Kiri)
+[2016-01-09] Perbaikan Finance - Payment In Titip Invoice
+[2016-01-09] Penambahan data tipe perusahaan (perorangan/perusahaan) untuk agent Franchise
+[2016-01-09] Penambahan form About

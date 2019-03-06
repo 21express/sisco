@@ -1,0 +1,322 @@
+﻿[2018-07-27] Perbaikan di payment in saat invoice sudah ada pembayaran
+[2018-07-24] Tambah menu verifikasi Collect untuk audit
+[2018-07-24] Tidak bisa menggunakan nomor SMU yang sama untuk tanggal, airline dan tujuan yang sama
+[2018-07-18] Tambah messenger 2 untuk semua entry shipment, validasi, koreksi dan counter cash
+[2018-07-17] Tidak lagi menampilkan semua Invoice saat pembuatan Payment In
+[2018-07-17] Tambah print delivery order khusus pembayaran sCollect
+[2018-07-14] Print Rangkap 4 untuk Data Entry Operation & Alokasi POD
+[2018-07-11] Tambah kolom description di Pembayaran COD
+[2018-07-09] Tambah Report - Finance - Pembayaran COD
+[2018-07-09] Perbaikan e-connote untuk fulfilment yang memiliki banyak karekter
+[2018-07-09] Disable Delivery Order dan Pembayaran COD jika lebih dari 2 jam sejak transaksi dibuat.
+[2018-07-06] Penambahan Delivery Code
+[2018-07-06] Penambahan print out untuk pembayaran COD
+[2018-07-06] Perbaikan cara entry Pembayaran COD
+[2018-07-05] Perbaikan total cod di shipment list
+[2018-07-05] Tambah grand total di report laporan franchise pph
+[2018-07-04] Tambah kolom Jml Cash di Pembayaran COD
+[2018-07-04] Memisahkan print out untuk yang cod dan non cod
+[2018-06-13] Nominal Goods Value di Counter Cash/Koreksi POD di tambahkan hingga ratusan juta
+[2018-06-12] Tambah Summary untuk Aging Report
+[2018-06-09] Tambah Verifikasi Cash di menu Audit
+[2018-06-09] Proses update admin fee & void fee pada POD saat Outbound Bandara dihapus karena menyebabkan perubahan grand total pod
+[2018-06-07] Tambah field Description di Payment In Counter
+[2018-06-07] Tambah kolom keterangan di Payment Out Titip Invoice
+[2018-06-02] Penambahan pesan informasi jika POD sudah pernah di Outbound bandara
+[2018-06-02] Penambahan pesan informasi di Outbound bandara untuk POD City Courier
+[2018-05-28] Perbaikan modul Outbound bandara ketika ganti nomor awb
+[2018-05-25] Tambah modul POD Incoming List
+[2018-05-25] Tambah fungsi print di Payment In
+[2018-05-24] Tambah order by id untuk detail delivery order
+[2018-01-24] Tambah modul Counter cash sprinter
+[2018-01-23] Tambah modul booking pod di menu administrasi
+[2018-01-19] Kolom service type di save to excel di Create Sales Invoice
+[2018-01-19] Hapus Sprinter di Alokasi POD
+[2018-01-13] Tambah perhitungan asuransi di Counter Cash
+[2018-01-12] Tambah field rate untuk hitung asuransi di Validasi POD
+[2018-01-10] Perbaikan filter di Publish Tariff dan Customer Tariff
+[2018-01-05] Tambah modul Insurance di Customer Service
+[2018-01-04] [Remove 2018-01-19] Mencegah POD yang dialokasikan untuk Sprinter di entry oleh Data Entry 
+[2018-01-02] Penambahan field Sprinter di Counter Cash
+[2018-01-02] [Remove 2018-01-19] Tambah Sprinter untuk alokasi POD
+[2017-12-16] Perbaikan print Shipment List
+[2017-12-15] Enable discount di validate POD
+[2017-12-15] Print rincian invoice berdasarkan halaman di Create Sales Invoice
+[2017-12-13] Tambah kolom delivery date dan receipt name saat export ke excel di Create Sales Invoice
+[2017-12-13] Cancel invoice dengan menggabungkan ke nomor invoice yang sudah ada.
+[2017-12-08] Print other title di rincian pod
+[2017-12-06] Perbaikan perubahan tariff di Koreksi POD
+[2017-12-05] Tambah field untuk title other fee di Validasi POD
+[2017-11-30] Menghilangkan pembulatan Ppn saat Create Sales Invoice
+[2017-11-27] Bugfix tariff customer dan international di Data Entry Operational, Koreksi POD dan Validasi POD
+[2017-11-24] Bugfix Serah terima POD untuk auto focus setelah add row
+[2017-11-20] Bugfix discount untuk tariff international di Create Sales Invoice
+[2017-11-17] Tambah kolom min charge, max charge dan next tariff di master data customer tariff
+[2017-11-16] Set service type sesuai dengan master data customer di form acceptance
+[2017-11-16] Set service type sesuai dengan master data customer di form data entry operation
+[2017-11-16] Tambah field service type di master data customer
+[2017-11-16] Tambah field delivery date dan Recipient name di shipment list
+[2017-11-11] Tambah field Faktur Pajak di Sales Invoice
+[2017-11-10] Tambah validasi saat cancel invoie
+[2017-10-31] Tambah Serah Terima POD untuk Data Entry
+[2017-10-19] Perbaikan CS di follow up Complaint
+[2017-10-10] Perbaikan saat get data cancellation invoice urut berdasarkan tanggal dan nomor pod.
+[2017-10-10] Perbaikan saat get data pada saat create sales invoice. (Lebih 1 hari dari filter)
+[2017-10-09] Tambah packing view di pra invoice
+[2017-10-02] Tambah modul Manifest Vendor
+[2017-09-30] Tambah modul master data vendor
+[2017-09-28] Pembulatan komisi MC di Payment In
+[2017-09-28] Pembulatan untuk RC dan MC di Payment In
+[2017-09-25] Tambah field total pph untuk Payment In
+[2017-09-06] Tambah field out area pada master data city, untuk manifest vendor
+[2017-09-06] Tambah field out of area di master data city
+[2017-09-06] Tambah tombol untuk request faktur pajak
+[2017-09-06] Tambah field faktur pajak di invoice untuk menentukan PT apa yang akan mengeluarkan faktur pajak
+[2017-09-06] Tambah form untuk cancel invoice dan langsung membuat invoice pengganti
+[2017-08-30] Tambah Faktur pajak di master data customer
+[2017-08-22] Tambah modul View Tax Invoice 
+[2017-08-22] Tambah tombol untuk download faktur pajak di tracking view receipt number
+[2017-08-22] Tambah modul Create Tax Invoice untuk upload faktur pajak
+[2017-08-03] Multiple POD retur dengan 1 nomor POD saja.
+[2017-08-03] Pembulatan PPh di Payment out titip invoice dan menampilkan total pph pada saat print
+[2017-07-14] Disable form Payment In jika data sudah lebih dari 3 hari (tidak bisa ubah data payment in).
+[2017-07-13] Tambah kolom Total PPh di Payment Out Titip Invoice
+[2017-07-12] Perbaikan Payment Out Collect In ketika data pod pernah dibuat dan dihapus
+[2017-07-11] Perbaikan pada sales invoice dengan double pod karena status received dimasukkan lebih dari satu kali
+[2017-07-11] Status RETURNED di Tracking By Shipment dihilangkan.Gunakan Retur POD di menu Counter cash untuk me-retur POD
+[2017-07-11] POD dengan status RETURNED sudah bisa langsung dilakukan KIRIM POD CABANG
+[2017-07-11] Perbaikan pickup order untuk customer new
+[2017-06-15] Tambah modul POD retur di Customer Service 
+[2017-05-31] Mandatory status by ketika status menjadi RECEIVED di tracking by shipment
+[2017-05-30] Tambah report Cost - Cost Pivot
+[2017-05-29] Perbaikan report Sales - Sales Journal (Customer)
+[2017-05-27] Perubahan kolom destination menjadi kota destinasi untuk report sales - unvalidated shipment
+[2017-05-27] Perbaikan pada Create Sales Invoice, yaitu dengan tidak melakukan save ulang pada saat melakukan print
+[2017-05-27] Perbaikan pada Print Status di Create Sales Invoice, tanggal dan nama penerima tidak muncul
+[2017-05-25] Perbaikan di Counter Cash untuk nilai global yang selalu berubah
+[2017-05-23] Tambah search di Master Data Drop Point
+[2017-05-23] Perbaikan report Counter Cash - Komisi Drop Point
+[2017-05-15] Perbaikan Laporan titip invoice
+[2017-05-12] Tambah form Terima Titip Invoice
+[2017-05-08] Perbaikan untuk payment out titip invoice
+[2017-05-06] Perbaikan untuk Franchise Acceptance
+[2017-05-05] Perbaikan balance di payment out titip invoice
+[2017-03-21] Kirim POD Cabang hanya bisa dilakukan untuk status POD sudah Received, LOSS, Claimed atau Gudang
+[2017-03-15] Tambah field Actor untuk mengetahui employee yang update status POD di Shipment Delivery List
+[2017-03-15] Tambah field franchise dan drop point di pickup order
+[2017-03-13] Tambah info dan filter payment method di Pickup Result
+[2017-03-13] Tambah info dan filter payment method di Pickup Arrangement
+[2017-03-13] Disabled editing jika data sudah di print di Finance Cost
+[2017-03-10] Perbaikan di delivery result. Hanya menampilkan delivery order per tanggal yang dipilih
+[2017-03-09] Tambah colum jika shipment sudah diterima di Incoming List.
+[2017-02-03] Tambah report untuk download data Mobile Point
+[2017-02-02] Tambah kolom Mobile Point di Counter Cash dan Retail
+[2017-01-24] Perbaikan perhitungan before tax untuk PPh 23 di Payment In
+[2017-01-18] Tambah kolom Service di Incoming list
+[2017-01-18] Pembulatan keatas untuk perhitungan packing
+[2017-01-17] Format ulang angka untuk info PCS, CW, Tariff dll di Create Sales Invoice
+[2017-01-17] Tambah laporan komisi drop point
+[2017-01-17] Tambah informasi Drop Point di Koreksi POD
+[2017-01-17] Warning Popup jika menggunakan POD alokasi Drop Point di semua Data Entry
+[2017-01-17] Tambah Drop Point di Counter Cash
+[2017-01-16] Tambah alokasi POD untuk Drop Point
+[2017-01-13] Tambah master data Drop Point
+[2017-01-02] Support POD retur di manifest, consolidation, airwaybill & waybill, inbound, dan delivery order
+[2017-01-02] Urutan status POD di tracking view berdasarkan tanggal proses
+[2016-12-31] Tambah info urutan print POD di counter cash, koreksi pod, dan data entry
+[2016-12-13] Tambah menu Print POD di Administration
+[2016-12-02] Perbaikan untuk Data Entry Employee di Data Entry Acceptance dan Operation
+[2016-10-25] Perbaikan Data Entry saat validasi tariff ketika sedang membuat data POD baru
+[2016-10-18] Peningkatan performa shipment list
+[2016-10-17] Tambah print out barcode di alokasi POD
+[2016-10-13] Tambah Checkbox Rekap di Laporan Penjualan Franchise dan Laporan PPh 23 Franchise
+[2016-10-13] Disabled COD di Data Entry Acceptance / Operation / City / Cabang / Ecommerce jika Kota Tujuan tidak menyediakan service COD
+[2016-10-13] Tambah kolom COD di Master Data City
+[2016-10-11] Perbaikan update Payment In Counter & Payment In Franchise Cash
+[2016-10-10] Tambah nama agent di Data Entry Franchise
+[2016-10-10] Tambah kolom Fulfilment dan Nama agent franchise di Tracking View
+[2016-10-10] Set Data Entry Employee dengan user yang melakukan data entry pertama kali di modul Operation - Data Entry Operation
+[2016-10-10] Set Acceptance Employee dengan user yang melakukan acceptance dan data entry employee dibuat null di Modul Operation - Acceptance
+[2016-10-10] Perbaikan perhitungan komisi dengan discount
+[2016-10-10] Check tariff di Acceptance dan Data Entry Operation sehingga jika tariff 0 tidak dapat menyimpan data POD
+[2016-10-10] Validasi discount untuk service DARAT & Promo tidak boleh melebihi 10% dan SUPER ECONOMI tidak boleh melebihi 15% di Data Entry Franchise
+[2016-09-23] Perbaikan query untuk final status shipment
+[2016-09-23] Perbaikan jika tidak ada perubahan tariff di Administrasi Koreksi POD
+[2016-09-21] Tambah form active event untuk check availability navigasi.
+[2016-09-21] Perbaikan di auto logoff. Check last input harus di atas 0 detik.
+[2016-09-21] Tambah kolom Franchise Code di Franchise Outstanding
+[2016-09-20] Penambahan confirmasi jika ada perubahan tariff di Koreksi POD
+[2016-09-19] Perbaikan filter popup dan tanggal di Refund PPh 23
+[2016-09-19] Tambah fungsi save to excel di finance outstanding
+[2016-09-17] Penambahan fungsi auto logoff jika SISCO idle selama 10 menit.
+[2016-09-16] Penambahan union dengan table other invoice payment in untuk report Finance Outstanding PPh 23 dan Return PPh 23
+[2016-09-15] Perbaikan query untuk report operation Data Entry
+[2016-09-14] Perbaikan query untuk get final status saat Kirim POD Cabang
+[2016-09-14] Cek Nomor Kwitansi ke Payment In dan Payment In Titip Invoice saat pengembalian PPh23
+[2016-09-13] Peningkatan sql saat Get Invoice list di Payment in titip Invoice
+[2016-09-10] Tambah kolom PPh 23 di Payment In Titip Invoice
+[2016-09-08] Tambah kolom COD di Incoming List
+[2016-09-08] Tambah fitur print Surat Jalan untuk agent Franchise
+[2016-09-02] Tambah form Terima Cash Pickup Order untuk Customer Service / Counter Cash
+[2016-08-31] Tambah informasi packing dan COD di Tracking View
+[2016-08-31] Perbaikan di laporan delivery order double info COD
+[2016-08-31] Tambah filter divisi dan group divisi di Report Cost
+[2016-08-31] Tambah filter cost type di Popup Cost Type
+[2016-08-31] Tambah field divisi di master data cost type
+[2016-08-31] Tambah modul master data divisi
+[2016-08-30] Tambah modul Tracking View Receipt No.
+[2016-08-29] Print Out Invoice dengan Footer 2 jika nomor kwitansi adalah AP.
+[2016-08-29] Laporan Sales Invoice, tidak akan menampilkan invoice yang nilai invoicenya 0.
+[2016-08-15] Tambah filter franchise di Shipment Delivery List
+[2016-08-15] Tambah menu Laporan PPh 23 di Franchise untuk cabang
+[2016-08-15] Tambah menu Laporan Penjualan di Franchise untuk cabang
+[2016-08-13] Tidak menampilkan POD yang sudah ada status return di COD Pembayaran
+[2016-08-13] Penambahan checkbox Outstanding di report Sales Invoice
+[2016-08-12] Perbaikan tampilan modul Collect Out List
+[2016-08-12] Perbaikan tampilan modul Collect In List
+[2016-08-12] Perbaikan untuk tarik data pembayaran di modul Payment In Collect Out
+[2016-08-12] Perbaikan untuk tarik data pembayaran di modul Payment Out Collect In
+[2016-08-11] Tambah info note di modul Tracking View
+[2016-08-11] Validasi nomor kwitansi pada saat nomor kwitansi dimasukkan, bukan pada saat klik tombol Return (Pengembalian PPh 23).
+[2016-08-10] Tambah info nomor pengganti kwitansi di report Sales-Sales Invoice jika invoice dibatalkan
+[2016-08-10] Tambah field pengganti nomor kwitansi pada saat proses pembatalan invoice (Create Sales Invoice Form)
+[2016-07-26] Tambah kolom Manifest Date di Incoming List
+[2016-07-25] Perbaikan query untuk retrieve data delivery order detail dengan info COD dan Fulfilment
+[2016-07-23] Tambah Laporan Invoice di menu Report - Sales
+[2016-07-21] Perbaikan ketika delete record Laporan Outbound Bandara dan Darat (khusus record "TRANSIT")
+[2016-07-21] Tambah field COD dan Volume di Validate POD 
+[2016-07-21] Tambah kolom COD di Shipment List
+[2016-07-20] Tambah fitur print label di Data Entry Operation
+[2016-07-19] Tambah fitur print untuk Finance - Payment Out Titip Invoice dan Finance - Payment Out Collect In
+[2016-07-18] Tambah search popup di modul Pembayaran COD
+[2016-07-18] Penambahan modul baru untuk serah terima document pickup - Administration - Document Pickup 
+[2016-07-13] Perbaikan pada POD Kirim Cabang dan POD Customer agar selalu berurutan sesuai dengan urutan entry POD
+[2016-07-13] Finance - Pembayaran COD support di Windows XP 
+[2016-07-04] Tambah tanggal print dan page info untuk report Franchise - Pph
+[2016-07-04] Menu baru untuk customer Sales Journal Customer
+[2016-06-30] Perbaikan COD Payment
+[2016-06-30] Perbaikan untuk update data Tarif publish
+[2016-06-30] Tambah barcode No POD di print DO
+[2016-06-29] Able to scan fulfilment on Delivery Result
+[2016-06-28] Able to scan fulfilment on Delivery Order
+[2016-06-28] Tambah modul Data Entry Ecommerce
+[2016-06-27] Tambah checkbox untuk print econnote di Data Entry Operational
+[2016-06-21] Tambah kolom jenis kendaraan di Delivery Order List
+[2016-06-17] Penambahan excel template untuk import shipment list
+[2016-06-15] Perbaikan query untuk COD Outstanding
+[2016-06-15] Perbaikan UI untuk Alokasi POD
+[2016-06-15] Perbaikan untuk harga packing di Data Entry Operation
+[2016-06-14] Perbaikan pada saat get data di create salse invoice yang tidak menampilkan data POD.
+[2016-06-13] Tambah Info di COD Delivery Order Cabang
+[2016-06-10] Tambah Code di print out delivery
+[2016-06-07] Tambah modul Franchise Invoice Payment
+[2016-06-07] Tambah modul Create Franchise Sales Invoice
+[2016-06-03] Tambah filter method pembayaran CASH untuk Franchise Payment In dan Outstanding Franchise Payment
+[2016-06-03] Tambah method pembayaran untuk franchise (CASH & CREDIT)
+[2016-05-30] Mimindahkan Menu Franchise Acceptance ke Counter Cash
+[2016-05-30] Menampilkan semua cabang untuk Undelivery List
+[2016-05-30] Tambah Form Verifikasi transfer COD
+[2016-05-30] Tambah Form Transfer pembayaran COD Ke Rekening Retail Finance Jakarta
+[2016-05-28] Tambah Form COD untuk pencatatan POD dengan COD
+[2016-05-27] Disabled field tanggal di Data Entry Franchise
+[2016-05-26] Implement volume and packing di Koreksi POD
+[2016-05-24] Implement volume and packing di Semua Data Entry kecuali Data Entry Agent & Franchise
+[2016-05-24] Tambah export to PDF untuk Invoice
+[2016-05-23] Tambah kolom Archive di Search Popup POD Kembali Dari Cabang
+[2016-05-21] Implement promo di data entry retail
+[2016-05-21] Tambah Volum dan hitung packing di Data entry retail
+[2016-05-21] Tambah Volum dan hitung packing di countercash
+[2016-05-20] Ganti nilai default Service Type menjadi ECO untuk Counter Cash dan Retail
+[2016-05-17] Tambah modul Outstanding Franchise Payment
+[2016-05-16] Tambah modul Fund Transfer Franchise Payment Verification
+[2016-05-15] Tambah modul Fund Transfer Franchise Payment
+[2016-05-12] Menampilkan total shipment per bar di Laporan Sales Per Service
+[2016-05-11] Menampikan decimal 1 digit untuk Pph 23 di Report PPH23/penjualan Franchise
+[2016-05-10] Tambah laporan unvalidated shipment
+[2016-05-10] Penambahan pembulatan 1 digit dibelakang koma untuk perhitungan Pph23 Franchise
+[2016-05-02] Tambah Laporan Delivery & Pickup Kurir
+[2016-04-29] Tambah Assisten driver di modul Delivery Order / Cabang
+[2016-04-29] Tambah modul Delivery Order Cabang
+[2016-04-27] Tambah tombol export to excel di Manifest List dan Manifest in View
+[2016-04-27] Perbaikan untuk double code
+[2016-04-26] Perbaikan diperhitungan Grand Total Counter Cash dengan tidak menambahkan nilai Goods Value
+[2016-04-21] Tambah tombol export to excel di Delivery Order
+[2016-04-21] Editable untuk jumlah pembayaran di Franchise Payment In
+[2016-04-21] Perbaikan alokasi pod untuk customer di Data Entry Operation dan City
+[2016-04-20] Disable form Data Entry dan Counter Cash jika POD telah di entry lebih dari 24 jam.
+[2016-04-18] Penambahan modul notification. Notification akan muncul setiap kali user login.
+[2016-04-16] Implement local storage untuk data customer, kota, package type, service type, payment type dan data kurir
+[2016-04-15] Penambahan note di surat serah terima Alokasi POD
+[2016-04-14] Penambahan fungsi untuk mengenali POD dialokasikan untuk franchise di Modul Counter Cash & Data Entry
+[2016-04-14] Penambahan modul Data Entry Franchise
+[2016-04-11] Disabled form jika umur POD sudah lebih dari 4 hari di Koreksi Data Entry Agent
+[2016-04-11] Implemen promo untuk counter cash
+[2016-04-07] Penambahan kolom Status pembayaran (informasi status setor agent ke G21) di Report PPh 23 Agent.
+[2016-04-07] Penambahan tombol koreksi Tariff dan Komisi di Koreksi Data Entry Agent
+[2016-04-04] Penambahan modul Undelivered list
+[2016-04-01] Perbaikan Shipment Delivery List untuk final status
+[2016-04-01] Perbaikan Tracking status untuk Delivery Order, tracking status untuk delivery order bisa lebih dari 1 kali
+[2016-03-26] Penambahan modul untuk manage promo
+[2016-03-26] Penambahan fungsi Print/Preview di Koreksi Data Agent
+[2016-03-15] Perbaikan status shipment di Kirim POD Cabang
+[2016-03-10] Penambahan alokasi POD untuk Franchise di Alokasi CN
+[2016-03-10] Penambahan Kolom Min. Weight di Master Data Customer Tariff
+[2016-03-10] Penambahan Kolom Min. Weight di Master Data Published Tariff
+[2016-03-10] Penambahan penetapan nilai minimum untuk total gross weight untuk layanan tertentu di Counter Cash
+[2016-03-08] Penambahan penetapan nilai minimum untuk total gross weight untuk layanan tertentu di Data Entry Retail
+[2016-03-08] Perbaikan untuk import data Tariff di Published Tariff dan Customer Tariff
+[2016-03-08] Perbaikan pada tariff untuk Service
+[2016-03-08] Penambahan informasi Service is Not Available di Counter Cash/Retail/Koreksi Data Entry Agent
+[2016-03-08] Penambahan perhitungan insurance fee di Counter Cash
+[2016-03-07] Always copy changedlog.txt
+[2016-03-07] Perbaikan untuk Get Last Final Stasus untuk shipment di modul Administration - Kirim POD Cabang.
+[2016-02-27] Penambahan Laporan Pengembalian Pph untuk Finance
+[2016-02-25] Mengosongkan kembali data di grid ketika selesai Import Data Shipment
+[2016-02-24] Peningkatan untuk priviledge Modul
+[2016-02-24] Menonaktifkan field STT/POD di Data Entry ketika menampilkan data
+[2016-02-24] Perbaikan untuk search POD di Counter Cash Retail
+[2016-02-24] Perbaikan double POD dan performa untuk Export Shipment 
+[2016-02-15] Perbaikan modul Customer Tariff
+[2016-02-12] Perbaikan modul Published Tariff
+[2016-02-12] Penambahan kolom lead time di Published Tariff
+[2016-02-12] Perbaikan pada saat create new customer
+[2016-02-11] Perbaikan Filter Get Data pada Create Sales Invoice Screen
+[2016-02-10] Perbaikan untuk PPh 23 di Payment In pada saat create new payment
+[2016-02-10] Tambah info NPWP di Laporan Penjualan Agent dan PPh23 / 21
+[2016-02-10] Perbaikan pada tambah POD baru di Create Sales Invoice
+[2016-02-05] Perbaikan pada menu jika resolusi komputer 1024
+[2016-02-05] Pengurangan jumlah kolom excel untuk Report - Account Receivable - Paid Invoice
+[2016-02-05] Peningkatan performa untuk save/print invoice di Create Sales Invoice
+[2016-02-04] Tambah lookup Customer di Syncronous Data Entry
+[2016-02-04] Perbaikan untuk Customer Service - Tracking By Shipment ketika add Status
+[2016-02-04] Informasi POD sudah void di Tracking View
+[2016-02-03] Perbaikan untuk modul Finance Cost, error ketika delete row kemudian save
+[2016-02-02] Pembulatan ke bawah untuk total Tax pada saat print invoice
+[2016-02-02] Perubahan perhitugan PPh Franchise untuk Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP
+[2016-02-02] Penambahan organisasi type untuk franchise (Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP)
+[2016-02-02] Perbaikan pada Filter Franchise di Master data Franchise
+[2016-01-27] Menambahkan Report Outstanding PPh 23
+[2016-01-27] Menambahkan modul Finance - Pengembalian PPh 23
+[2016-01-27] Menambahkan fitur perhitungan PPh 23 pada modul Payment In
+[2016-01-27] Menambahkan field posted pada saat import POD (Billing - Import Shipment List)
+[2016-01-26] Perbaikan Double POD di Data Entry
+[2016-01-23] Perbaikan Filter di modul Franchise - Koreksi Data Entry
+[2016-01-22] Perbaikan Origin City pada Franchise - Koreksi Data Entry untuk perhitungan tarif
+[2016-01-20] Penambahan modul Corporate - Syncronous Data Entry intergrasi dengan Bilna
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-20] Perbaikan di Corporate - Bulk Data Entry untuk error 'Object reference is null'
+[2016-01-19] Tombol Un-Void di Franchise - Koreksi Data Entry
+[2016-01-19] Perbaikan untuk Franchise - Koreksi Data Entry, update data sesuai dengan branch dan city original POD
+[2016-01-19] Penambahan Filter popup model Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan pada update data Franchise - Master Data - Data Franchise
+[2016-01-19] Perbaikan fitur filter/pencarian pada modul  Franchise - Koreksi Data Entry
+[2016-01-18] Perbaikan modul Franchise - Report - Laporan Penjualan Agent Franchise
+[2016-01-18] Penambahan modul Corporate Bulk Data Entry untuk Import Excel Bilna dan Quantium
+[2016-01-15] Penambahan modul Finance - Invoice Acceptance
+[2016-01-12] Mengganti "Parcel" menjadi "Paket" pada saat print invoice
+[2016-01-11] Penambahan Modul Koreksi Data Entry Agent Franchise
+[2016-01-11] Perubahan perhitungan komisi Agent Franchise
+[2016-01-11] Perbaikan Operation - Inbound untuk pengurangan jumlah POD yang masuk ke cabang (Table Kiri)
+[2016-01-09] Perbaikan Finance - Payment In Titip Invoice
+[2016-01-09] Penambahan data tipe perusahaan (perorangan/perusahaan) untuk agent Franchise
+[2016-01-09] Penambahan form About

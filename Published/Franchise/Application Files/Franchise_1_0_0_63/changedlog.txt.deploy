@@ -1,0 +1,17 @@
+﻿[2016-03-07] Always copy changedlog.txt
+[2016-02-27] Penambahan informasi Voided di Tracking View
+[2016-02-24] Komisi agent menjadi 10% untuk penjualan dengan Service "DARAT"
+[2016-02-20] Perbaikan untuk perhitungan chargeable di atas 10
+[2016-02-16] Tambah info Shipper dan Service Type di Laporan Penjualan
+[2016-02-10] Tambah info NPWP di Laporan Penjualan
+[2016-02-02] Tambah Filter popup untuk master data Customer
+[2016-02-02] Tambah field Note untuk Master Data Consignee
+[2016-02-02] Perbaikan UI
+[2016-02-02] Perubahan perhitugan PPh Franchise untuk Personal NPWP dan Non NPWP, Badan Usaha NPWP dan Non NPWP
+[2016-01-27] Perbaikan untuk report penjualan dengan tidak menampilkan POD yang sudah VOID
+[2016-01-22] Perbaikan Origin City untuk perhitungan tarif
+[2016-01-20] Perbaikan Cosmetic UI untuk Windows XP
+[2016-01-19] Perbaikan Data Entry untuk 'Type Cast Error'
+[2016-01-18] Perbaikan priviledge
+[2016-01-12] Perbaikan pada tampilan Counter Cash
+[2016-01-11] Perubahan perhitungan komisi

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Models</RootNamespace>
+    <AssemblyName>SISCO.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RND|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RND\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AirwaybillDifferenceWeightDetailModel.cs" />
+    <Compile Include="AirwaybillDifferenceWeightModel.cs" />
+    <Compile Include="ApiLogModel.cs" />
+    <Compile Include="BankAccountBranchModel.cs" />
+    <Compile Include="BankAccountModel.cs" />
+    <Compile Include="BookingPodDetailModel.cs" />
+    <Compile Include="BookingPodModel.cs" />
+    <Compile Include="ClaimedDetailModel.cs" />
+    <Compile Include="ClaimedModel.cs" />
+    <Compile Include="CodPaymentInDetailModel.cs" />
+    <Compile Include="CodPaymentInModel.cs" />
+    <Compile Include="CostTransactionalAccountModel.cs" />
+    <Compile Include="DistrictModel.cs" />
+    <Compile Include="CodFundTransferDetailModel.cs" />
+    <Compile Include="DivisionModel.cs" />
+    <Compile Include="DropPointModel.cs" />
+    <Compile Include="FranchiseCreditPaymentDetailModel.cs" />
+    <Compile Include="FranchiseCreditPaymentModel.cs" />
+    <Compile Include="FranchiseDropPointDetailModel.cs" />
+    <Compile Include="FranchiseDropPointModel.cs" />
+    <Compile Include="FranchiseFundTransferDetailModel.cs" />
+    <Compile Include="CodFundTransferModel.cs" />
+    <Compile Include="FranchiseFundTransferModel.cs" />
+    <Compile Include="CodFundTransferVerificationDetailModel.cs" />
+    <Compile Include="FranchiseFundTransferVerificationDetailModel.cs" />
+    <Compile Include="CodFundTransferVerificationModel.cs" />
+    <Compile Include="FranchiseFundTransferVerificationModel.cs" />
+    <Compile Include="FranchiseInvoiceListModel.cs" />
+    <Compile Include="FranchiseInvoiceModel.cs" />
+    <Compile Include="InvoiceDistributionResultDetailModel.cs" />
+    <Compile Include="InvoiceDistributionResultModel.cs" />
+    <Compile Include="InvoiceToFinanceDetailModel.cs" />
+    <Compile Include="InvoiceToFinanceModel.cs" />
+    <Compile Include="InvoiceTransferAcceptanceDetailModel.cs" />
+    <Compile Include="InvoiceTransferAcceptanceModel.cs" />
+    <Compile Include="InvoiceTransferDetailModel.cs" />
+    <Compile Include="InvoiceTransferModel.cs" />
+    <Compile Include="LookupModel.cs" />
+    <Compile Include="ManifestVendorDetailModel.cs" />
+    <Compile Include="ManifestVendorModel.cs" />
+    <Compile Include="OtherInvoiceAcceptanceModel.cs" />
+    <Compile Include="OtherInvoiceAcceptanceDetailModel.cs" />
+    <Compile Include="OtherInvoiceSendDetailModel.cs" />
+    <Compile Include="OtherInvoiceSendModel.cs" />
+    <Compile Include="PaymentClaimAdditionalModel.cs" />
+    <Compile Include="PettyCashJournalModel.cs" />
+    <Compile Include="PettyCashModel.cs" />
+    <Compile Include="PickupDocumentModel.cs" />
+    <Compile Include="PickupDocumentPodModel.cs" />
+    <Compile Include="PodHandoverDetailModel.cs" />
+    <Compile Include="PodHandoverModel.cs" />
+    <Compile Include="ProvinceModel.cs" />
+    <Compile Include="FranchiseLogModel.cs" />
+    <Compile Include="AirlineModel.cs" />
+    <Compile Include="AirlineTariffModel.cs" />
+    <Compile Include="AirportModel.cs" />
+    <Compile Include="AirwaybillDetailModel.cs" />
+    <Compile Include="AirwaybillModel.cs" />
+    <Compile Include="BranchCityListModel.cs" />
+    <Compile Include="BranchDeliveryTariffModel.cs" />
+    <Compile Include="BranchModel.cs" />
+    <Compile Include="BranchTypeModel.cs" />
+    <Compile Include="CityModel.cs" />
+    <Compile Include="ComplaintFollowUpModel.cs" />
+    <Compile Include="ComplaintModel.cs" />
+    <Compile Include="ConsigneeModel.cs" />
+    <Compile Include="ConsolidationDetailModel.cs" />
+    <Compile Include="ConsolidationModel.cs" />
+    <Compile Include="ContactModel.cs" />
+    <Compile Include="ComplaintCategoryModel.cs" />
+    <Compile Include="AccountReferenceModel.cs" />
+    <Compile Include="CorporatePickupDetailModel.cs" />
+    <Compile Include="CorporatePickupModel.cs" />
+    <Compile Include="CorporateUserModel.cs" />
+    <Compile Include="CorporateUserPrivilegeModel.cs" />
+    <Compile Include="CorporatePriviledgeModel.cs" />
+    <Compile Include="FranchisePaymentInDetailModel.cs" />
+    <Compile Include="FranchisePaymentInModel.cs" />
+    <Compile Include="FranchiseAcceptanceChecklistModel.cs" />
+    <Compile Include="FranchiseAcceptanceDetailModel.cs" />
+    <Compile Include="FranchiseAcceptanceModel.cs" />
+    <Compile Include="FranchiseCommissionModel.cs" />
+    <Compile Include="FranchisePickupDetailModel.cs" />
+    <Compile Include="FranchisePickupModel.cs" />
+    <Compile Include="FranchiseTypeModel.cs" />
+    <Compile Include="FranchiseUserPrivilegeModel.cs" />
+    <Compile Include="FranchiseModel.cs" />
+    <Compile Include="FranchisePriviledgeModel.cs" />
+    <Compile Include="NotificationModel.cs" />
+    <Compile Include="PickupSchedulerModel.cs" />
+    <Compile Include="PrivilegeModel.cs" />
+    <Compile Include="PromoModel.cs" />
+    <Compile Include="RefundPph23Model.cs" />
+    <Compile Include="SalesInvoiceAcceptanceDetailModel.cs" />
+    <Compile Include="SalesInvoiceAcceptanceModel.cs" />
+    <Compile Include="ShipmentExpandModel.cs" />
+    <Compile Include="ShipmentInsuranceDetailModel.cs" />
+    <Compile Include="ShipmentInsuranceModel.cs" />
+    <Compile Include="ShipmentSyncModel.cs" />
+    <Compile Include="SyncJsonModel.cs" />
+    <Compile Include="TaxInvoiceModel.cs" />
+    <Compile Include="TransactionalAccountModel.cs" />
+    <Compile Include="TransferObject\CityData.cs" />
+    <Compile Include="TransferObject\CountryData.cs" />
+    <Compile Include="TransferObject\CustomerData.cs" />
+    <Compile Include="TransferObject\MasterDataTransferObject.cs" />
+    <Compile Include="TransferObject\MessengerData.cs" />
+    <Compile Include="TransferObject\PackageTypeData.cs" />
+    <Compile Include="TransferObject\PaymentMethodData.cs" />
+    <Compile Include="TransferObject\ServiceTypeData.cs" />
+    <Compile Include="UserFranchiseModel.cs" />
+    <Compile Include="UserPrivilegeModel.cs" />
+    <Compile Include="CostTypeModel.cs" />
+    <Compile Include="InboungChecklistModel.cs" />
+    <Compile Include="InboxModel.cs" />
+    <Compile Include="DeliveryTariffModel.cs" />
+    <Compile Include="PaymentDeliveryDetailModel.cs" />
+    <Compile Include="PaymentInAndDetailModel.cs" />
+    <Compile Include="PaymentInCollectOutDetailModel.cs" />
+    <Compile Include="PaymentMcDetailModel.cs" />
+    <Compile Include="PaymentMcModel.cs" />
+    <Compile Include="PaymentOutCollectInDetailModel.cs" />
+    <Compile Include="PaymentTypeModel.cs" />
+    <Compile Include="SalesLeadStatusModel.cs" />
+    <Compile Include="InboundDetailModel.cs" />
+    <Compile Include="InboundModel.cs" />
+    <Compile Include="SalesInvoiceCostModel.cs" />
+    <Compile Include="SalesInvoiceListModel.cs" />
+    <Compile Include="SalesInvoiceTypeModel.cs" />
+    <Compile Include="TaxTypeModel.cs" />
+    <Compile Include="FlightModel.cs" />
+    <Compile Include="MissDeliveryReasonModel.cs" />
+    <Compile Include="ShipmentStatusModel.cs" />
+    <Compile Include="CostDetailModel.cs" />
+    <Compile Include="CostModel.cs" />
+    <Compile Include="CountryModel.cs" />
+    <Compile Include="CurrencyModel.cs" />
+    <Compile Include="CustomerModel.cs" />
+    <Compile Include="CustomerTariffModel.cs" />
+    <Compile Include="DeliveryOrderDetailModel.cs" />
+    <Compile Include="DeliveryOrderModel.cs" />
+    <Compile Include="DepartmentModel.cs" />
+    <Compile Include="EmployeeModel.cs" />
+    <Compile Include="EmployeeRolesModel.cs" />
+    <Compile Include="FleetModel.cs" />
+    <Compile Include="ManifestDetailModel.cs" />
+    <Compile Include="ManifestModel.cs" />
+    <Compile Include="MasterData\UserRoleModel.cs" />
+    <Compile Include="OtherInvoiceModel.cs" />
+    <Compile Include="OtherInvoicePaymentInDetailModel.cs" />
+    <Compile Include="OtherInvoicePaymentInModel.cs" />
+    <Compile Include="OtherInvoicePaymentOutDetailModel.cs" />
+    <Compile Include="OtherInvoicePaymentOutModel.cs" />
+    <Compile Include="PackageTypeModel.cs" />
+    <Compile Include="PaymentDeliveryModel.cs" />
+    <Compile Include="PaymentInCollectInDetailModel.cs" />
+    <Compile Include="PaymentInCollectInModel.cs" />
+    <Compile Include="PaymentInCollectOutModel.cs" />
+    <Compile Include="PaymentInCounterDetailModel.cs" />
+    <Compile Include="PaymentInCounterModel.cs" />
+    <Compile Include="PaymentInDetailModel.cs" />
+    <Compile Include="PaymentInModel.cs" />
+    <Compile Include="PaymentMethodModel.cs" />
+    <Compile Include="PaymentOutCollectInModel.cs" />
+    <Compile Include="PaymentRcDetailModel.cs" />
+    <Compile Include="PaymentRcModel.cs" />
+    <Compile Include="PickupOrderModel.cs" />
+    <Compile Include="PodCustomerModel.cs" />
+    <Compile Include="PodCustomerShipmentModel.cs" />
+    <Compile Include="PodInModel.cs" />
+    <Compile Include="PodInShipmentModel.cs" />
+    <Compile Include="PodOutModel.cs" />
+    <Compile Include="PodOutShipmentModel.cs" />
+    <Compile Include="PrefixCodeModel.cs" />
+    <Compile Include="PricingPlanModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteModel.cs" />
+    <Compile Include="RunningTextModel.cs" />
+    <Compile Include="SalesInvoiceModel.cs" />
+    <Compile Include="SalesLeadFollowUpModel.cs" />
+    <Compile Include="SalesLeadModel.cs" />
+    <Compile Include="ServiceTypeModel.cs" />
+    <Compile Include="ShipmentAllocationModel.cs" />
+    <Compile Include="ShipmentModel.cs" />
+    <Compile Include="PositionStatusModel.cs" />
+    <Compile Include="TariffInternationalModel.cs" />
+    <Compile Include="TariffModel.cs" />
+    <Compile Include="TrackingStatusModel.cs" />
+    <Compile Include="UserRolesModel.cs" />
+    <Compile Include="UsersModel.cs" />
+    <Compile Include="VehicleTypeModel.cs" />
+    <Compile Include="VendorModel.cs" />
+    <Compile Include="WaybillDetailModel.cs" />
+    <Compile Include="WaybillModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\PettyCashSummary.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

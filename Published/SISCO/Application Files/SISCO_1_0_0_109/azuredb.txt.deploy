@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MySQL>
+  <Server>g21-sisco2-new1.cloudapp.net</Server>
+  <Port>3306</Port>
+  <Database>sisco2</Database>
+  <Username>sisco2</Username>
+  <Password>pulogadung</Password>
+</MySQL>

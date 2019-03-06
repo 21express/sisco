@@ -1,0 +1,25 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Repositories.dll.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\EntityFramework.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\EntityFramework.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\obj\Debug\SISCO.Repositories.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\obj\Debug\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Repositories\obj\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Repositories.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\obj\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Repositories\obj\Debug\SISCO.Repositories.pdb

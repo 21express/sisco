@@ -1,0 +1,726 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.App.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCostTypeForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRoleForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageUserForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAccountReferenceForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirportForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAnnouncementForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCityForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCurrencyForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerTariffForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDeliveryTariffForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageEmployeeForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFleetForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFlightScheduleForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCountryForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchCityMappingForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineTariffForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePaymentTypeForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedTariffForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedInternationalTariffForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDepartmentForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRouteForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageServiceTypeForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageStatusTypeForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirlinePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CityPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirportPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ContactPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CostTypePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.FleetPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.TrackingStatusPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserRolePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CurrencyPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DepartmentPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CourierPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MissDeliveryReasonPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CountryPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.EmployeePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MessengerPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackagePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackageTypePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServicePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServiceTypePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PaymentMethodPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CustomerPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VehiclePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Properties.Resources.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.GenerateResource.Cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll.licenses
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.App.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCostTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRoleForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageUserForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAccountReferenceForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirportForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAnnouncementForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCityForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCurrencyForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDeliveryTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageEmployeeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFleetForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFlightScheduleForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCountryForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchCityMappingForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePaymentTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedInternationalTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDepartmentForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRouteForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageServiceTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageStatusTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirlinePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CityPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirportPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ContactPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CostTypePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.FleetPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.TrackingStatusPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserRolePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CurrencyPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DepartmentPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CourierPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MissDeliveryReasonPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CountryPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.EmployeePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MessengerPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackagePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackageTypePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServicePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServiceTypePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PaymentMethodPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CustomerPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VehiclePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Properties.Resources.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.GenerateResource.Cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll.licenses
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.App.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCostTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRoleForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageUserForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAccountReferenceForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirportForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAnnouncementForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCityForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCurrencyForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDeliveryTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageEmployeeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFleetForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFlightScheduleForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCountryForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchCityMappingForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePaymentTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedInternationalTariffForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDepartmentForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRouteForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageServiceTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageStatusTypeForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirlinePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CityPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirportPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ContactPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CostTypePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.FleetPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.TrackingStatusPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserRolePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CurrencyPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DepartmentPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CourierPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MissDeliveryReasonPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CountryPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.EmployeePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MessengerPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackagePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackageTypePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServicePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServiceTypePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PaymentMethodPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CustomerPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VehiclePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.GenerateResource.Cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll.licenses
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Properties.Resources.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Franchise.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Franchise.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll.config
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Franchise.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.IO.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Linq.Dynamic.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Net.Http.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\NLog.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Franchise.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.IO.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Net.Http.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\NLog.xml
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.pdb
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.App.config
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDivisionForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCostTypeForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDropPointForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePromoForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRoleForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageUserForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAccountReferenceForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirportForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAnnouncementForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCityForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCurrencyForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerTariffForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDeliveryTariffForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageEmployeeForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFleetForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFlightScheduleForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCountryForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchCityMappingForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineTariffForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePaymentTypeForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedTariffForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedInternationalTariffForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDepartmentForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRouteForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageServiceTypeForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageStatusTypeForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageVendorForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.NotificationForm.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirlinePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CityPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirportPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ContactPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CostTypePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DivisionPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.FleetPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VendorPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.TrackingStatusPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserRolePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CurrencyPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DepartmentPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CourierPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MissDeliveryReasonPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CountryPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.EmployeePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MessengerPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackagePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackageTypePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServicePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServiceTypePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PaymentMethodPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CustomerPopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VehiclePopup.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Properties.Resources.resources
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.GenerateResource.Cache
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll.licenses
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll
+D:\sisco\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.App.config
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBankAccountForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDivisionForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCostTypeForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDropPointForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePromoForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRoleForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageUserForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAccountReferenceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirportForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAnnouncementForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCityForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCurrencyForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerTariffForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDeliveryTariffForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageEmployeeForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFleetForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageFlightScheduleForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCountryForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageBranchCityMappingForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageCustomerForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageAirlineTariffForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePaymentTypeForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedTariffForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManagePublishedInternationalTariffForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageDepartmentForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageRouteForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageServiceTypeForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageStatusTypeForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.ManageVendorForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Forms.NotificationForm.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirlinePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.BankAccountPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CityPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.AirportPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ContactPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CostTypePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DivisionPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.FleetPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CollectorPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PaymentTypePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VendorPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.TrackingStatusPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserRolePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CurrencyPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.UserPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.DepartmentPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CourierPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MissDeliveryReasonPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CountryPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.EmployeePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.MessengerPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackagePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PackageTypePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServicePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.ServiceTypePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.PaymentMethodPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.CustomerPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Popup.VehiclePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.Properties.Resources.resources
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.csproj.GenerateResource.Cache
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll.licenses
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll.config
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Franchise.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.WinControl.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Franchise.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Marketing.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Presentation.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Data.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.Utils.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraLayout.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\DevExpress.XtraReports.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.IO.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Runtime.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\System.Threading.Tasks.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\NLog.xml
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\SISCO.App.Operation.pdb
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraLayout.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraLayout.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraLayout.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraLayout.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.MasterData\obj\Debug\SISCO.Presentation.MasterData.pdb

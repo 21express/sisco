@@ -1,0 +1,3 @@
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Repositories\obj\Release\SISCO.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Repositories\obj\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Repositories\obj\Release\SISCO.Repositories.pdb

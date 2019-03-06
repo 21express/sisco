@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2292D610-29BB-459C-90D3-2E5A422957FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Presentation.CustomerService</RootNamespace>
+    <AssemblyName>SISCO.Presentation.CustomerService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <NuGetPackageImportStamp>cd39a0f8</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RND|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RND\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\ClaimedCommand.cs" />
+    <Compile Include="Command\InsuranceCommand.cs" />
+    <Compile Include="Command\PodReturnCommand.cs" />
+    <Compile Include="Command\ManagePublishedTariffCommand.cs" />
+    <Compile Include="Command\ManageBranchCommand.cs" />
+    <Compile Include="Command\ManageComplaintCommand.cs" />
+    <Compile Include="Command\PickupCashCommand.cs" />
+    <Compile Include="Command\PickupSchedulerCommand.cs" />
+    <Compile Include="Command\UnReceivedListCommand.cs" />
+    <Compile Include="Command\ViewShipmentDeliveryListCommand.cs" />
+    <Compile Include="Command\TrackingViewCommand.cs" />
+    <Compile Include="Command\TrackingByShipmentCommand.cs" />
+    <Compile Include="Command\PickupOrderCommand.cs" />
+    <Compile Include="CustomerServiceMenu.cs" />
+    <Compile Include="Forms\ClaimedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ClaimedForm.Designer.cs">
+      <DependentUpon>ClaimedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InsuranceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InsuranceForm.Designer.cs">
+      <DependentUpon>InsuranceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageBranchForm.Designer.cs">
+      <DependentUpon>ManageBranchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagePublishedTariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagePublishedTariffForm.Designer.cs">
+      <DependentUpon>ManagePublishedTariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PickupCashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PickupCashForm.Designer.cs">
+      <DependentUpon>PickupCashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PickupSchedulerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PickupSchedulerForm.Designer.cs">
+      <DependentUpon>PickupSchedulerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PODReturnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PODReturnForm.Designer.cs">
+      <DependentUpon>PODReturnForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UnReceivedListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UnReceivedListForm.Designer.cs">
+      <DependentUpon>UnReceivedListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrackingByShipmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TrackingByShipmentForm.Designer.cs">
+      <DependentUpon>TrackingByShipmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrackingViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TrackingViewForm.Designer.cs">
+      <DependentUpon>TrackingViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ComplaintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ComplaintForm.Designer.cs">
+      <DependentUpon>ComplaintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PickupOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PickupOrderForm.Designer.cs">
+      <DependentUpon>PickupOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShipmentDeliveryListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShipmentDeliveryListForm.Designer.cs">
+      <DependentUpon>ShipmentDeliveryListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ClaimedPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ClaimedPopup.Designer.cs">
+      <DependentUpon>ClaimedPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ClaimPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ClaimPopup.Designer.cs">
+      <DependentUpon>ClaimPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FranchisePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FranchisePopup.Designer.cs">
+      <DependentUpon>FranchisePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\InsurancePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\InsurancePopup.Designer.cs">
+      <DependentUpon>InsurancePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\SchedulerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\SchedulerPopup.Designer.cs">
+      <DependentUpon>SchedulerPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ShipmentPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ShipmentPopup.Designer.cs">
+      <DependentUpon>ShipmentPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\eConnotePrintout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\eConnotePrintout.Designer.cs">
+      <DependentUpon>eConnotePrintout.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common.WinControl\Devenlab.Common.WinControl.csproj">
+      <Project>{cadbb621-0f80-4c45-9135-7f10256c5ea5}</Project>
+      <Name>Devenlab.Common.WinControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Franchise.Presentation.MasterData\Franchise.Presentation.MasterData.csproj">
+      <Project>{59ec7b93-1f4d-486c-b0b5-eb20097ab101}</Project>
+      <Name>Franchise.Presentation.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.CustomerService\SISCO.App.CustomerService.csproj">
+      <Project>{70CFC4F0-A0CC-432C-98AC-650F1444363B}</Project>
+      <Name>SISCO.App.CustomerService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Franchise\SISCO.App.Franchise.csproj">
+      <Project>{eaa33893-39aa-49ab-977f-379a81e205b2}</Project>
+      <Name>SISCO.App.Franchise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Operation\SISCO.App.Operation.csproj">
+      <Project>{9209c028-7aa1-4baa-8321-caf75571e0f9}</Project>
+      <Name>SISCO.App.Operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App\SISCO.App.csproj">
+      <Project>{8b965b65-2286-4f02-b1bc-8e126c22bcfb}</Project>
+      <Name>SISCO.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.LocalStorage\SISCO.LocalStorage.csproj">
+      <Project>{82a95a01-379e-48c6-a559-af9262ebc428}</Project>
+      <Name>SISCO.LocalStorage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Common\SISCO.Presentation.Common.csproj">
+      <Project>{518D8408-E160-4C14-B9A2-5770B7A7492A}</Project>
+      <Name>SISCO.Presentation.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.MasterData\SISCO.Presentation.MasterData.csproj">
+      <Project>{94821D05-B609-43D3-9DC2-4894B2B83420}</Project>
+      <Name>SISCO.Presentation.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Reports\SISCO.Presentation.Reports.csproj">
+      <Project>{8FE174E6-863C-4456-AB22-FE5071F48397}</Project>
+      <Name>SISCO.Presentation.Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Repositories\SISCO.Repositories.csproj">
+      <Project>{9A5C8AF3-8127-444A-B499-8523B7E60BB2}</Project>
+      <Name>SISCO.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ClaimedForm.resx">
+      <DependentUpon>ClaimedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsuranceForm.resx">
+      <DependentUpon>InsuranceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageBranchForm.resx">
+      <DependentUpon>ManageBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagePublishedTariffForm.resx">
+      <DependentUpon>ManagePublishedTariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PickupCashForm.resx">
+      <DependentUpon>PickupCashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PickupSchedulerForm.resx">
+      <DependentUpon>PickupSchedulerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PODReturnForm.resx">
+      <DependentUpon>PODReturnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UnReceivedListForm.resx">
+      <DependentUpon>UnReceivedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShipmentDeliveryListForm.resx">
+      <DependentUpon>ShipmentDeliveryListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TrackingByShipmentForm.resx">
+      <DependentUpon>TrackingByShipmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TrackingViewForm.resx">
+      <DependentUpon>TrackingViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ComplaintForm.resx">
+      <DependentUpon>ComplaintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PickupOrderForm.resx">
+      <DependentUpon>PickupOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ClaimedPopup.resx">
+      <DependentUpon>ClaimedPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ClaimPopup.resx">
+      <DependentUpon>ClaimPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\InsurancePopup.resx">
+      <DependentUpon>InsurancePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\SchedulerPopup.resx">
+      <DependentUpon>SchedulerPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ShipmentPopup.resx">
+      <DependentUpon>ShipmentPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\eConnotePrintout.resx">
+      <DependentUpon>eConnotePrintout.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\SISCO.Models.PickupOrderModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.ShipmentStatusModel.datasource" />
+    <None Include="Properties\DataSources\SISCO.Models.TrackingStatusModel.datasource" />
+    <None Include="Resources\yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

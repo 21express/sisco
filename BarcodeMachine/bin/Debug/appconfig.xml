@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <MySQL>
+    <Server></Server>
+    <Port>3306</Port>
+    <Database></Database>
+    <Username></Username>
+    <Password></Password>
+  </MySQL>
+
+  <PrinterSetting>
+    <BarCodePrinter></BarCodePrinter>
+  </PrinterSetting>
+
+  <BackgroundPath></BackgroundPath>
+</Data>

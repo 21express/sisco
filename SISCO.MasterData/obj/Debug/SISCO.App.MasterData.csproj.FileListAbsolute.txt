@@ -1,0 +1,85 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\NLog.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\NLog.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\bin\Debug\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Franchise\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Franchise\bin\Debug\SISCO.App.MasterData.pdb
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\obj\Debug\SISCO.App.MasterData.csprojResolveAssemblyReference.cache
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\obj\Debug\SISCO.App.MasterData.dll
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\obj\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\bin\Debug\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.pdb
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.dll
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+D:\sisco\SISCO.MasterData\bin\Debug\Devenlab.Common.dll
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.App.dll
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.Models.dll
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.Repositories.dll
+D:\sisco\SISCO.MasterData\bin\Debug\System.Linq.Dynamic.dll
+D:\sisco\SISCO.MasterData\bin\Debug\NLog.dll
+D:\sisco\SISCO.MasterData\bin\Debug\Devenlab.Common.pdb
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.App.pdb
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.Models.pdb
+D:\sisco\SISCO.MasterData\bin\Debug\SISCO.Repositories.pdb
+D:\sisco\SISCO.MasterData\bin\Debug\NLog.xml
+D:\sisco\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.dll
+D:\sisco\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.pdb
+D:\Projects\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.MasterData.pdb
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\NLog.dll
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.App.pdb
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.MasterData\bin\Debug\NLog.xml
+D:\Projects\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.dll
+D:\Projects\SISCO\SISCO.MasterData\obj\Debug\SISCO.App.MasterData.pdb

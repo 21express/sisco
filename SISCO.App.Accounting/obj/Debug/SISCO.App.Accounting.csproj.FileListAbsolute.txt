@@ -1,0 +1,60 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.pdb
+D:\sisco\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.dll
+D:\sisco\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.pdb
+D:\sisco\SISCO.App.Accounting\bin\Debug\Devenlab.Common.dll
+D:\sisco\SISCO.App.Accounting\bin\Debug\SISCO.Models.dll
+D:\sisco\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.dll
+D:\sisco\SISCO.App.Accounting\bin\Debug\System.Linq.Dynamic.dll
+D:\sisco\SISCO.App.Accounting\bin\Debug\Devenlab.Common.pdb
+D:\sisco\SISCO.App.Accounting\bin\Debug\SISCO.Models.pdb
+D:\sisco\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.pdb
+D:\sisco\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.dll
+D:\sisco\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.pdb
+D:\Projects\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.dll
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.App.Accounting.pdb
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.App.Accounting\bin\Debug\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.dll
+D:\Projects\SISCO\SISCO.App.Accounting\obj\Debug\SISCO.App.Accounting.pdb

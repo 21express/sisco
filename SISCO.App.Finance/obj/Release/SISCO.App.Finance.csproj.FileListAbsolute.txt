@@ -1,0 +1,70 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.pdb
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.dll
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\SISCO.App.Finance.pdb
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.dll
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.pdb
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.App.Finance\bin\Release\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.dll
+D:\Projects\SISCO\SISCO.App.Finance\obj\Release\SISCO.App.Finance.pdb
+D:\sisco\SISCO.App.Finance\bin\Release\SISCO.App.Finance.dll
+D:\sisco\SISCO.App.Finance\bin\Release\SISCO.App.Finance.pdb
+D:\sisco\SISCO.App.Finance\bin\Release\Devenlab.Common.dll
+D:\sisco\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.dll
+D:\sisco\SISCO.App.Finance\bin\Release\SISCO.Models.dll
+D:\sisco\SISCO.App.Finance\bin\Release\SISCO.Repositories.dll
+D:\sisco\SISCO.App.Finance\bin\Release\System.Linq.Dynamic.dll
+D:\sisco\SISCO.App.Finance\bin\Release\Devenlab.Common.WinControl.pdb
+D:\sisco\SISCO.App.Finance\bin\Release\Devenlab.Common.pdb
+D:\sisco\SISCO.App.Finance\bin\Release\SISCO.Models.pdb
+D:\sisco\SISCO.App.Finance\bin\Release\SISCO.Repositories.pdb
+D:\sisco\SISCO.App.Finance\obj\Release\SISCO.App.Finance.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.App.Finance\obj\Release\SISCO.App.Finance.dll
+D:\sisco\SISCO.App.Finance\obj\Release\SISCO.App.Finance.pdb

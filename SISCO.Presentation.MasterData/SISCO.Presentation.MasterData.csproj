@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94821D05-B609-43D3-9DC2-4894B2B83420}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.Presentation.MasterData</RootNamespace>
+    <AssemblyName>SISCO.Presentation.MasterData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RND|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RND\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DevExpress 13.2\Components\Bin\Framework\DevExpress.XtraEditors.v13.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DevExpress 13.2\Components\Bin\Framework\DevExpress.XtraGrid.v13.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DevExpress 13.2\Components\Bin\Framework\DevExpress.XtraLayout.v13.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DevExpress 13.2\Components\Bin\Framework\DevExpress.XtraNavBar.v13.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\DevExpress 13.2\Components\Bin\Framework\DevExpress.XtraReports.v13.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\ManageBankAccount.cs" />
+    <Compile Include="Command\ManageDropPointCommand.cs" />
+    <Compile Include="Command\ManageDivisionCommand.cs" />
+    <Compile Include="Command\ManageCostTypeCommand.cs" />
+    <Compile Include="Command\ManageVendorCommand.cs" />
+    <Compile Include="Command\NotificationCommand.cs" />
+    <Compile Include="Command\ManageAirlineCommand.cs" />
+    <Compile Include="Command\ManageAirportCommand.cs" />
+    <Compile Include="Command\ManagePromoCommand.cs" />
+    <Compile Include="Command\ManageFlightScheduleCommand.cs" />
+    <Compile Include="Command\ManageFleetCommand.cs" />
+    <Compile Include="Command\ManageCountryCommand.cs" />
+    <Compile Include="Command\ManageCityCommand.cs" />
+    <Compile Include="Command\ManageBranchCommand.cs" />
+    <Compile Include="Command\ManageRouteCommand.cs" />
+    <Compile Include="Command\ManageBranchCityMappingCommand.cs" />
+    <Compile Include="Command\ManageEmployeeCommand.cs" />
+    <Compile Include="Command\ManageCustomerCommand.cs" />
+    <Compile Include="Command\ManageCurrencyCommand.cs" />
+    <Compile Include="Command\ManageAirlineTariffCommand.cs" />
+    <Compile Include="Command\ManageDeliveryTariffCommand.cs" />
+    <Compile Include="Command\ManagePublishedTariffCommand.cs" />
+    <Compile Include="Command\ManageCustomerTariffCommand.cs" />
+    <Compile Include="Command\ManagePublishedInternationalTariffCommand.cs" />
+    <Compile Include="Command\ManageAnnouncementCommand.cs" />
+    <Compile Include="Command\ManageDepartmentCommand.cs" />
+    <Compile Include="Command\ManagePaymentTypeCommand.cs" />
+    <Compile Include="Command\ManageServiceTypeCommand.cs" />
+    <Compile Include="Command\ManageStatusTypeCommand.cs" />
+    <Compile Include="Command\ManageAccountReferenceCommand.cs" />
+    <Compile Include="Command\RolesCommand.cs" />
+    <Compile Include="Command\UsersCommand.cs" />
+    <Compile Include="Forms\ManageBankAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageBankAccountForm.Designer.cs">
+      <DependentUpon>ManageBankAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageDivisionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageDivisionForm.Designer.cs">
+      <DependentUpon>ManageDivisionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageCostTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageCostTypeForm.Designer.cs">
+      <DependentUpon>ManageCostTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageDropPointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageDropPointForm.Designer.cs">
+      <DependentUpon>ManageDropPointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagePromoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagePromoForm.Designer.cs">
+      <DependentUpon>ManagePromoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageRoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageRoleForm.Designer.cs">
+      <DependentUpon>ManageRoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageUserForm.Designer.cs">
+      <DependentUpon>ManageUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageAirlineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageAirlineForm.Designer.cs">
+      <DependentUpon>ManageAirlineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageAirportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageAirportForm.Designer.cs">
+      <DependentUpon>ManageAirportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageFlightScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageFlightScheduleForm.Designer.cs">
+      <DependentUpon>ManageFlightScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageFleetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageFleetForm.Designer.cs">
+      <DependentUpon>ManageFleetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageCountryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageCountryForm.Designer.cs">
+      <DependentUpon>ManageCountryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageCityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageCityForm.Designer.cs">
+      <DependentUpon>ManageCityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageBranchForm.Designer.cs">
+      <DependentUpon>ManageBranchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageRouteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageRouteForm.Designer.cs">
+      <DependentUpon>ManageRouteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageBranchCityMappingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageBranchCityMappingForm.Designer.cs">
+      <DependentUpon>ManageBranchCityMappingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageEmployeeForm.Designer.cs">
+      <DependentUpon>ManageEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageCustomerForm.Designer.cs">
+      <DependentUpon>ManageCustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageCurrencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageCurrencyForm.Designer.cs">
+      <DependentUpon>ManageCurrencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageAirlineTariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageAirlineTariffForm.Designer.cs">
+      <DependentUpon>ManageAirlineTariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageDeliveryTariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageDeliveryTariffForm.Designer.cs">
+      <DependentUpon>ManageDeliveryTariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagePublishedTariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagePublishedTariffForm.Designer.cs">
+      <DependentUpon>ManagePublishedTariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageCustomerTariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageCustomerTariffForm.Designer.cs">
+      <DependentUpon>ManageCustomerTariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagePublishedInternationalTariffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagePublishedInternationalTariffForm.Designer.cs">
+      <DependentUpon>ManagePublishedInternationalTariffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageAnnouncementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageAnnouncementForm.Designer.cs">
+      <DependentUpon>ManageAnnouncementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageDepartmentForm.Designer.cs">
+      <DependentUpon>ManageDepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagePaymentTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagePaymentTypeForm.Designer.cs">
+      <DependentUpon>ManagePaymentTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageServiceTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageServiceTypeForm.Designer.cs">
+      <DependentUpon>ManageServiceTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageStatusTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageStatusTypeForm.Designer.cs">
+      <DependentUpon>ManageStatusTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageAccountReferenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageAccountReferenceForm.Designer.cs">
+      <DependentUpon>ManageAccountReferenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManageVendorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageVendorForm.Designer.cs">
+      <DependentUpon>ManageVendorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NotificationForm.Designer.cs">
+      <DependentUpon>NotificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterDataMenu.cs" />
+    <Compile Include="Popup\AirlinePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\AirlinePopup.Designer.cs">
+      <DependentUpon>AirlinePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\BankAccountPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\BankAccountPopup.Designer.cs">
+      <DependentUpon>BankAccountPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\BranchPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\BranchPopup.Designer.cs">
+      <DependentUpon>BranchPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CityPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CityPopup.Designer.cs">
+      <DependentUpon>CityPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\AirportPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\AirportPopup.Designer.cs">
+      <DependentUpon>AirportPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ContactPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ContactPopup.Designer.cs">
+      <DependentUpon>ContactPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CostTypePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CostTypePopup.Designer.cs">
+      <DependentUpon>CostTypePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DivisionPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DivisionPopup.Designer.cs">
+      <DependentUpon>DivisionPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FleetPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FleetPopup.Designer.cs">
+      <DependentUpon>FleetPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DropPointPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DropPointPopup.Designer.cs">
+      <DependentUpon>DropPointPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CollectorPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CollectorPopup.Designer.cs">
+      <DependentUpon>CollectorPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\VendorPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\VendorPopup.Designer.cs">
+      <DependentUpon>VendorPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PromoPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PromoPopup.Designer.cs">
+      <DependentUpon>PromoPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\FranshicePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\FranshicePopup.Designer.cs">
+      <DependentUpon>FranshicePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\TrackingStatusPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\TrackingStatusPopup.Designer.cs">
+      <DependentUpon>TrackingStatusPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\UserRolePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\UserRolePopup.Designer.cs">
+      <DependentUpon>UserRolePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CurrencyPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CurrencyPopup.Designer.cs">
+      <DependentUpon>CurrencyPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentTypePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentTypePopup.Designer.cs">
+      <DependentUpon>PaymentTypePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\UserPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\UserPopup.Designer.cs">
+      <DependentUpon>UserPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DepartmentPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DepartmentPopup.Designer.cs">
+      <DependentUpon>DepartmentPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CourierPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CourierPopup.Designer.cs">
+      <DependentUpon>CourierPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\MissDeliveryReasonPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\MissDeliveryReasonPopup.Designer.cs">
+      <DependentUpon>MissDeliveryReasonPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CountryPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CountryPopup.Designer.cs">
+      <DependentUpon>CountryPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PackageTypePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PackageTypePopup.Designer.cs">
+      <DependentUpon>PackageTypePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ServiceTypePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ServiceTypePopup.Designer.cs">
+      <DependentUpon>ServiceTypePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\CustomerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\CustomerPopup.Designer.cs">
+      <DependentUpon>CustomerPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\EmployeePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\EmployeePopup.Designer.cs">
+      <DependentUpon>EmployeePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\MessengerPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\MessengerPopup.Designer.cs">
+      <DependentUpon>MessengerPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PackagePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PackagePopup.Designer.cs">
+      <DependentUpon>PackagePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\PaymentMethodPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\PaymentMethodPopup.Designer.cs">
+      <DependentUpon>PaymentMethodPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\ServicePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\ServicePopup.Designer.cs">
+      <DependentUpon>ServicePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\VehiclePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\VehiclePopup.Designer.cs">
+      <DependentUpon>VehiclePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\ManageBankAccountForm.resx">
+      <DependentUpon>ManageBankAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageDivisionForm.resx">
+      <DependentUpon>ManageDivisionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageCostTypeForm.resx">
+      <DependentUpon>ManageCostTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageDropPointForm.resx">
+      <DependentUpon>ManageDropPointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagePromoForm.resx">
+      <DependentUpon>ManagePromoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageRoleForm.resx">
+      <DependentUpon>ManageRoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageUserForm.resx">
+      <DependentUpon>ManageUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageAccountReferenceForm.resx">
+      <DependentUpon>ManageAccountReferenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageAirlineForm.resx">
+      <DependentUpon>ManageAirlineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageAirportForm.resx">
+      <DependentUpon>ManageAirportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageAnnouncementForm.resx">
+      <DependentUpon>ManageAnnouncementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageCityForm.resx">
+      <DependentUpon>ManageCityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageCurrencyForm.resx">
+      <DependentUpon>ManageCurrencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageCustomerTariffForm.resx">
+      <DependentUpon>ManageCustomerTariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageDeliveryTariffForm.resx">
+      <DependentUpon>ManageDeliveryTariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageEmployeeForm.resx">
+      <DependentUpon>ManageEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageFleetForm.resx">
+      <DependentUpon>ManageFleetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageFlightScheduleForm.resx">
+      <DependentUpon>ManageFlightScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageCountryForm.resx">
+      <DependentUpon>ManageCountryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageBranchForm.resx">
+      <DependentUpon>ManageBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageBranchCityMappingForm.resx">
+      <DependentUpon>ManageBranchCityMappingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageCustomerForm.resx">
+      <DependentUpon>ManageCustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageAirlineTariffForm.resx">
+      <DependentUpon>ManageAirlineTariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagePaymentTypeForm.resx">
+      <DependentUpon>ManagePaymentTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagePublishedTariffForm.resx">
+      <DependentUpon>ManagePublishedTariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagePublishedInternationalTariffForm.resx">
+      <DependentUpon>ManagePublishedInternationalTariffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageDepartmentForm.resx">
+      <DependentUpon>ManageDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageRouteForm.resx">
+      <DependentUpon>ManageRouteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageServiceTypeForm.resx">
+      <DependentUpon>ManageServiceTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageStatusTypeForm.resx">
+      <DependentUpon>ManageStatusTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManageVendorForm.resx">
+      <DependentUpon>ManageVendorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotificationForm.resx">
+      <DependentUpon>NotificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\AirlinePopup.resx">
+      <DependentUpon>AirlinePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\BankAccountPopup.resx">
+      <DependentUpon>BankAccountPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CityPopup.resx">
+      <DependentUpon>CityPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\AirportPopup.resx">
+      <DependentUpon>AirportPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ContactPopup.resx">
+      <DependentUpon>ContactPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CostTypePopup.resx">
+      <DependentUpon>CostTypePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DivisionPopup.resx">
+      <DependentUpon>DivisionPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\FleetPopup.resx">
+      <DependentUpon>FleetPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CollectorPopup.resx">
+      <DependentUpon>CollectorPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentTypePopup.resx">
+      <DependentUpon>PaymentTypePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\VendorPopup.resx">
+      <DependentUpon>VendorPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\TrackingStatusPopup.resx">
+      <DependentUpon>TrackingStatusPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\UserRolePopup.resx">
+      <DependentUpon>UserRolePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CurrencyPopup.resx">
+      <DependentUpon>CurrencyPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\UserPopup.resx">
+      <DependentUpon>UserPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DepartmentPopup.resx">
+      <DependentUpon>DepartmentPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CourierPopup.resx">
+      <DependentUpon>CourierPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\MissDeliveryReasonPopup.resx">
+      <DependentUpon>MissDeliveryReasonPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CountryPopup.resx">
+      <DependentUpon>CountryPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\EmployeePopup.resx">
+      <DependentUpon>EmployeePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\MessengerPopup.resx">
+      <DependentUpon>MessengerPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PackagePopup.resx">
+      <DependentUpon>PackagePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PackageTypePopup.resx">
+      <DependentUpon>PackageTypePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ServicePopup.resx">
+      <DependentUpon>ServicePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\ServiceTypePopup.resx">
+      <DependentUpon>ServiceTypePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\PaymentMethodPopup.resx">
+      <DependentUpon>PaymentMethodPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\CustomerPopup.resx">
+      <DependentUpon>CustomerPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\VehiclePopup.resx">
+      <DependentUpon>VehiclePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common.WinControl\Devenlab.Common.WinControl.csproj">
+      <Project>{cadbb621-0f80-4c45-9135-7f10256c5ea5}</Project>
+      <Name>Devenlab.Common.WinControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Franchise\SISCO.App.Franchise.csproj">
+      <Project>{EAA33893-39AA-49AB-977F-379A81E205B2}</Project>
+      <Name>SISCO.App.Franchise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Marketing\SISCO.App.Marketing.csproj">
+      <Project>{b574f6f0-ae0b-4de8-a273-39a024cf8bb8}</Project>
+      <Name>SISCO.App.Marketing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App\SISCO.App.csproj">
+      <Project>{8B965B65-2286-4F02-B1BC-8E126C22BCFB}</Project>
+      <Name>SISCO.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.MasterData\SISCO.App.MasterData.csproj">
+      <Project>{A80E0E32-6788-46C3-9B10-755E597A11E5}</Project>
+      <Name>SISCO.App.MasterData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Presentation.Common\SISCO.Presentation.Common.csproj">
+      <Project>{518d8408-e160-4c14-b9a2-5770b7a7492a}</Project>
+      <Name>SISCO.Presentation.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

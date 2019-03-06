@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Franchise>
+    <Guid></Guid>
+  </Franchise>
+
+  <PrinterSetting>
+    <DotMetrix></DotMetrix>
+    <BarCodePrinter></BarCodePrinter>
+    <InkJet></InkJet>
+  </PrinterSetting>
+</Data>

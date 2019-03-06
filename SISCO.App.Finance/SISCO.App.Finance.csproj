@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D69280C-E684-49F6-8E13-C4A7D36CB499}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.App.Finance</RootNamespace>
+    <AssemblyName>SISCO.App.Finance</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BankAccountBranchDataManager.cs" />
+    <Compile Include="PaymentClaimAdditionalDataManager.cs" />
+    <Compile Include="CostTransactionalAccountDataManager.cs" />
+    <Compile Include="PettyCashJournalDataManager.cs" />
+    <Compile Include="PettyCashDataManager.cs" />
+    <Compile Include="TransactionalAccountDataManager.cs" />
+    <Compile Include="InvoiceTransferAcceptanceDetailDataManager.cs" />
+    <Compile Include="InvoiceTransferAcceptanceDataManager.cs" />
+    <Compile Include="InvoiceTransferDetailDataManager.cs" />
+    <Compile Include="InvoiceTransferDataManager.cs" />
+    <Compile Include="InvoiceDistributionResultDetailDataManager.cs" />
+    <Compile Include="InvoiceDistributionResultDataManager.cs" />
+    <Compile Include="CodPaymentInDetailDataManager.cs" />
+    <Compile Include="CodPaymentInDataManager.cs" />
+    <Compile Include="CodFundTransferDataManager.cs" />
+    <Compile Include="CodFundTransferDetailDataManager.cs" />
+    <Compile Include="CodFundTransferVerificationDataManager.cs" />
+    <Compile Include="CodFundTransferVerificationDetailDataManager.cs" />
+    <Compile Include="FranchisePaymentInDetailDataManager.cs" />
+    <Compile Include="FranchisePaymentInDataManager.cs" />
+    <Compile Include="CostDataManager.cs" />
+    <Compile Include="CostDetailDataManager.cs" />
+    <Compile Include="OtherInvoiceAcceptanceDataManager.cs" />
+    <Compile Include="OtherInvoiceAcceptanceDetailDataManager.cs" />
+    <Compile Include="OtherInvoiceDataManager.cs" />
+    <Compile Include="OtherInvoicePaymentInDataManager.cs" />
+    <Compile Include="OtherInvoicePaymentInDetailDataManager.cs" />
+    <Compile Include="OtherInvoicePaymentOutDataManager.cs" />
+    <Compile Include="OtherInvoicePaymentOutDetailDataManager.cs" />
+    <Compile Include="OtherInvoiceSendDataManager.cs" />
+    <Compile Include="OtherInvoiceSendDetailDataManager.cs" />
+    <Compile Include="PaymentDeliveryDataManager.cs" />
+    <Compile Include="PaymentDeliveryDetailDataManager.cs" />
+    <Compile Include="PaymentInCollectInDataManager.cs" />
+    <Compile Include="PaymentInCollectInDetailDataManager.cs" />
+    <Compile Include="PaymentInCollectOutDataManager.cs" />
+    <Compile Include="PaymentInCollectOutDetailDataManager.cs" />
+    <Compile Include="PaymentInCounterDataManager.cs" />
+    <Compile Include="PaymentInCounterDetailDataManager.cs" />
+    <Compile Include="RefundPph23DataManager.cs" />
+    <Compile Include="PaymentInDataManager.cs" />
+    <Compile Include="Properties\PaymentInDetailDataManager.cs" />
+    <Compile Include="PaymentMcDataManager.cs" />
+    <Compile Include="PaymentMcDetailDataManager.cs" />
+    <Compile Include="PaymentOutCollectInDataManager.cs" />
+    <Compile Include="PaymentOutCollectInDetailDataManager.cs" />
+    <Compile Include="PaymentRcDataManager.cs" />
+    <Compile Include="PaymentRcDetailDataManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesInvoiceAcceptanceDataManager.cs" />
+    <Compile Include="SalesInvoiceAcceptanceDetailDataManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common.WinControl\Devenlab.Common.WinControl.csproj">
+      <Project>{CADBB621-0F80-4C45-9135-7F10256C5EA5}</Project>
+      <Name>Devenlab.Common.WinControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{d43940df-cb03-49b4-a6ef-cac92bf00b3e}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802c9d7-5433-4071-bd6c-ecac025f397e}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Repositories\SISCO.Repositories.csproj">
+      <Project>{9a5c8af3-8127-444a-b499-8523b7e60bb2}</Project>
+      <Name>SISCO.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

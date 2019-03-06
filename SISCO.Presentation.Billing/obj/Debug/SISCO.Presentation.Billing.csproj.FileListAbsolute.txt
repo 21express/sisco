@@ -1,0 +1,598 @@
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.App.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csprojResolveAssemblyReference.cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SelectShipmentForInvoiceForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ValidateShipmentOrderForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewPublishedTariffDialogForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewSalesInvoiceListForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ExportShipmentListForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ImportShipmentListForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewShipmentListForm.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SalesInvoicePopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ShipmentPopup.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Properties.Resources.resources
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.GenerateResource.Cache
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll.licenses
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll.config
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Linq.Dynamic.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.pdb
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.xml
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll
+C:\Janhsen Data\Janhsen Works\Development\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.App.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.GenerateResource.Cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SelectShipmentForInvoiceForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ValidateShipmentOrderForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewPublishedTariffDialogForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewSalesInvoiceListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ExportShipmentListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ImportShipmentListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewShipmentListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SalesInvoicePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ShipmentPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Properties.Resources.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll.licenses
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO_SourceCode_86\SISCO\SISCO\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.App.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csprojResolveAssemblyReference.cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SelectShipmentForInvoiceForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ValidateShipmentOrderForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewPublishedTariffDialogForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewSalesInvoiceListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ExportShipmentListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ImportShipmentListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewShipmentListForm.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SalesInvoicePopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ShipmentPopup.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Properties.Resources.resources
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.GenerateResource.Cache
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll.licenses
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll.config
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.xml
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.pdb
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Franchise.dll
+C:\Users\masihmuda\Documents\Storage\App\DesktopApp\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Franchise.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll.config
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\Franchise.Presentation.Common.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Franchise.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.IO.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Linq.Dynamic.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Net.Http.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Runtime.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\NLog.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.LocalStorage.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Corporate.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Franchise.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\Franchise.Presentation.Common.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.IO.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Net.Http.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Runtime.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\NLog.xml
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.LocalStorage.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Corporate.pdb
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.App.config
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csprojResolveAssemblyReference.cache
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceByScanForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.FakturBillingForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.FranchiseSalesInvoiceForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.InvoiceTrackingViewForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SalesInvoiceForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SelectShipmentForInvoiceForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ValidateShipmentOrderForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewPublishedTariffDialogForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewSalesInvoiceListForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ExportShipmentListForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ImportShipmentListForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewShipmentListForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewTaxInvoiceForm.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.CancellationPopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.FranchiseSalesInvoicePopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.InvoiceRevisionPopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SalesInvoicePopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SelectShipmentPopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ShipmentPopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ValidateShipmentPopup.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Properties.Resources.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Reports.FranchiseInvoicePDF.resources
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.GenerateResource.Cache
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll.licenses
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.pdb
+D:\sisco\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Reports.InvoiceDelivery2PrintOut.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.App.config
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceByScanForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.FakturBillingForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.FranchiseSalesInvoiceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.InvoicePrintingForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.InvoiceToFinanceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.InvoiceTrackingViewForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SalesInvoiceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.SelectShipmentForInvoiceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ValidateShipmentOrderForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.CreateSalesInvoiceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewPublishedTariffDialogForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewSalesInvoiceListForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ExportShipmentListForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ImportShipmentListForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewShipmentListForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Forms.ViewTaxInvoiceForm.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.CancellationPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.FranchiseSalesInvoicePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.InvoiceFinancePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.InvoiceRevisionPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SalesInvoicePopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.SelectShipmentPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ShipmentPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Popup.ValidateShipmentPopup.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Properties.Resources.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Reports.InvoiceDelivery2PrintOut.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.Reports.FranchiseInvoicePDF.resources
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.csproj.GenerateResource.Cache
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll.licenses
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll.config
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Billing.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\Franchise.Presentation.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Franchise.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.LocalStorage.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Administration.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Corporate.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Franchise.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.WinControl.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Billing.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Finance.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Franchise.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Operation.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.CustomerService.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.MasterData.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Operation.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Repositories.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Data.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Printing.v13.2.Core.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.Utils.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraEditors.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraGrid.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraNavBar.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraPrinting.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\DevExpress.XtraReports.v13.2.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\Franchise.Presentation.Common.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.IO.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Runtime.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\System.Threading.Tasks.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\NLog.xml
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.CustomerService.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.LocalStorage.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Marketing.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Administration.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Administration.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.App.Corporate.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\SISCO.Presentation.Franchise.pdb
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Data.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Printing.v13.2.Core.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.Utils.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraEditors.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraGrid.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraNavBar.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraPrinting.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\de\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\es\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ja\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\bin\Debug\ru\DevExpress.XtraReports.v13.2.resources.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.dll
+D:\Projects\SISCO\SISCO.Presentation.Billing\obj\Debug\SISCO.Presentation.Billing.pdb

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A80E0E32-6788-46C3-9B10-755E597A11E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISCO.App.MasterData</RootNamespace>
+    <AssemblyName>SISCO.App.MasterData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RND|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\RND\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.2\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BankAccountDataManager.cs" />
+    <Compile Include="DivisionDataManager.cs" />
+    <Compile Include="DistrictDataManager.cs" />
+    <Compile Include="DropPointDataManager.cs" />
+    <Compile Include="ProvinceDataManager.cs" />
+    <Compile Include="ShipmentExpandDataManager.cs" />
+    <Compile Include="NotificationDataManager.cs" />
+    <Compile Include="PromoDataManager.cs" />
+    <Compile Include="AirwaybillDataManager.cs" />
+    <Compile Include="AirwaybillDetailDataManager.cs" />
+    <Compile Include="BranchDataManager.cs" />
+    <Compile Include="CityDataManager.cs" />
+    <Compile Include="BranchTypeDataManager.cs" />
+    <Compile Include="BranchCityMappingDataManager.cs" />
+    <Compile Include="AirlineDataManager.cs" />
+    <Compile Include="AirportDataManager.cs" />
+    <Compile Include="AirlineTariffDataManager.cs" />
+    <Compile Include="AccountReferenceDataManager.cs" />
+    <Compile Include="ConfigDataManager.cs" />
+    <Compile Include="TaxInvoiceDataManager.cs" />
+    <Compile Include="UserPrivillegeDataManager.cs" />
+    <Compile Include="PrivilegeDataManager.cs" />
+    <Compile Include="CostTypeDataManager.cs" />
+    <Compile Include="RunningTextDataManager.cs" />
+    <Compile Include="DeliveryTariffDataManager.cs" />
+    <Compile Include="RouteDataManager.cs" />
+    <Compile Include="FleetDataManager.cs" />
+    <Compile Include="PaymentTypeDataManager.cs" />
+    <Compile Include="TariffInternationalDataManager.cs" />
+    <Compile Include="SalesInvoiceTypeDataManager.cs" />
+    <Compile Include="TariffDataManager.cs" />
+    <Compile Include="TaxTypeDataManager.cs" />
+    <Compile Include="FlightDataManager.cs" />
+    <Compile Include="MissDeliveryReasonDataManager.cs" />
+    <Compile Include="DepartmentDataManager.cs" />
+    <Compile Include="CurrencyDataManager.cs" />
+    <Compile Include="PrefixCodeDataManager.cs" />
+    <Compile Include="PricingPlanDataManager.cs" />
+    <Compile Include="CountryDataManager.cs" />
+    <Compile Include="CustomerTariffDataManager.cs" />
+    <Compile Include="EmployeeDataManager.cs" />
+    <Compile Include="ServiceTypeDataManager.cs" />
+    <Compile Include="PackageTypeDataManager.cs" />
+    <Compile Include="CustomerDataManager.cs" />
+    <Compile Include="EmployeeRoleDataManager.cs" />
+    <Compile Include="PackageDataManager.cs" />
+    <Compile Include="PaymentMethodDataManager.cs" />
+    <Compile Include="ServiceDataManager.cs" />
+    <Compile Include="ShipmentDataManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrackingStatusDataManager.cs" />
+    <Compile Include="UserRoleDataManager.cs" />
+    <Compile Include="UsersDataManager.cs" />
+    <Compile Include="VehicleTypeDataManager.cs" />
+    <Compile Include="VendorDataManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
+      <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
+      <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App\SISCO.App.csproj">
+      <Project>{8b965b65-2286-4f02-b1bc-8e126c22bcfb}</Project>
+      <Name>SISCO.App</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Models\SISCO.Models.csproj">
+      <Project>{3802C9D7-5433-4071-BD6C-ECAC025F397E}</Project>
+      <Name>SISCO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.Repositories\SISCO.Repositories.csproj">
+      <Project>{9A5C8AF3-8127-444A-B499-8523B7E60BB2}</Project>
+      <Name>SISCO.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
