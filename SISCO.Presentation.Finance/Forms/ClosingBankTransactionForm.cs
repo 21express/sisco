@@ -35,18 +35,33 @@ namespace SISCO.Presentation.Finance.Forms
 
             btnFilter.Click += btnFilter_Click;
             btnVerify.Click += btnVerify_Click;
+            cbxVerified.CheckedChanged += cbxVerified_CheckedChanged;
+        }
+
+        void cbxVerified_CheckedChanged(object sender, EventArgs e)
+        {
+            GridJournals.DataSource = null;
         }
 
         void btnVerify_Click(object sender, EventArgs e)
         {
             var rowhandle = JournalView.FocusedRowHandle;
-            if ((decimal)JournalView.GetRowCellValue(rowhandle, JournalView.Columns["Balance"]) > 0)
+            if (!cbxVerified.Checked)
             {
-                if (MessageForm.Ask(form, "Verifikasi", string.Format("Setelah verifikasi, transaksi ini tidak dapat digunakan kembali. Masih ada sisa Rp {0}. Apa anda yakin akan melakukan verifikasi dengan mengabaikan sisa transaksi yang ada?", (decimal)JournalView.GetRowCellValue(rowhandle, JournalView.Columns["Balance"]))) == DialogResult.Yes)
-                    Verification(rowhandle);
-            } else
+                if ((decimal)JournalView.GetRowCellValue(rowhandle, JournalView.Columns["Balance"]) > 0)
+                {
+                    if (MessageForm.Ask(form, "Verifikasi", string.Format("Setelah verifikasi, transaksi ini tidak dapat digunakan kembali. Masih ada sisa Rp {0}. Apa anda yakin akan melakukan verifikasi dengan mengabaikan sisa transaksi yang ada?", (decimal)JournalView.GetRowCellValue(rowhandle, JournalView.Columns["Balance"]))) == DialogResult.Yes)
+                        Verification(rowhandle);
+                }
+                else
+                {
+                    if (MessageForm.Ask(form, "Verifikasi", "Setelah verifikasi, transaksi ini tidak dapat digunakan kembali. Apa anda yakin akan melakukan verifikasi transaksi ini?") == DialogResult.Yes)
+                        Verification(rowhandle);
+                }
+            }
+            else
             {
-                if (MessageForm.Ask(form, "Verifikasi", "Setelah verifikasi, transaksi ini tidak dapat digunakan kembali. Apa anda yakin akan melakukan verifikasi transaksi ini?") == DialogResult.Yes)
+                if (MessageForm.Ask(form, "Verifikasi", "Apa anda yakin akan melakukan pembatalan verifikasi?") == DialogResult.Yes)
                     Verification(rowhandle);
             }
         }
@@ -54,13 +69,17 @@ namespace SISCO.Presentation.Finance.Forms
         void Verification(int rowHandle)
         {
             var id = (int)JournalView.GetRowCellValue(rowHandle, JournalView.Columns["Id"]);
-            new TransactionalAccountDataManager().Closing(id, BaseControl.UserLogin);
+            if (!cbxVerified.Checked)
+                new TransactionalAccountDataManager().Closing(id, BaseControl.UserLogin);
+            else
+                new TransactionalAccountDataManager().Cancellation(id, BaseControl.UserLogin);
 
             JournalView.DeleteSelectedRows();
         }
 
         void btnFilter_Click(object sender, EventArgs e)
         {
+            btnVerify.Buttons[0].Caption = cbxVerified.Checked ? "Cancel" : "Verify";
             RefreshGrid();
         }
 
@@ -70,7 +89,11 @@ namespace SISCO.Presentation.Finance.Forms
         {
             if (lkpAccount.Value != null)
             {
-                transactionJournals = new TransactionalAccountDataManager().GetTransactionJournal((int)lkpAccount.Value, tbxFrom.DateTime, tbxTo.DateTime, true);
+                if (!cbxVerified.Checked)
+                    transactionJournals = new TransactionalAccountDataManager().GetTransactionJournal((int)lkpAccount.Value, tbxFrom.DateTime, tbxTo.DateTime, true);
+                else
+                    transactionJournals = new TransactionalAccountDataManager().GetTransactionJournalVerified((int)lkpAccount.Value, tbxFrom.DateTime, tbxTo.DateTime);
+
                 var master = new List<TransactionJournalMaster>();
 
                 var rowhandle = 0;

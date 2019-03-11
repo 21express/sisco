@@ -84,9 +84,20 @@ namespace SISCO.App.Finance
             return new TransactionalAccountRepository().GetTransactionJournal(bankId, dateFrom, dateTo, closed);
         }
 
+        public List<TransactionJournal> GetTransactionJournalVerified(int bankId, DateTime? dateFrom = null, 
+            DateTime? dateTo = null)
+        {
+            return new TransactionalAccountRepository().GetTransactionJournalVerified(bankId, dateFrom, dateTo);
+        }
+
         public void Closing(int id, string actor)
         {
             new TransactionalAccountRepository().Closing(id, actor);
+        }
+
+        public void Cancellation(int id, string actor)
+        {
+            new TransactionalAccountRepository().Cancellation(id, actor);
         }
 
         public TransactionalAccountModel GetTransactionAccountAgaintsCostTransaction(int id)

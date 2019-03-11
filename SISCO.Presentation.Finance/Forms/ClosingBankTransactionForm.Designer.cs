@@ -54,6 +54,8 @@
             this.InvoiceView = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.btnFilter = new DevExpress.XtraEditors.SimpleButton();
@@ -64,8 +66,7 @@
             this.lkpAccount = new SISCO.Presentation.Common.Component.dLookup();
             this.label1 = new System.Windows.Forms.Label();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.cbxVerified = new SISCO.Presentation.Common.Component.dCheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.TransactionView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridJournals)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JournalView)).BeginInit();
@@ -350,6 +351,32 @@
             this.gridColumn14.VisibleIndex = 1;
             this.gridColumn14.Width = 297;
             // 
+            // gridColumn15
+            // 
+            this.gridColumn15.Caption = "Total PPh";
+            this.gridColumn15.DisplayFormat.FormatString = "n0";
+            this.gridColumn15.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn15.FieldName = "TotalPph";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.OptionsColumn.AllowEdit = false;
+            this.gridColumn15.OptionsColumn.AllowFocus = false;
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 2;
+            this.gridColumn15.Width = 108;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.Caption = "Materai";
+            this.gridColumn16.DisplayFormat.FormatString = "n0";
+            this.gridColumn16.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn16.FieldName = "MateraiFee";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.OptionsColumn.AllowEdit = false;
+            this.gridColumn16.OptionsColumn.AllowFocus = false;
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 3;
+            this.gridColumn16.Width = 112;
+            // 
             // gridView1
             // 
             this.gridView1.GridControl = this.GridJournals;
@@ -359,6 +386,7 @@
             // 
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Controls.Add(this.cbxVerified);
             this.groupControl1.Controls.Add(this.btnFilter);
             this.groupControl1.Controls.Add(this.tbxTo);
             this.groupControl1.Controls.Add(this.label3);
@@ -374,7 +402,7 @@
             // 
             // btnFilter
             // 
-            this.btnFilter.Location = new System.Drawing.Point(351, 30);
+            this.btnFilter.Location = new System.Drawing.Point(485, 30);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(75, 44);
             this.btnFilter.TabIndex = 4;
@@ -517,31 +545,17 @@
             this.groupControl2.TabIndex = 5;
             this.groupControl2.Text = "Closing Transaksi";
             // 
-            // gridColumn15
+            // cbxVerified
             // 
-            this.gridColumn15.Caption = "Total PPh";
-            this.gridColumn15.DisplayFormat.FormatString = "n0";
-            this.gridColumn15.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn15.FieldName = "TotalPph";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.OptionsColumn.AllowEdit = false;
-            this.gridColumn15.OptionsColumn.AllowFocus = false;
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 2;
-            this.gridColumn15.Width = 108;
-            // 
-            // gridColumn16
-            // 
-            this.gridColumn16.Caption = "Materai";
-            this.gridColumn16.DisplayFormat.FormatString = "n0";
-            this.gridColumn16.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn16.FieldName = "MateraiFee";
-            this.gridColumn16.Name = "gridColumn16";
-            this.gridColumn16.OptionsColumn.AllowEdit = false;
-            this.gridColumn16.OptionsColumn.AllowFocus = false;
-            this.gridColumn16.Visible = true;
-            this.gridColumn16.VisibleIndex = 3;
-            this.gridColumn16.Width = 112;
+            this.cbxVerified.AutoSize = true;
+            this.cbxVerified.FieldLabel = null;
+            this.cbxVerified.Location = new System.Drawing.Point(351, 53);
+            this.cbxVerified.Name = "cbxVerified";
+            this.cbxVerified.Size = new System.Drawing.Size(118, 21);
+            this.cbxVerified.TabIndex = 5;
+            this.cbxVerified.Text = "Sudah Verifikasi?";
+            this.cbxVerified.UseVisualStyleBackColor = true;
+            this.cbxVerified.ValidationRules = null;
             // 
             // ClosingBankTransactionForm
             // 
@@ -605,5 +619,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
+        private Common.Component.dCheckBox cbxVerified;
     }
 }

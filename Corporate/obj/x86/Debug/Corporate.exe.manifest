@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8VmJ1WQkyfwBJ5phoLFBbR1xisU=</dsig:DigestValue>
+        <dsig:DigestValue>t5auPxcoVrCZAxqPBPWYx8+R71Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>sIQ6CRxHON/q2B9wkFm7veXNVsU=</dsig:DigestValue>
+        <dsig:DigestValue>z9AFK2Rbqv26lglACrxXgIzgRSs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -487,14 +487,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SISCO.Presentation.MasterData.dll" size="507392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SISCO.Presentation.MasterData.dll" size="512000">
       <assemblyIdentity name="SISCO.Presentation.MasterData" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>gVvnC7K8A51pl4vZ18VOayIBYeA=</dsig:DigestValue>
+        <dsig:DigestValue>05LpKXWSVgUm+Sbwcqigi1SIqTs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

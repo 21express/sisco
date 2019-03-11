@@ -7,6 +7,7 @@ using Devenlab.Common.Fault;
 using Devenlab.Common.Interfaces;
 using SISCO.Models;
 using SISCO.Repositories.Context;
+using MySql.Data.MySqlClient;
 
 namespace SISCO.Repositories
 {
@@ -179,6 +180,48 @@ namespace SISCO.Repositories
             var tquery = (from a in Entities.bank_account select a).Where(expression, parameters);
             totalCount = tquery.Count();
             return (IEnumerable<T>)query.Select(PopulateEntityToNewModel).ToList();
+        }
+
+        public List<BankAccountModel> GetBankShared(int branchId)
+        {
+            var sql = @"select
+	                        ba.id Id, 
+                            ba.rowstatus Rowstatus,
+                            ba.rowversion Rowversion,
+                            ba.account_no AccountNo,
+                            ba.branch_id BranchId,
+                            ba.bank_name BankName,
+                            ba.branch_name BranchName,
+                            ba.account_name AccountName,
+                            ba.account_address AccountAddress, 
+                            ba.createddate Createddate,
+                            ba.createdby Createdby,
+                            ba.modifieddate Modifieddate,
+                            ba.modifiedby Modifiedby
+                        from bank_account ba 
+                        where ba.rowstatus = 1 and ba.branch_id = @branchId
+
+                        union
+
+                        select
+	                        ba.id Id, 
+                            ba.rowstatus Rowstatus,
+                            ba.rowversion Rowversion,
+                            ba.account_no AccountNo,
+                            ba.branch_id BranchId,
+                            ba.bank_name BankName,
+                            ba.branch_name BranchName,
+                            ba.account_name AccountName,
+                            ba.account_address AccountAddress, 
+                            ba.createddate Createddate,
+                            ba.createdby Createdby,
+                            ba.modifieddate Modifieddate,
+                            ba.modifiedby Modifiedby
+                        from bank_account ba
+                        inner join bank_account_branch bab on ba.id = bab.bank_account_id and bab.rowstatus = 1
+                        where ba.rowstatus = 1 and bab.branch_id = @branchId;";
+
+            return Entities.ExecuteStoreQuery<BankAccountModel>(sql, new MySqlParameter("branchId", branchId)).ToList();
         }
     }
 }

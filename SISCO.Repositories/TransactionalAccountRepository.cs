@@ -443,7 +443,8 @@ namespace SISCO.Repositories
             return result.Balance;
         }
 
-        public List<TransactionJournal> GetTransactionJournal(int bankId, DateTime? dateFrom = null, DateTime? dateTo = null, bool closed = false)
+        public List<TransactionJournal> GetTransactionJournal(int bankId, DateTime? dateFrom = null, DateTime? dateTo = null, 
+            bool closed = false)
         {
             var sql = @"SELECT
 	                        ta.id Id,
@@ -601,9 +602,173 @@ namespace SISCO.Repositories
             return Entities.ExecuteStoreQuery<TransactionJournal>(sql, new MySqlParameter("bankId", bankId)).ToList();
         }
 
+        public List<TransactionJournal> GetTransactionJournalVerified(int bankId, DateTime? dateFrom = null, 
+            DateTime? dateTo = null)
+        {
+            var sql = @"SELECT
+	                        ta.id Id,
+	                        ta.date_process TransactionAccountDate,
+	                        ta.description Description,
+	                        null TransactionId,
+	                        '' TransactionCode,
+	                        null TransactionDate,
+	                        '' TransactionDescription,
+	                        'TA' TransactionType,
+	                        ta.debit_total_amount Debit,
+	                        ta.credit_total_amount Credit,
+	                        IF (ta.debit_total_amount > 0, 0, 
+		                        ta.debit_total_amount+ta.credit_total_amount 
+		                        - if ((select count(id) from payment_in where transactional_account_id = ta.id and rowstatus = 1) > 0, (select sum(total) from payment_in where transactional_account_id = ta.id and rowstatus = 1), 0) 
+		                        - if ((select count(id) from payment_in_counter where transactional_account_id = ta.id and rowstatus = 1) > 0, (select sum(total) from payment_in_counter where transactional_account_id = ta.id and rowstatus = 1), 0) 
+		                        - if ((select count(id) from other_invoice_payment_in where transactional_account_id = ta.id and rowstatus = 1) > 0, (select sum(total) from other_invoice_payment_in where transactional_account_id = ta.id and rowstatus = 1), 0) 
+		                        - if ((select count(id) from payment_in_collect_out where transactional_account_id = ta.id and rowstatus = 1) > 0, (select sum(total) from payment_in_collect_out where transactional_account_id = ta.id and rowstatus = 1), 0) 
+	                        ) Balance,
+	                        ta.closed_date Closeddate,
+                            null TotalPph,
+                            null MateraiFee
+                        FROM transactional_account ta
+                        WHERE {0}
+
+                        UNION
+
+                        SELECT
+	                        null Id,
+	                        ta.date_process TransactionAccountDate,
+	                        pi.description Description,
+	                        ta.id TransactionId,
+	                        pi.code TransactionCode,
+	                        pi.date_process TransactionDate,
+	                        pid.invoice_ref_number TransactionDescription,
+	                        'Invoice' TransactionType,
+	                        IF(pi.adjustment > 0, pi.adjustment, 0) Debit,
+	                        pi.total Credit,
+	                        pid.payment Balance,
+	                        ta.closed_date Closeddate,
+                            pid.total_pph23 TotalPPh,
+                            pid.materai_fee MateraiFee
+                        FROM transactional_account ta
+                        INNER JOIN payment_in pi ON pi.transactional_account_id = ta.id AND pi.rowstatus = 1
+                        INNER JOIN payment_in_detail pid ON pi.id = pid.payment_in_id AND pid.rowstatus = 1
+                        WHERE {0}
+
+                        UNION
+
+                        SELECT
+	                        null Id,
+	                        ta.date_process TransactionAccountDate,
+	                        pic.description Description,
+	                        ta.id TransactionId,
+	                        pic.code TransactionCode,
+	                        pic.date_process TransactionDate,
+	                        '' TransactionDescription,
+	                        'Counter' TransactionType,
+	                        IF(pic.adjustment > 0, pic.adjustment, 0) Debit,
+	                        pic.Total Credit,
+	                        0 Balance
+	                        ,ta.closed_date Closeddate,
+                            null TotalPPh,
+                            null MateraiFee
+                        FROM transactional_account ta
+                        INNER JOIN payment_in_counter pic ON pic.transactional_account_id = ta.id AND pic.rowstatus = 1
+                        WHERE {0}
+
+                        UNION
+
+                        SELECT
+	                        null Id,
+	                        ta.date_process TransactionAccountDate,
+	                        oipi.description Description,
+	                        ta.id TransactionId,
+	                        oipi.code TransactionCode,
+	                        oipi.date_process TransactionDate,
+	                        oipid.invoice_ref_number TransactionDescription,
+	                        'Other' TransactionType,
+	                        IF(oipi.adjustment > 0, oipi.adjustment, 0) Debit,
+	                        oipi.total Credit,
+	                        oipid.payment Balance,
+	                        ta.closed_date Closeddate,
+                            oipid.total_pph23 TotalPPh,
+                            oipid.materai_fee MateraiFee
+                        FROM transactional_account ta
+                        INNER JOIN other_invoice_payment_in oipi ON oipi.transactional_account_id = ta.id AND oipi.rowstatus = 1
+                        INNER JOIN other_invoice_payment_in_detail oipid ON oipi.id = oipid.other_invoice_payment_in_id AND oipid.rowstatus = 1
+                        WHERE {0}
+
+                        UNION
+
+                        SELECT
+	                        null Id,
+	                        ta.date_process TransactionAccountDate,
+	                        pico.description Description,
+	                        ta.id TransactionId,
+	                        pico.code TransactionCode,
+	                        pico.date_process TransactionDate,
+	                        '' TransactionDescription,
+	                        'Collect' TransactionType,
+	                        IF(pico.adjustment > 0, pico.adjustment, 0) Debit,
+	                        pico.Total Credit,
+	                        0 Balance
+	                        ,ta.closed_date Closeddate,
+                            null TotalPPh,
+                            null MateraiFee
+                        FROM transactional_account ta
+                        INNER JOIN payment_in_collect_out pico ON pico.transactional_account_id = ta.id AND pico.rowstatus = 1
+                        WHERE {0}
+
+                        UNION
+
+                        SELECT
+	                        null Id,
+	                        ta.date_process TransactionAccountDate,
+	                        ta.description Description,
+	                        ta.id TransactionId,
+	                        c.code TransactionCode,
+	                        c.date_process TransactionDate,
+	                        c.description TransactionDescription,
+	                        'Cost' TransactionType,
+	                        0 Debit,
+	                        c.total Credit,
+	                        0 Balance,
+                            ta.closed_date Closeddate,
+                            null TotalPPh,
+                            null MateraiFee
+                        FROM transactional_account ta
+                        INNER JOIN cost_transactional_account cta on ta.id = cta.transactional_account_id and cta.rowstatus = 1
+                        INNER JOIN cost c ON cta.cost_id = c.id and c.rowstatus = 1
+                        WHERE {0}
+
+                        ORDER BY TransactionAccountDate, TransactionDate;";
+
+            var param = new List<string>();
+
+            param.Add("ta.rowstatus = 1");
+            param.Add("ta.bank_account_id = @bankId");
+            param.Add("ta.closed_date IS NOT NULL");
+
+            if (dateFrom > DateTime.MinValue)
+            {
+                var date = (DateTime)dateFrom;
+                param.Add(string.Format("ta.date_process >= '{0}'", date.ToString("yyyy-MM-dd 00:00:00")));
+            }
+
+            if (dateTo > DateTime.MinValue)
+            {
+                var date = (DateTime)dateTo;
+                param.Add(string.Format("ta.date_process <= '{0}'", date.ToString("yyyy-MM-dd 23:59:59")));
+            }
+
+            sql = string.Format(sql, string.Join(" AND ", param));
+            return Entities.ExecuteStoreQuery<TransactionJournal>(sql, new MySqlParameter("bankId", bankId)).ToList();
+        }
+
         public void Closing(int id, string actor)
         {
             Entities.ExecuteStoreCommand("call ClosingTransactionalAccount(@pid, @actor);", new MySqlParameter("pid", id), new MySqlParameter("actor", actor));
+        }
+
+        public void Cancellation(int id, string actor)
+        {
+            Entities.ExecuteStoreCommand("call CancellationVerifiedTransactionalAccount(@pid, @actor);", new MySqlParameter("pid", id), new MySqlParameter("actor", actor));
         }
 
         public List<TransactionJournalReport> JournalReport(int bankId, DateTime? dateFrom = null, DateTime? dateTo = null)

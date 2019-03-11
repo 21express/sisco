@@ -8,6 +8,7 @@ using Devenlab.Common.Interfaces;
 using SISCO.Models;
 using SISCO.Repositories.Context;
 using SISCO.Repositories.Interfaces;
+using MySql.Data.MySqlClient;
 
 namespace SISCO.Repositories
 {
@@ -169,6 +170,26 @@ namespace SISCO.Repositories
             var tquery = (from a in Entities.bank_account_branch select a).Where(expression, parameters);
             totalCount = tquery.Count();
             return (IEnumerable<T>)query.Select(PopulateEntityToNewModel).ToList();
+        }
+
+        public void Reupdate(int bankAccountId)
+        {
+            var sql = @"UPDATE bank_account_branch SET rowstatus = 0 WHERE bank_account_id = @bankAccountId";
+            Entities.ExecuteStoreCommand(sql, new MySqlParameter("bankAccountId", bankAccountId));
+            Entities.SaveChanges();
+        }
+
+        public void SaveChanges(int bankAccountId, int branchId, string userLogin)
+        {
+            var sql = string.Format(@"INSERT INTO bank_account_branch (bank_account_id, branch_id, createddate, createdby, rowstatus, rowversion)
+                                SELECT {0}, {1}, NOW(), '{2}', 1, NOW() FROM dual
+                                WHERE NOT EXISTS(SELECT 1 FROM bank_account_branch WHERE bank_account_id = {0} and branch_id = {1});
+
+                                UPDATE bank_account_branch SET rowstatus = 1 WHERE bank_account_id = {0} and branch_id = {1} AND rowstatus = 0;",
+                                bankAccountId, branchId, userLogin);
+
+            Entities.ExecuteStoreCommand(sql);
+            Entities.SaveChanges();
         }
     }
 }

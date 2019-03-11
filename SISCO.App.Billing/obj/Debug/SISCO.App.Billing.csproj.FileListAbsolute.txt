@@ -46,3 +46,15 @@ D:\Projects\SISCO\SISCO.App.Billing\bin\Debug\SISCO.Models.pdb
 D:\Projects\SISCO\SISCO.App.Billing\bin\Debug\SISCO.Repositories.pdb
 D:\Projects\SISCO\SISCO.App.Billing\obj\Debug\SISCO.App.Billing.dll
 D:\Projects\SISCO\SISCO.App.Billing\obj\Debug\SISCO.App.Billing.pdb
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\SISCO.App.Billing.dll
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\SISCO.App.Billing.pdb
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\SISCO.Repositories.dll
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO2\SISCO.App.Billing\bin\Debug\SISCO.Repositories.pdb
+D:\Projects\SISCO2\SISCO.App.Billing\obj\Debug\SISCO.App.Billing.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO2\SISCO.App.Billing\obj\Debug\SISCO.App.Billing.dll
+D:\Projects\SISCO2\SISCO.App.Billing\obj\Debug\SISCO.App.Billing.pdb

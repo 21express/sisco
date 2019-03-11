@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using SISCO.Presentation.Common;
 using SISCO.Presentation.MasterData.Command;
 using System.Windows.Forms;
@@ -59,7 +58,8 @@ namespace SISCO.Presentation.MasterData
                 new ToolStripSeparator(),
                 new MenuCommand("Vendor", new ManageVendorCommand()),
                 new ToolStripSeparator(),
-                new MenuCommand("Rekening Bank", new ManageBankAccountCommand())
+                new MenuCommand("Rekening Bank", new ManageBankAccountCommand()),
+                new MenuCommand("Rekening Bank Akses Cabang", new ManageBankAccountBranchCommand())
             };
         }
     }

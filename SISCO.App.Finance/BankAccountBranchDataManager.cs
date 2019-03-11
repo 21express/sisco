@@ -27,5 +27,15 @@ namespace SISCO.App.Finance
         {
             return Repository.Get<T>(paging, out count, listParameter);
         }
+
+        public void Reupdate(int bankAccountId)
+        {
+            new BankAccountBranchRepository().Reupdate(bankAccountId);
+        }
+
+        public void SaveChanges(int bankAccountId, int branchId, string userLogin)
+        {
+            new BankAccountBranchRepository().SaveChanges(bankAccountId, branchId, userLogin);
+        }
     }
 }

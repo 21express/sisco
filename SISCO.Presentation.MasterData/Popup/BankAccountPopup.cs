@@ -18,6 +18,7 @@ namespace SISCO.Presentation.MasterData.Popup
 {
     public partial class BankAccountPopup : BaseForm, IPopup
     {
+        private bool _sharedAccount { get; set; }
         public BankAccountPopup()
         {
             InitializeComponent();
@@ -26,11 +27,28 @@ namespace SISCO.Presentation.MasterData.Popup
             btnSelect.Click += SelectRow;
             BankView.DoubleClick += SelectRow;
             BankView.CustomColumnDisplayText += NumberGrid;
+
+            _sharedAccount = false;
+        }
+
+        public BankAccountPopup(bool sharedAccount)
+        {
+            InitializeComponent();
+
+            Load += BankAccountPopup_Load;
+            btnSelect.Click += SelectRow;
+            BankView.DoubleClick += SelectRow;
+            BankView.CustomColumnDisplayText += NumberGrid;
+
+            _sharedAccount = sharedAccount;
         }
 
         void BankAccountPopup_Load(object sender, EventArgs e)
         {
-            GridBank.DataSource = new BankAccountDataManager().Get<BankAccountModel>(WhereTerm.Default(BaseControl.BranchId, "branch_id"));
+            if (!_sharedAccount)
+                GridBank.DataSource = new BankAccountDataManager().Get<BankAccountModel>(WhereTerm.Default(BaseControl.BranchId, "branch_id"));
+            else
+                GridBank.DataSource = new BankAccountDataManager().GetBankShared(BaseControl.BranchId);
             BankView.RefreshData();
         }
 

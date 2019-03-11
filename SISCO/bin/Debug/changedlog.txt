@@ -1,4 +1,5 @@
-﻿[2019-03-01] Tambah laporan pembayaran claim
+﻿[2019-03-11] Tambah atur akses bank account
+[2019-03-01] Tambah laporan pembayaran claim
 [2019-02-25] Tambah total pembayaran, total pph dan materai di detail tutup transaksi buku bank
 [2019-02-25] Tambah materai di payment in titip invoice
 [2019-02-19] Tambah field uang tunai di form cost

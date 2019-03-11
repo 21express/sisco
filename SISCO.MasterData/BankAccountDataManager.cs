@@ -53,5 +53,10 @@ namespace SISCO.App.MasterData
         {
             return ((BankAccountRepository)Repository).Get<T>(paging, out totalCount, expression, parameters);
         }
+
+        public List<BankAccountModel> GetBankShared(int branchId)
+        {
+            return new BankAccountRepository().GetBankShared(branchId);
+        }
     }
 }

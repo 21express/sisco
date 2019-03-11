@@ -114,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command\ManageBankAccount.cs" />
+    <Compile Include="Command\ManageBankAccountBranchCommand.cs" />
     <Compile Include="Command\ManageDropPointCommand.cs" />
     <Compile Include="Command\ManageDivisionCommand.cs" />
     <Compile Include="Command\ManageCostTypeCommand.cs" />
@@ -145,6 +146,12 @@
     <Compile Include="Command\ManageAccountReferenceCommand.cs" />
     <Compile Include="Command\RolesCommand.cs" />
     <Compile Include="Command\UsersCommand.cs" />
+    <Compile Include="Forms\ManageBankAccountBranchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManageBankAccountBranchForm.Designer.cs">
+      <DependentUpon>ManageBankAccountBranchForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ManageBankAccountForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -539,6 +546,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\ManageBankAccountBranchForm.resx">
+      <DependentUpon>ManageBankAccountBranchForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ManageBankAccountForm.resx">
       <DependentUpon>ManageBankAccountForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -733,6 +743,10 @@
     <ProjectReference Include="..\Devenlab.Common\Devenlab.Common.csproj">
       <Project>{D43940DF-CB03-49B4-A6EF-CAC92BF00B3E}</Project>
       <Name>Devenlab.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISCO.App.Finance\SISCO.App.Finance.csproj">
+      <Project>{3d69280c-e684-49f6-8e13-c4a7d36cb499}</Project>
+      <Name>SISCO.App.Finance</Name>
     </ProjectReference>
     <ProjectReference Include="..\SISCO.App.Franchise\SISCO.App.Franchise.csproj">
       <Project>{EAA33893-39AA-49AB-977F-379A81E205B2}</Project>

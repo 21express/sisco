@@ -150,7 +150,7 @@ namespace SISCO.Presentation.Finance.Forms
             tbxTotal.IsNumber = true;
             tbxTotalSales.IsNumber = true;
 
-            lkpAccount.LookupPopup = new BankAccountPopup();
+            lkpAccount.LookupPopup = new BankAccountPopup(true);
             lkpAccount.AutoCompleteDataManager = new BankAccountDataManager();
             lkpAccount.AutoCompleteDisplayFormater = model => ((BankAccountModel)model).AccountNo + " " + ((BankAccountModel)model).BankName;
             lkpAccount.AutoCompleteWhereExpression +=
