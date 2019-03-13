@@ -258,3 +258,5 @@ D:\Projects\SISCO2\Corporate\obj\x86\Debug\Corporate.exe.manifest
 D:\Projects\SISCO2\Corporate\obj\x86\Debug\Corporate.application
 D:\Projects\SISCO2\Corporate\obj\x86\Debug\Corporate.exe
 D:\Projects\SISCO2\Corporate\obj\x86\Debug\Corporate.pdb
+D:\Projects\SISCO2\Corporate\bin\Debug\SISCO.App.Finance.dll
+D:\Projects\SISCO2\Corporate\bin\Debug\SISCO.App.Finance.pdb

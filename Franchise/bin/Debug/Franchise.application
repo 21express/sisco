@@ -14,14 +14,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Franchise.exe.manifest" size="34802">
+    <dependentAssembly dependencyType="install" codebase="Franchise.exe.manifest" size="35436">
       <assemblyIdentity name="Franchise.exe" version="1.0.0.114" publicKeyToken="0000000000000000" language="en" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>n8QI0jSClvbgnkfdxPUCGEZGElI=</dsig:DigestValue>
+        <dsig:DigestValue>G2RCg5q60npQDODt15fkGgxYF98=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

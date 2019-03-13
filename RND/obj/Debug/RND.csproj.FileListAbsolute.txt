@@ -18,3 +18,13 @@ D:\Projects\SISCO\RND\bin\Debug\SISCO.Models.pdb
 D:\Projects\SISCO\RND\obj\Debug\RND.csprojResolveAssemblyReference.cache
 D:\Projects\SISCO\RND\obj\Debug\RND.exe
 D:\Projects\SISCO\RND\obj\Debug\RND.pdb
+D:\Projects\SISCO2\RND\bin\Debug\RND.exe.config
+D:\Projects\SISCO2\RND\bin\Debug\RND.exe
+D:\Projects\SISCO2\RND\bin\Debug\RND.pdb
+D:\Projects\SISCO2\RND\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO2\RND\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO2\RND\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO2\RND\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO2\RND\obj\Debug\RND.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO2\RND\obj\Debug\RND.exe
+D:\Projects\SISCO2\RND\obj\Debug\RND.pdb

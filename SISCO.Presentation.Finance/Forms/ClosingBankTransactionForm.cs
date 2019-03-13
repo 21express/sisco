@@ -129,6 +129,8 @@ namespace SISCO.Presentation.Finance.Forms
                                         Description = i.Description,
                                         Amount = i.Credit,
                                         Adjustment = i.Debit,
+                                        TotalClaimed = i.TotalClaimed,
+                                        LetterNo = i.LetterNo,
                                         Lists = new List<TransactionInvoiceList>()
                                     };
 
@@ -163,6 +165,8 @@ namespace SISCO.Presentation.Finance.Forms
                                 Description = others[0].Description,
                                 Amount = others[0].Credit,
                                 Adjustment = others[0].Debit,
+                                TotalClaimed = others[0].TotalClaimed,
+                                LetterNo = others[0].LetterNo,
                                 Lists = new List<TransactionInvoiceList>()
                             };
 
@@ -191,6 +195,8 @@ namespace SISCO.Presentation.Finance.Forms
                                     Description = d.Description,
                                     Amount = d.Credit,
                                     Adjustment = d.Debit,
+                                    TotalClaimed = d.TotalClaimed,
+                                    LetterNo = d.LetterNo,
                                     Lists = new List<TransactionInvoiceList>()
                                 });
                             } 

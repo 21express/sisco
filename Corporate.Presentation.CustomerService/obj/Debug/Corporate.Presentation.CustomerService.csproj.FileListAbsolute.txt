@@ -189,3 +189,5 @@ D:\Projects\SISCO2\Corporate.Presentation.CustomerService\obj\Debug\Corporate.Pr
 D:\Projects\SISCO2\Corporate.Presentation.CustomerService\obj\Debug\Corporate.Presentation.CustomerService.dll.licenses
 D:\Projects\SISCO2\Corporate.Presentation.CustomerService\obj\Debug\Corporate.Presentation.CustomerService.dll
 D:\Projects\SISCO2\Corporate.Presentation.CustomerService\obj\Debug\Corporate.Presentation.CustomerService.pdb
+D:\Projects\SISCO2\Corporate.Presentation.CustomerService\bin\Debug\SISCO.App.Finance.dll
+D:\Projects\SISCO2\Corporate.Presentation.CustomerService\bin\Debug\SISCO.App.Finance.pdb

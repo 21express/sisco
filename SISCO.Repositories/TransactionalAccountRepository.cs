@@ -466,7 +466,9 @@ namespace SISCO.Repositories
 	                        ) Balance,
 	                        ta.closed_date Closeddate,
                             null TotalPph,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         WHERE {0}
 
@@ -486,11 +488,16 @@ namespace SISCO.Repositories
 	                        pid.payment Balance,
 	                        ta.closed_date Closeddate,
                             pid.total_pph23 TotalPPh,
-                            pid.materai_fee MateraiFee
+                            pid.materai_fee MateraiFee,
+                            SUM(pca.payment) TotalClaimed,
+                            GROUP_CONCAT(c.letter_no) LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in pi ON pi.transactional_account_id = ta.id AND pi.rowstatus = 1
                         INNER JOIN payment_in_detail pid ON pi.id = pid.payment_in_id AND pid.rowstatus = 1
+                        LEFT JOIN payment_claim_additional pca ON pi.id = pca.payment_in_id AND pi.rowstatus = 1
+                        LEFT JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
                         WHERE {0}
+                        GROUP BY pi.id
 
                         UNION
 
@@ -508,7 +515,9 @@ namespace SISCO.Repositories
 	                        0 Balance
 	                        ,ta.closed_date Closeddate,
                             null TotalPPh,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in_counter pic ON pic.transactional_account_id = ta.id AND pic.rowstatus = 1
                         WHERE {0}
@@ -529,7 +538,9 @@ namespace SISCO.Repositories
 	                        oipid.payment Balance,
 	                        ta.closed_date Closeddate,
                             oipid.total_pph23 TotalPPh,
-                            oipid.materai_fee MateraiFee
+                            oipid.materai_fee MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN other_invoice_payment_in oipi ON oipi.transactional_account_id = ta.id AND oipi.rowstatus = 1
                         INNER JOIN other_invoice_payment_in_detail oipid ON oipi.id = oipid.other_invoice_payment_in_id AND oipid.rowstatus = 1
@@ -551,7 +562,9 @@ namespace SISCO.Repositories
 	                        0 Balance
 	                        ,ta.closed_date Closeddate,
                             null TotalPPh,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in_collect_out pico ON pico.transactional_account_id = ta.id AND pico.rowstatus = 1
                         WHERE {0}
@@ -572,7 +585,9 @@ namespace SISCO.Repositories
 	                        0 Balance,
                             ta.closed_date Closeddate,
                             null TotalPPh,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN cost_transactional_account cta on ta.id = cta.transactional_account_id and cta.rowstatus = 1
                         INNER JOIN cost c ON cta.cost_id = c.id and c.rowstatus = 1
@@ -625,7 +640,9 @@ namespace SISCO.Repositories
 	                        ) Balance,
 	                        ta.closed_date Closeddate,
                             null TotalPph,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         WHERE {0}
 
@@ -645,11 +662,16 @@ namespace SISCO.Repositories
 	                        pid.payment Balance,
 	                        ta.closed_date Closeddate,
                             pid.total_pph23 TotalPPh,
-                            pid.materai_fee MateraiFee
+                            pid.materai_fee MateraiFee,
+                            SUM(pca.payment) TotalClaimed,
+                            GROUP_CONCAT(c.letter_no) LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in pi ON pi.transactional_account_id = ta.id AND pi.rowstatus = 1
                         INNER JOIN payment_in_detail pid ON pi.id = pid.payment_in_id AND pid.rowstatus = 1
+                        LEFT JOIN payment_claim_additional pca ON pi.id = pca.payment_in_id AND pi.rowstatus = 1
+                        LEFT JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
                         WHERE {0}
+                        GROUP BY pi.id
 
                         UNION
 
@@ -667,7 +689,9 @@ namespace SISCO.Repositories
 	                        0 Balance
 	                        ,ta.closed_date Closeddate,
                             null TotalPPh,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in_counter pic ON pic.transactional_account_id = ta.id AND pic.rowstatus = 1
                         WHERE {0}
@@ -688,7 +712,9 @@ namespace SISCO.Repositories
 	                        oipid.payment Balance,
 	                        ta.closed_date Closeddate,
                             oipid.total_pph23 TotalPPh,
-                            oipid.materai_fee MateraiFee
+                            oipid.materai_fee MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN other_invoice_payment_in oipi ON oipi.transactional_account_id = ta.id AND oipi.rowstatus = 1
                         INNER JOIN other_invoice_payment_in_detail oipid ON oipi.id = oipid.other_invoice_payment_in_id AND oipid.rowstatus = 1
@@ -710,7 +736,9 @@ namespace SISCO.Repositories
 	                        0 Balance
 	                        ,ta.closed_date Closeddate,
                             null TotalPPh,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in_collect_out pico ON pico.transactional_account_id = ta.id AND pico.rowstatus = 1
                         WHERE {0}
@@ -731,7 +759,9 @@ namespace SISCO.Repositories
 	                        0 Balance,
                             ta.closed_date Closeddate,
                             null TotalPPh,
-                            null MateraiFee
+                            null MateraiFee,
+                            null TotalClaimed,
+                            null LetterNo
                         FROM transactional_account ta
                         INNER JOIN cost_transactional_account cta on ta.id = cta.transactional_account_id and cta.rowstatus = 1
                         INNER JOIN cost c ON cta.cost_id = c.id and c.rowstatus = 1

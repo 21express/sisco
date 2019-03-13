@@ -408,7 +408,10 @@ namespace SISCO.Presentation.Finance.Forms
                     detail.UsePph23 = (bool)InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["UsePph23"]);
                     detail.TotalPph23 = (decimal)InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["TotalPph23"]);
                     detail.UseMaterai = (bool)InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["UseMaterai"]);
-                    detail.MateraiFee = (decimal)InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["MateraiFee"]);
+
+                    if (InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["MateraiFee"]) != null)
+                        detail.MateraiFee = (decimal)InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["MateraiFee"]);
+                    else detail.MateraiFee = null;
 
                     if (InvoiceInView.GetRowCellValue(i, InvoiceInView.Columns["InvoiceRefNumber"]) != null)
                         detail.InvoiceRefNumber =

@@ -63,6 +63,8 @@ namespace SISCO.Models
         public Decimal Debit { get; set; }
         public Decimal Credit { get; set; }
         public Decimal Balance { get; set; }
+        public decimal? TotalClaimed { get; set; }
+        public string LetterNo { get; set; }
         public decimal? TotalPph { get; set; }
         public decimal? MateraiFee { get; set; }
         public DateTime? ClosedDate { get; set; }
@@ -87,6 +89,8 @@ namespace SISCO.Models
         public string Description { get; set; }
         public Decimal Amount { get; set; }
         public decimal? Adjustment { get; set; }
+        public decimal? TotalClaimed { get; set; }
+        public string LetterNo { get; set; }
         public List<TransactionInvoiceList> Lists { get; set; }
     }
 

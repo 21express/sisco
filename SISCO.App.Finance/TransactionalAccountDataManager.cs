@@ -79,7 +79,8 @@ namespace SISCO.App.Finance
             return new TransactionalAccountRepository().GetWithdrawAgaintsCost(branchId, beforeDate, costId);
         }
 
-        public List<TransactionJournal> GetTransactionJournal(int bankId, DateTime? dateFrom = null, DateTime? dateTo = null, bool closed = false)
+        public List<TransactionJournal> GetTransactionJournal(int bankId, DateTime? dateFrom = null, DateTime? dateTo = null,
+            bool closed = false)
         {
             return new TransactionalAccountRepository().GetTransactionJournal(bankId, dateFrom, dateTo, closed);
         }

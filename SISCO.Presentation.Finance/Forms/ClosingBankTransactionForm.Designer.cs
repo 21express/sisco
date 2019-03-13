@@ -58,6 +58,7 @@
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.cbxVerified = new SISCO.Presentation.Common.Component.dCheckBox();
             this.btnFilter = new DevExpress.XtraEditors.SimpleButton();
             this.tbxTo = new SISCO.Presentation.Common.Component.dCalendar();
             this.label3 = new System.Windows.Forms.Label();
@@ -66,7 +67,8 @@
             this.lkpAccount = new SISCO.Presentation.Common.Component.dLookup();
             this.label1 = new System.Windows.Forms.Label();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.cbxVerified = new SISCO.Presentation.Common.Component.dCheckBox();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.TransactionView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridJournals)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JournalView)).BeginInit();
@@ -91,7 +93,9 @@
             this.gridColumn7,
             this.gridColumn10,
             this.gridColumn12,
-            this.gridColumn13});
+            this.gridColumn13,
+            this.gridColumn17,
+            this.gridColumn18});
             this.TransactionView.GridControl = this.GridJournals;
             this.TransactionView.Name = "TransactionView";
             this.TransactionView.OptionsView.ShowFooter = true;
@@ -108,7 +112,7 @@
             this.gridColumn6.OptionsColumn.ReadOnly = true;
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 0;
-            this.gridColumn6.Width = 147;
+            this.gridColumn6.Width = 151;
             // 
             // gridColumn7
             // 
@@ -122,7 +126,7 @@
             this.gridColumn7.OptionsColumn.ReadOnly = true;
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 2;
-            this.gridColumn7.Width = 74;
+            this.gridColumn7.Width = 93;
             // 
             // gridColumn10
             // 
@@ -138,6 +142,7 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "Amount", "{0:n2}")});
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 3;
+            this.gridColumn10.Width = 83;
             // 
             // gridColumn12
             // 
@@ -149,7 +154,7 @@
             this.gridColumn12.OptionsColumn.ReadOnly = true;
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 1;
-            this.gridColumn12.Width = 317;
+            this.gridColumn12.Width = 226;
             // 
             // gridColumn13
             // 
@@ -163,7 +168,7 @@
             this.gridColumn13.OptionsColumn.ReadOnly = true;
             this.gridColumn13.Visible = true;
             this.gridColumn13.VisibleIndex = 4;
-            this.gridColumn13.Width = 83;
+            this.gridColumn13.Width = 97;
             // 
             // GridJournals
             // 
@@ -400,6 +405,18 @@
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Filter Transaksi";
             // 
+            // cbxVerified
+            // 
+            this.cbxVerified.AutoSize = true;
+            this.cbxVerified.FieldLabel = null;
+            this.cbxVerified.Location = new System.Drawing.Point(351, 53);
+            this.cbxVerified.Name = "cbxVerified";
+            this.cbxVerified.Size = new System.Drawing.Size(118, 21);
+            this.cbxVerified.TabIndex = 5;
+            this.cbxVerified.Text = "Sudah Verifikasi?";
+            this.cbxVerified.UseVisualStyleBackColor = true;
+            this.cbxVerified.ValidationRules = null;
+            // 
             // btnFilter
             // 
             this.btnFilter.Location = new System.Drawing.Point(485, 30);
@@ -545,17 +562,31 @@
             this.groupControl2.TabIndex = 5;
             this.groupControl2.Text = "Closing Transaksi";
             // 
-            // cbxVerified
+            // gridColumn17
             // 
-            this.cbxVerified.AutoSize = true;
-            this.cbxVerified.FieldLabel = null;
-            this.cbxVerified.Location = new System.Drawing.Point(351, 53);
-            this.cbxVerified.Name = "cbxVerified";
-            this.cbxVerified.Size = new System.Drawing.Size(118, 21);
-            this.cbxVerified.TabIndex = 5;
-            this.cbxVerified.Text = "Sudah Verifikasi?";
-            this.cbxVerified.UseVisualStyleBackColor = true;
-            this.cbxVerified.ValidationRules = null;
+            this.gridColumn17.Caption = "Total Klaim";
+            this.gridColumn17.DisplayFormat.FormatString = "n0";
+            this.gridColumn17.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn17.FieldName = "TotalClaimed";
+            this.gridColumn17.Name = "gridColumn17";
+            this.gridColumn17.OptionsColumn.AllowEdit = false;
+            this.gridColumn17.OptionsColumn.AllowFocus = false;
+            this.gridColumn17.OptionsColumn.ReadOnly = true;
+            this.gridColumn17.Visible = true;
+            this.gridColumn17.VisibleIndex = 5;
+            this.gridColumn17.Width = 86;
+            // 
+            // gridColumn18
+            // 
+            this.gridColumn18.Caption = "Surat Klaim";
+            this.gridColumn18.FieldName = "LetterNo";
+            this.gridColumn18.Name = "gridColumn18";
+            this.gridColumn18.OptionsColumn.AllowEdit = false;
+            this.gridColumn18.OptionsColumn.AllowFocus = false;
+            this.gridColumn18.OptionsColumn.ReadOnly = true;
+            this.gridColumn18.Visible = true;
+            this.gridColumn18.VisibleIndex = 6;
+            this.gridColumn18.Width = 136;
             // 
             // ClosingBankTransactionForm
             // 
@@ -620,5 +651,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
         private Common.Component.dCheckBox cbxVerified;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn18;
     }
 }

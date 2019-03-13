@@ -179,7 +179,8 @@ namespace SISCO.Repositories
                             s.customer_name CustomerName,
                             s.code ShipmentCode,
                             s.goods_value GoodsValue,
-                            s.insurance_fee InsuranceFee
+                            s.insurance_fee InsuranceFee,
+                            'Select' StateChange2
                         from claimed_detail cd
                         inner join shipment s on cd.shipment_id = s.id
                         inner join claimed c on c.id = cd.claimed_id and c.rowstatus = 1

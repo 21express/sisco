@@ -22,3 +22,11 @@ D:\Projects\SISCO\SISCO.Models\bin\Debug\Devenlab.Common.pdb
 D:\Projects\SISCO\SISCO.Models\obj\Debug\SISCO.Models.csprojResolveAssemblyReference.cache
 D:\Projects\SISCO\SISCO.Models\obj\Debug\SISCO.Models.dll
 D:\Projects\SISCO\SISCO.Models\obj\Debug\SISCO.Models.pdb
+D:\Projects\SISCO2\SISCO.Models\bin\Debug\SISCO.Models.dll
+D:\Projects\SISCO2\SISCO.Models\bin\Debug\SISCO.Models.pdb
+D:\Projects\SISCO2\SISCO.Models\bin\Debug\Devenlab.Common.dll
+D:\Projects\SISCO2\SISCO.Models\bin\Debug\System.Linq.Dynamic.dll
+D:\Projects\SISCO2\SISCO.Models\bin\Debug\Devenlab.Common.pdb
+D:\Projects\SISCO2\SISCO.Models\obj\Debug\SISCO.Models.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO2\SISCO.Models\obj\Debug\SISCO.Models.dll
+D:\Projects\SISCO2\SISCO.Models\obj\Debug\SISCO.Models.pdb

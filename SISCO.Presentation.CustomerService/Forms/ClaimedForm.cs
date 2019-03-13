@@ -57,7 +57,6 @@ namespace SISCO.Presentation.CustomerService.Forms
 
             ClaimView.CustomColumnDisplayText += NumberGrid;
             btnDelete.Click += btnDelete_Click;
-            btnAdd.GotFocus += btnAdd_Click;
         }
 
         void dbUpload_DoubleClick(object sender, EventArgs e)
@@ -72,7 +71,7 @@ namespace SISCO.Presentation.CustomerService.Forms
 
         void btnDelete_Click(object sender, EventArgs e)
         {
-            if (ClaimView.GetRowCellValue(ClaimView.FocusedRowHandle, ClaimView.Columns["StateChange2"]).ToString() == EnumStateChange.Insert.ToString())
+            if (ClaimView.GetRowCellValue(ClaimView.FocusedRowHandle, ClaimView.Columns["StateChange2"]).ToString() != EnumStateChange.Insert.ToString())
                 deleteIds.Add((int)ClaimView.GetRowCellValue(ClaimView.FocusedRowHandle, ClaimView.Columns["Id"]));
 
             ClaimView.DeleteSelectedRows();
@@ -128,6 +127,12 @@ namespace SISCO.Presentation.CustomerService.Forms
 
         void btnAdd_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(tbxCode.Text))
+            {
+                tbxCode.Focus();
+                return;
+            }
+
             var shipment = new ShipmentDataManager().GetFirst<ShipmentModel>(WhereTerm.Default(tbxCode.Text, "code", EnumSqlOperator.Equals));
             if (shipment != null)
             {
@@ -153,11 +158,15 @@ namespace SISCO.Presentation.CustomerService.Forms
                         tbxTotal.Value = detail.Sum(p => p.GoodsValue);
                     }
                     else
+                    {
                         MessageBox.Show("Nomor POD sudah dibuatkan claimed sebelumnya.");
+                    }
                 }
             }
             else
+            {
                 MessageBox.Show("Nomor POD tidak dikenali.");
+            }
 
             tbxCode.Clear();
             tbxCode.Focus();
