@@ -35,7 +35,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://pgchome-tst/sisco3/</InstallUrl>
+    <InstallUrl>http://119.110.72.234/sisco3/</InstallUrl>
     <TargetCulture>en</TargetCulture>
     <ProductName>SISCO2</ProductName>
     <PublisherName>PT Globalindo Duasatu Ekspress</PublisherName>

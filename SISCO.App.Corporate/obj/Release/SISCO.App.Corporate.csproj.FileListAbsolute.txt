@@ -34,3 +34,15 @@ D:\sisco\SISCO.App.Corporate\bin\Release\SISCO.Repositories.pdb
 D:\sisco\SISCO.App.Corporate\obj\Release\SISCO.App.Corporate.csprojResolveAssemblyReference.cache
 D:\sisco\SISCO.App.Corporate\obj\Release\SISCO.App.Corporate.dll
 D:\sisco\SISCO.App.Corporate\obj\Release\SISCO.App.Corporate.pdb
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\SISCO.App.Corporate.dll
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\SISCO.App.Corporate.pdb
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\Devenlab.Common.dll
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\SISCO.Models.dll
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\SISCO.Repositories.dll
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\System.Linq.Dynamic.dll
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\Devenlab.Common.pdb
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\SISCO.Models.pdb
+D:\Projects\SISCO2\SISCO.App.Corporate\bin\Release\SISCO.Repositories.pdb
+D:\Projects\SISCO2\SISCO.App.Corporate\obj\Release\SISCO.App.Corporate.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO2\SISCO.App.Corporate\obj\Release\SISCO.App.Corporate.dll
+D:\Projects\SISCO2\SISCO.App.Corporate\obj\Release\SISCO.App.Corporate.pdb

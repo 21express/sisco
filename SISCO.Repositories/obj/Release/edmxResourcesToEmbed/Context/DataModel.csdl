@@ -22,6 +22,7 @@
     <EntitySet Name="airwaybill_difference_weight_detail" EntityType="SISCO.Model.airwaybill_difference_weight_detail" />
     <EntitySet Name="api_log" EntityType="SISCO.Model.api_log" />
     <EntitySet Name="bank_account" EntityType="SISCO.Model.bank_account" />
+    <EntitySet Name="bank_account_branch" EntityType="SISCO.Model.bank_account_branch" />
     <EntitySet Name="booking_pod" EntityType="SISCO.Model.booking_pod" />
     <EntitySet Name="booking_pod_detail" EntityType="SISCO.Model.booking_pod_detail" />
     <EntitySet Name="branches" EntityType="SISCO.Model.branch" />
@@ -94,6 +95,7 @@
     <EntitySet Name="franchise_type" EntityType="SISCO.Model.franchise_type" />
     <EntitySet Name="franchise_user_priviledge" EntityType="SISCO.Model.franchise_user_priviledge" />
     <EntitySet Name="franchise_users" EntityType="SISCO.Model.franchise_users" />
+    <EntitySet Name="holidays" EntityType="SISCO.Model.holiday" />
     <EntitySet Name="inbounds" EntityType="SISCO.Model.inbound" />
     <EntitySet Name="inbound_checklist" EntityType="SISCO.Model.inbound_checklist" />
     <EntitySet Name="inbound_detail" EntityType="SISCO.Model.inbound_detail" />
@@ -124,6 +126,7 @@
     <EntitySet Name="other_invoice_send" EntityType="SISCO.Model.other_invoice_send" />
     <EntitySet Name="other_invoice_send_detail" EntityType="SISCO.Model.other_invoice_send_detail" />
     <EntitySet Name="package_type" EntityType="SISCO.Model.package_type" />
+    <EntitySet Name="payment_claim_additional" EntityType="SISCO.Model.payment_claim_additional" />
     <EntitySet Name="payment_delivery" EntityType="SISCO.Model.payment_delivery" />
     <EntitySet Name="payment_delivery_detail" EntityType="SISCO.Model.payment_delivery_detail" />
     <EntitySet Name="payment_in" EntityType="SISCO.Model.payment_in" />
@@ -199,7 +202,6 @@
     <EntitySet Name="vendors" EntityType="SISCO.Model.vendor" />
     <EntitySet Name="waybills" EntityType="SISCO.Model.waybill" />
     <EntitySet Name="waybill_detail" EntityType="SISCO.Model.waybill_detail" />
-    <EntitySet Name="holidays" EntityType="SISCO.Model.holiday" />
   </EntityContainer>
   <EntityType Name="account_reference">
     <Key>
@@ -492,6 +494,20 @@
     <Property Name="branch_name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="account_name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="account_address" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="createddate" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="modifieddate" Type="DateTime" />
+    <Property Name="modifiedby" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="bank_account_branch">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rowstatus" Type="Boolean" Nullable="false" />
+    <Property Name="rowversion" Type="DateTime" Nullable="false" />
+    <Property Name="bank_account_id" Type="Int32" Nullable="false" />
+    <Property Name="branch_id" Type="Int32" Nullable="false" />
     <Property Name="createddate" Type="DateTime" Nullable="false" />
     <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="modifieddate" Type="DateTime" />
@@ -2012,6 +2028,15 @@
     <Property Name="modifieddate" Type="DateTime" />
     <Property Name="modifiedby" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
+  <EntityType Name="holiday">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Nullable="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="year" Type="Int32" Nullable="false" />
+  </EntityType>
   <EntityType Name="inbound">
     <Key>
       <PropertyRef Name="id" />
@@ -2517,6 +2542,8 @@
     <Property Name="total_pph23" Type="Decimal" Nullable="false" />
     <Property Name="date_return" Type="DateTime" />
     <Property Name="is_returned" Type="Boolean" Nullable="false" />
+    <Property Name="use_materai" Type="Boolean" Nullable="false" />
+    <Property Name="materai_fee" Type="Decimal" />
     <Property Name="note" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
     <Property Name="refund_id" Type="Int32" />
     <Property Name="createddate" Type="DateTime" Nullable="false" />
@@ -2616,6 +2643,21 @@
     <Property Name="rowstatus" Type="Boolean" Nullable="false" />
     <Property Name="rowversion" Type="DateTime" Nullable="false" />
     <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="createddate" Type="DateTime" Nullable="false" />
+    <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="modifieddate" Type="DateTime" />
+    <Property Name="modifiedby" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="payment_claim_additional">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="rowstatus" Type="Boolean" Nullable="false" />
+    <Property Name="rowversion" Type="DateTime" Nullable="false" />
+    <Property Name="payment_in_id" Type="Int32" Nullable="false" />
+    <Property Name="claimed_id" Type="Int32" Nullable="false" />
+    <Property Name="payment" Type="Decimal" Nullable="false" />
     <Property Name="createddate" Type="DateTime" Nullable="false" />
     <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="modifieddate" Type="DateTime" />
@@ -4531,15 +4573,5 @@
     <Property Name="createdby" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="modifieddate" Type="DateTime" />
     <Property Name="modifiedby" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-  </EntityType>
-  <EntityType Name="holiday">
-    <Key>
-      <PropertyRef Name="date" />
-      <PropertyRef Name="description" />
-      <PropertyRef Name="year" />
-    </Key>
-    <Property Name="date" Type="DateTime" Nullable="false" />
-    <Property Name="description" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="year" Type="Int32" Nullable="false" />
   </EntityType>
 </Schema>

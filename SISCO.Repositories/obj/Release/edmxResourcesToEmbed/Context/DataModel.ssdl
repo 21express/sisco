@@ -296,6 +296,20 @@
     <Property Name="modifieddate" Type="datetime" Precision="0" />
     <Property Name="modifiedby" Type="varchar" MaxLength="50" />
   </EntityType>
+  <EntityType Name="bank_account_branch">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rowstatus" Type="bit" Nullable="false" />
+    <Property Name="rowversion" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="bank_account_id" Type="int" Nullable="false" />
+    <Property Name="branch_id" Type="int" Nullable="false" />
+    <Property Name="createddate" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="createdby" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modifieddate" Type="datetime" Precision="0" />
+    <Property Name="modifiedby" Type="varchar" MaxLength="50" />
+  </EntityType>
   <EntityType Name="booking_pod">
     <Key>
       <PropertyRef Name="id" />
@@ -1811,14 +1825,11 @@
     <Property Name="modifieddate" Type="datetime" Precision="0" />
     <Property Name="modifiedby" Type="varchar" MaxLength="50" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'def.siscodb.holiday' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="holiday">
     <Key>
-      <PropertyRef Name="date" />
-      <PropertyRef Name="description" />
-      <PropertyRef Name="year" />
+      <PropertyRef Name="id" />
     </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="date" Type="date" Nullable="false" />
     <Property Name="description" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="year" Type="int" Nullable="false" />
@@ -2328,6 +2339,8 @@ warning 6002: The table/view 'def.siscodb.holiday' does not have a primary key d
     <Property Name="total_pph23" Type="decimal" Precision="20" Scale="2" Nullable="false" />
     <Property Name="date_return" Type="date" />
     <Property Name="is_returned" Type="bit" Nullable="false" />
+    <Property Name="use_materai" Type="bit" Nullable="false" />
+    <Property Name="materai_fee" Type="decimal" Precision="20" Scale="2" />
     <Property Name="note" Type="varchar" MaxLength="255" />
     <Property Name="refund_id" Type="int" />
     <Property Name="createddate" Type="datetime" Precision="0" Nullable="false" />
@@ -2427,6 +2440,21 @@ warning 6002: The table/view 'def.siscodb.holiday' does not have a primary key d
     <Property Name="rowstatus" Type="bit" Nullable="false" />
     <Property Name="rowversion" Type="timestamp" Precision="0" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="createddate" Type="datetime" Precision="0" Nullable="false" />
+    <Property Name="createdby" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="modifieddate" Type="datetime" Precision="0" />
+    <Property Name="modifiedby" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="payment_claim_additional">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rowstatus" Type="bit" Nullable="false" />
+    <Property Name="rowversion" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="payment_in_id" Type="int" Nullable="false" />
+    <Property Name="claimed_id" Type="int" Nullable="false" />
+    <Property Name="payment" Type="decimal" Precision="20" Scale="2" Nullable="false" />
     <Property Name="createddate" Type="datetime" Precision="0" Nullable="false" />
     <Property Name="createdby" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="modifieddate" Type="datetime" Precision="0" />
@@ -4419,6 +4447,7 @@ warning 6013: The table/view 'def.siscodb.rp_undelivered_shipment' does not have
     <EntitySet Name="airwaybill_difference_weight_detail" EntityType="Self.airwaybill_difference_weight_detail" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="api_log" EntityType="Self.api_log" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="bank_account" EntityType="Self.bank_account" Schema="siscodb" store:Type="Tables" />
+    <EntitySet Name="bank_account_branch" EntityType="Self.bank_account_branch" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="booking_pod" EntityType="Self.booking_pod" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="booking_pod_detail" EntityType="Self.booking_pod_detail" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="branch" EntityType="Self.branch" Schema="siscodb" store:Type="Tables" />
@@ -4491,6 +4520,7 @@ warning 6013: The table/view 'def.siscodb.rp_undelivered_shipment' does not have
     <EntitySet Name="franchise_type" EntityType="Self.franchise_type" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="franchise_user_priviledge" EntityType="Self.franchise_user_priviledge" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="franchise_users" EntityType="Self.franchise_users" Schema="siscodb" store:Type="Tables" />
+    <EntitySet Name="holiday" EntityType="Self.holiday" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="inbound" EntityType="Self.inbound" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="inbound_checklist" EntityType="Self.inbound_checklist" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="inbound_detail" EntityType="Self.inbound_detail" Schema="siscodb" store:Type="Tables" />
@@ -4521,6 +4551,7 @@ warning 6013: The table/view 'def.siscodb.rp_undelivered_shipment' does not have
     <EntitySet Name="other_invoice_send" EntityType="Self.other_invoice_send" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="other_invoice_send_detail" EntityType="Self.other_invoice_send_detail" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="package_type" EntityType="Self.package_type" Schema="siscodb" store:Type="Tables" />
+    <EntitySet Name="payment_claim_additional" EntityType="Self.payment_claim_additional" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="payment_delivery" EntityType="Self.payment_delivery" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="payment_delivery_detail" EntityType="Self.payment_delivery_detail" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="payment_in" EntityType="Self.payment_in" Schema="siscodb" store:Type="Tables" />
@@ -4596,12 +4627,5 @@ warning 6013: The table/view 'def.siscodb.rp_undelivered_shipment' does not have
     <EntitySet Name="vendor" EntityType="Self.vendor" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="waybill" EntityType="Self.waybill" Schema="siscodb" store:Type="Tables" />
     <EntitySet Name="waybill_detail" EntityType="Self.waybill_detail" Schema="siscodb" store:Type="Tables" />
-    <EntitySet Name="holiday" EntityType="Self.holiday" store:Type="Tables" store:Schema="siscodb">
-      <DefiningQuery>SELECT
-`holiday`.`date`, 
-`holiday`.`description`, 
-`holiday`.`year`
-FROM `holiday` AS `holiday`</DefiningQuery>
-    </EntitySet>
   </EntityContainer>
 </Schema>

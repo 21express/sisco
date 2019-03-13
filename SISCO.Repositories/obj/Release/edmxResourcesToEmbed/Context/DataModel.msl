@@ -307,6 +307,21 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="bank_account_branch">
+      <EntityTypeMapping TypeName="SISCO.Model.bank_account_branch">
+        <MappingFragment StoreEntitySet="bank_account_branch">
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="modifieddate" ColumnName="modifieddate" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="createddate" ColumnName="createddate" />
+          <ScalarProperty Name="branch_id" ColumnName="branch_id" />
+          <ScalarProperty Name="bank_account_id" ColumnName="bank_account_id" />
+          <ScalarProperty Name="rowversion" ColumnName="rowversion" />
+          <ScalarProperty Name="rowstatus" ColumnName="rowstatus" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="booking_pod">
       <EntityTypeMapping TypeName="SISCO.Model.booking_pod">
         <MappingFragment StoreEntitySet="booking_pod">
@@ -1893,6 +1908,16 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="holidays">
+      <EntityTypeMapping TypeName="SISCO.Model.holiday">
+        <MappingFragment StoreEntitySet="holiday">
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="inbounds">
       <EntityTypeMapping TypeName="SISCO.Model.inbound">
         <MappingFragment StoreEntitySet="inbound">
@@ -2408,6 +2433,8 @@
           <ScalarProperty Name="createddate" ColumnName="createddate" />
           <ScalarProperty Name="refund_id" ColumnName="refund_id" />
           <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="materai_fee" ColumnName="materai_fee" />
+          <ScalarProperty Name="use_materai" ColumnName="use_materai" />
           <ScalarProperty Name="is_returned" ColumnName="is_returned" />
           <ScalarProperty Name="date_return" ColumnName="date_return" />
           <ScalarProperty Name="total_pph23" ColumnName="total_pph23" />
@@ -2526,6 +2553,22 @@
           <ScalarProperty Name="createdby" ColumnName="createdby" />
           <ScalarProperty Name="createddate" ColumnName="createddate" />
           <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="rowversion" ColumnName="rowversion" />
+          <ScalarProperty Name="rowstatus" ColumnName="rowstatus" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="payment_claim_additional">
+      <EntityTypeMapping TypeName="SISCO.Model.payment_claim_additional">
+        <MappingFragment StoreEntitySet="payment_claim_additional">
+          <ScalarProperty Name="modifiedby" ColumnName="modifiedby" />
+          <ScalarProperty Name="modifieddate" ColumnName="modifieddate" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="createddate" ColumnName="createddate" />
+          <ScalarProperty Name="payment" ColumnName="payment" />
+          <ScalarProperty Name="claimed_id" ColumnName="claimed_id" />
+          <ScalarProperty Name="payment_in_id" ColumnName="payment_in_id" />
           <ScalarProperty Name="rowversion" ColumnName="rowversion" />
           <ScalarProperty Name="rowstatus" ColumnName="rowstatus" />
           <ScalarProperty Name="id" ColumnName="id" />
@@ -4515,15 +4558,6 @@
           <ScalarProperty Name="rowversion" ColumnName="rowversion" />
           <ScalarProperty Name="rowstatus" ColumnName="rowstatus" />
           <ScalarProperty Name="id" ColumnName="id" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="holidays">
-      <EntityTypeMapping TypeName="SISCO.Model.holiday">
-        <MappingFragment StoreEntitySet="holiday">
-          <ScalarProperty Name="year" ColumnName="year" />
-          <ScalarProperty Name="description" ColumnName="description" />
-          <ScalarProperty Name="date" ColumnName="date" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

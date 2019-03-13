@@ -68,3 +68,17 @@ D:\sisco\SISCO.App\bin\Release\NLog.xml
 D:\sisco\SISCO.App\obj\Release\SISCO.App.csprojResolveAssemblyReference.cache
 D:\sisco\SISCO.App\obj\Release\SISCO.App.dll
 D:\sisco\SISCO.App\obj\Release\SISCO.App.pdb
+D:\Projects\SISCO2\SISCO.App\bin\Release\SISCO.App.dll
+D:\Projects\SISCO2\SISCO.App\bin\Release\SISCO.App.pdb
+D:\Projects\SISCO2\SISCO.App\bin\Release\Devenlab.Common.dll
+D:\Projects\SISCO2\SISCO.App\bin\Release\NLog.dll
+D:\Projects\SISCO2\SISCO.App\bin\Release\SISCO.Models.dll
+D:\Projects\SISCO2\SISCO.App\bin\Release\SISCO.Repositories.dll
+D:\Projects\SISCO2\SISCO.App\bin\Release\System.Linq.Dynamic.dll
+D:\Projects\SISCO2\SISCO.App\bin\Release\Devenlab.Common.pdb
+D:\Projects\SISCO2\SISCO.App\bin\Release\SISCO.Models.pdb
+D:\Projects\SISCO2\SISCO.App\bin\Release\SISCO.Repositories.pdb
+D:\Projects\SISCO2\SISCO.App\bin\Release\NLog.xml
+D:\Projects\SISCO2\SISCO.App\obj\Release\SISCO.App.csprojResolveAssemblyReference.cache
+D:\Projects\SISCO2\SISCO.App\obj\Release\SISCO.App.dll
+D:\Projects\SISCO2\SISCO.App\obj\Release\SISCO.App.pdb
