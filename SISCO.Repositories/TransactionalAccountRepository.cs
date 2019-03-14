@@ -489,15 +489,24 @@ namespace SISCO.Repositories
 	                        ta.closed_date Closeddate,
                             pid.total_pph23 TotalPPh,
                             pid.materai_fee MateraiFee,
-                            SUM(pca.payment) TotalClaimed,
-                            GROUP_CONCAT(c.letter_no) LetterNo
+                            (
+                                SELECT SUM(pca.payment) 
+                                FROM payment_claim_additional pca
+                                INNER JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
+                                WHERE pca.payment_in_id = pi.id AND pi.rowstatus = 1
+                                GROUP BY pca.payment_in_id
+                            ) TotalClaimed,
+                            (
+                                SELECT GROUP_CONCAT(c.letter_no)
+                                FROM payment_claim_additional pca
+                                INNER JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
+                                WHERE pca.payment_in_id = pi.id AND pi.rowstatus = 1
+                                GROUP BY pca.payment_in_id
+                            )  LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in pi ON pi.transactional_account_id = ta.id AND pi.rowstatus = 1
                         INNER JOIN payment_in_detail pid ON pi.id = pid.payment_in_id AND pid.rowstatus = 1
-                        LEFT JOIN payment_claim_additional pca ON pi.id = pca.payment_in_id AND pi.rowstatus = 1
-                        LEFT JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
                         WHERE {0}
-                        GROUP BY pi.id
 
                         UNION
 
@@ -663,15 +672,24 @@ namespace SISCO.Repositories
 	                        ta.closed_date Closeddate,
                             pid.total_pph23 TotalPPh,
                             pid.materai_fee MateraiFee,
-                            SUM(pca.payment) TotalClaimed,
-                            GROUP_CONCAT(c.letter_no) LetterNo
+                            (
+                                SELECT SUM(pca.payment) 
+                                FROM payment_claim_additional pca
+                                INNER JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
+                                WHERE pca.payment_in_id = pi.id AND pi.rowstatus = 1
+                                GROUP BY pca.payment_in_id
+                            ) TotalClaimed,
+                            (
+                                SELECT GROUP_CONCAT(c.letter_no)
+                                FROM payment_claim_additional pca
+                                INNER JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
+                                WHERE pca.payment_in_id = pi.id AND pi.rowstatus = 1
+                                GROUP BY pca.payment_in_id
+                            )  LetterNo
                         FROM transactional_account ta
                         INNER JOIN payment_in pi ON pi.transactional_account_id = ta.id AND pi.rowstatus = 1
                         INNER JOIN payment_in_detail pid ON pi.id = pid.payment_in_id AND pid.rowstatus = 1
-                        LEFT JOIN payment_claim_additional pca ON pi.id = pca.payment_in_id AND pi.rowstatus = 1
-                        LEFT JOIN claimed c ON pca.claimed_id = c.id AND c.rowstatus = 1
                         WHERE {0}
-                        GROUP BY pi.id
 
                         UNION
 
